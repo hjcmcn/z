@@ -900,6 +900,8 @@ BESTV 4K,http://112.17.40.140/PLTV/88888888/224/3221226718/index.m3u8#http://117
 金庸电影,http://diyp.top/huya.php?id=11352897
 木乃伊系列,http://diyp.top/huya.php?id=11352934
 五福星系列,http://diyp.top/huya.php?id=11282233
+相声小品,http://diyp.top/huya.php?id=11336593
+王牌对王牌,http://diyp.top/huya.php?id=11601961
 德云社,http://stream.guihet.com/t/youkulive.php?id=8045775
 喜剧人,http://stream.guihet.com/t/youkulive.php?id=8026514
 周润发,http://stream.guihet.com/t/youkulive.php?id=8021907
@@ -915,6 +917,18 @@ BESTV 4K,http://112.17.40.140/PLTV/88888888/224/3221226718/index.m3u8#http://117
 梁家辉,http://stream.guihet.com/t/youkulive.php?id=8027873
 张国荣超,http://stream.guihet.com/t/youkulive.php?id=8019325
 喜剧电影,http://stream.guihet.com/t/youkulive.php?id=8019678
+黄渤,http://tv.rdys888.top/bak/proxy/youku.php?id=8021910
+张学友,http://tv.rdys888.top/bak/proxy/youku.php?id=8027929
+张国荣,http://tv.rdys888.top/bak/proxy/youku.php?id=8019325
+周星驰,http://tv.rdys888.top/bak/proxy/youku.php?id=8021901
+周润发,http://tv.rdys888.top/bak/proxy/youku.php?id=8021907
+刘德华,http://tv.rdys888.top/bak/proxy/youku.php?id=8018618
+宋慧乔,http://tv.rdys888.top/bak/proxy/youku.php?id=8020223
+风云二,http://tv.rdys888.top/bak/proxy/youku.php?id=8019979
+奥斯卡,http://tv.rdys888.top/bak/proxy/youku.php?id=8018655
+酷影厅,http://tv.rdys888.top/bak/proxy/youku.php?id=8032840
+择天记,http://tv.rdys888.top/bak/proxy/youku.php?id=8019978
+封神榜,http://tv.rdys888.top/bak/proxy/youku.php?id=8034750
 
 网络,#genre#
 阿斗归来了,http://diyp.top/huya.php?id=13303478

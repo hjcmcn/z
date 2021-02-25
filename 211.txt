@@ -836,7 +836,7 @@ CHC高清电影,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226463/in
 CHC动作电影,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226465/index.m3u8
 CHC家庭影院,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226462/index.m3u8
 黑莓电影,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225667/index.m3u8
-峨眉电影,http://39.134.198.38:6610/yst.live.scmobile.com/otvzte.scmcc.com.cNF:8080/ysten-business/live/scem/index.m3u8?%20
+峨眉电影2,http://39.134.198.38:6610/yst.live.scmobile.com/otvzte.scmcc.com.cNF:8080/ysten-business/live/scem/index.m3u8?%20
 CBN每日影院,http://home.lpfcdn.com:4000/udp/235.254.198.192:7980
 HuYa黑帮系列,http://kuqq.tk/00/huya.php?id=11336719
 HuYa女神系列,http://kuqq.tk/00/huya.php?id=11336571
@@ -866,7 +866,7 @@ BESTV 4K,http://112.17.40.140/PLTV/88888888/224/3221226718/index.m3u8#http://117
 纯享4K,http://39.134.115.163:8080/PLTV/88888910/224/3221225786/index.m3u8#http://ott.fj.chinamobile.com/PLTV/88888888/224/3221226825/1.m3u8
 爱上4k,http://39.134.24.220/PLTV/88888888/224/3221226005/index.m3u8
 黑莓动画,http://39.134.198.38:6610/yst.live.scmobile.com/otvzte.scmcc.com.cNF:8080/ysten-business/live/donghuawg/index.m3u8?%20
-黑莓电影,http://39.134.198.38:6610/yst.live.scmobile.com/otvzte.scmcc.com.cNF:8080/ysten-business/live/jdianying/index.m3u8?%20
+黑莓电影3,http://39.134.198.38:6610/yst.live.scmobile.com/otvzte.scmcc.com.cNF:8080/ysten-business/live/jdianying/index.m3u8?%20
 黑莓电竞,http://39.134.198.38:6610/yst.live.scmobile.com/otvzte.scmcc.com.cNF:8080/ysten-business/live/wmyx/index.m3u8?%20
 NewTV中国功夫,http://39.134.198.38:6610/yst.live.scmobile.com/otvzte.scmcc.com.cNF:8080/ysten-business/live/SD-1500k-576P-gzkongfu/index.m3u8?%20
 NewTV军事评论,http://39.134.198.38:6610/yst.live.scmobile.com/otvzte.scmcc.com.cNF:8080/ysten-business/live/junshipl/index.m3u8?%20
@@ -912,11 +912,11 @@ NewTV金牌综艺,http://39.134.198.38:6610/yst.live.scmobile.com/otvzte.scmcc.c
 3D电影,http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230386/index.m3u8
 电影,http://106.54.30.243/dl/YY.php?t=32140089
 德云社,http://3954-out.liveplay.myqcloud.com/live/3954_616289265_1024p.flv?bizid=3954&txSecret=b7964e1f57fa571b4b22c9657da67115&txTime=6033fb3b
-相声,http://3954-out.liveplay.myqcloud.com/live/3954_468780224.flv?bizid=3954&txSecret=2789686ed91d80b1f65ac0b608bc81b4&txTime=6033bbe6
-相声,http://3954-out.liveplay.myqcloud.com/live/3954_421447299.flv?bizid=3954&txSecret=0c9c5f5a860306323370fb719898e9c1&txTime=60339152
+相声1,http://3954-out.liveplay.myqcloud.com/live/3954_468780224.flv?bizid=3954&txSecret=2789686ed91d80b1f65ac0b608bc81b4&txTime=6033bbe6
+相声2,http://3954-out.liveplay.myqcloud.com/live/3954_421447299.flv?bizid=3954&txSecret=0c9c5f5a860306323370fb719898e9c1&txTime=60339152
 郭德纲,http://3954-out.liveplay.myqcloud.com/live/3954_620346223.flv?bizid=3954&txSecret=6383edc0dee4c3b268e98bc6e7ae0324&txTime=6037914e
-相声,http://3954-out.liveplay.myqcloud.com/live/3954_350656189.flv?bizid=3954&txSecret=c5a3d0c60ff52cd7a99a78905e10be49&txTime=603ef79b
-相声,http://3954-out.liveplay.myqcloud.com/live/3954_277538943.flv?bizid=3954&txSecret=c4850a0186db5ce211307ad554b7bf65&txTime=603f3db9
+相声3,http://3954-out.liveplay.myqcloud.com/live/3954_350656189.flv?bizid=3954&txSecret=c5a3d0c60ff52cd7a99a78905e10be49&txTime=603ef79b
+斗笑社,http://3954-out.liveplay.myqcloud.com/live/3954_277538943.flv?bizid=3954&txSecret=c4850a0186db5ce211307ad554b7bf65&txTime=603f3db9
 欧美电影,http://106.54.30.243/dl/YY.php?t=1331053117
 欧美科幻,http://106.54.30.243/dl/YY.php?t=32140089
 欧美海外,http://106.54.30.243/dl/YY.php?t=1352843113
@@ -947,7 +947,7 @@ NewTV金牌综艺,http://39.134.198.38:6610/yst.live.scmobile.com/otvzte.scmcc.c
 脱口秀,http://3954-out.liveplay.myqcloud.com/live/3954_726933692.flv?bizid=3954&txSecret=9da7c86068ceda4d716c83917b89cea9&txTime=603f2ee7
 庆余年,http://3954-out.liveplay.myqcloud.com/live/3954_504209819.flv?bizid=3954&txSecret=52449d48f22e321bd4c6a80798b6a38d&txTime=603aee1a
 小品,http://3954-out.liveplay.myqcloud.com/live/3954_225458404.flv?bizid=3954&txSecret=ad780c875d00984fc3f70000f350003a&txTime=603c37cc
-吐槽大会,http://3954-out.liveplay.myqcloud.com/live/3954_601484571.flv?bizid=3954&txSecret=7202f4aeaffa915f95479325ace0b0e1&txTime=603f236e
+吐槽大会1,http://3954-out.liveplay.myqcloud.com/live/3954_601484571.flv?bizid=3954&txSecret=7202f4aeaffa915f95479325ace0b0e1&txTime=603f236e
 
 赘婿,#genre#
 第01集,http://pingmu.aa-zui.com/20210214/1225_6874a886/index.m3u8
@@ -968,6 +968,8 @@ NewTV金牌综艺,http://39.134.198.38:6610/yst.live.scmobile.com/otvzte.scmcc.c
 第16集,http://pingmu.aa-zui.com/20210222/1741_786a8b32/index.m3u8
 第17集,https://pingmu.aa-zui.com/20210223/1793_13e6afc4/index.m3u8
 第18集,https://pingmu.aa-zui.com/20210223/1792_75e41a68/index.m3u8
+第19集,http://pingmu.aa-zui.com/20210224/1856_b6a687f9/index.m3u8
+第20集,http://pingmu.aa-zui.com/20210224/1855_cfb14e49/index.m3u8
 第01集,https://chaokuai.ren-kuyun.com/20210214/10222_5107073c/index.m3u8
 第02集,https://chaokuai.ren-kuyun.com/20210214/10221_25f2abfe/index.m3u8
 第03集,https://chaokuai.ren-kuyun.com/20210214/10220_15020007/index.m3u8
@@ -986,7 +988,8 @@ NewTV金牌综艺,http://39.134.198.38:6610/yst.live.scmobile.com/otvzte.scmcc.c
 第16集,https://bilibili.xiang-kuyun.com/20210222/12325_a39eb6b0/index.m3u8
 第17集,https://bilibili.xiang-kuyun.com/20210223/12436_a229ce37/index.m3u8
 第18集,https://bilibili.xiang-kuyun.com/20210223/12435_89bc0781/index.m3u8
-
+第19集,http://chaokuai.ren-kuyun.com/20210224/11344_7afb29b4/index.m3u8
+第20集,http://chaokuai.ren-kuyun.com/20210224/11343_5c9af4f1/index.m3u8
 第01集,https://d.mhqiyi.com/20210214/lDu4EQYe/index.m3u8
 第02集,https://d.mhqiyi.com/20210214/1RJXXzqd/index.m3u8
 第03集,https://d.mhqiyi.com/20210214/E5Hg4HQI/index.m3u8

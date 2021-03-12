@@ -58,7 +58,7 @@ CETV-1,http://39.134.176.253/PLTV/88888888/224/3221226132/index.m3u8
 
 香港,#genre#
 凤凰中文台,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225942/1.m3u8#http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225948/1.m3u8#http://111.13.42.10/PLTV/88888888/224/3221225942/1.m3u8#http://117.169.124.37:6610/ysten-businessmobile/live/fhchinese/1.m3u8#http://221.179.217.9//otttv.bj.chinamobile.com/PLTV/88888888/224/3221225942/1.m3u8#http://223.110.245.136/PLTV/3/224/3221226923/index.m3u8#http://117.169.124.43:6610/ysten-businessmobile/live/fhchinese/index.m3u8#http://221.179.217.70/PLTV/88888888/224/3221225942/1.m3u8
-凤凰资讯台,http://112.17.40.140/PLTV/88888888/224/3221226491/index.m3u8#http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225949/1.m3u8#http://117.169.124.37:6610/ysten-businessmobile/live/fhzixun/1.m3u8#http://111.13.42.10/PLTV/88888888/224/3221225949/1.m3u8#http://117.169.124.43:6610/ysten-businessmobile/live/fhzixun/index.m3u8
+凤凰资讯台,http://39.134.176.166/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228597/index.m3u8#http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225949/1.m3u8#http://117.169.124.37:6610/ysten-businessmobile/live/fhzixun/1.m3u8#http://111.13.42.10/PLTV/88888888/224/3221225949/1.m3u8#http://117.169.124.43:6610/ysten-businessmobile/live/fhzixun/index.m3u8#http://221.179.217.9//otttv.bj.chinamobile.com/PLTV/88888888/224/3221225949/1.m3u8
 凤凰香港台,http://223.110.245.136/PLTV/3/224/3221226975/index.m3u8#http://183.207.249.34/PLTV/3/224/3221226975/index.m3u8#http://183.207.249.36/PLTV/3/224/3221226975/index.m3u8
 有线财经,http://125.89.166.215/live-hwcdn.utvlive.top/live/add598ff3f90428da3fbebb644ba135b/2bbaa83758ba412bbdd8d08626c56eb4-3.m3u8
 有线娱乐,http://125.89.166.215/live-hwcdn.utvlive.top/live/d4e03afe056a4f2da070d5f789f3ac9e/a5ed7598a90246199df373924de367d4-3.m3u8
@@ -737,17 +737,18 @@ TEN1,p2p://860825993:18912/5b140a84000aafa217d6b1ac4c80417b.ts
 南京新闻综合,http://223.110.241.150:6610/gitv/live1/G_NJXW/G_NJXW/
 南京科教,http://223.110.241.150:6610/gitv/live1/G_NJJK/G_NJJK/
 南京十八,http://223.110.241.150:6610/gitv/live1/G_NJSB/G_NJSB/
-第1财经,http://183.207.255.188/live/program/live/dycjhd/4000000/mnf.m3u8#http://39.134.168.91/PLTV/1/224/3221225494/index.m3u8
-上海新闻综合,http://183.207.255.188/live/program/live/xwzhhd/4000000/mnf.m3u8#http://39.135.248.135/huaweicdn.hb.chinamobile.com/PLTV/2510088/224/3221225973/3.m3u8
-上海五星体育,http://183.207.255.188/live/program/live/ssty/4000000/mnf.m3u8#http://39.135.248.141/huaweicdn.hb.chinamobile.com/PLTV/2510088/224/3221225964/3.m3u8
-上海东方影视,http://183.207.255.188/live/program/live/dsjpdhd/4000000/mnf.m3u8
-上海外语,http://183.207.255.188/live/program/live/wypdhd/4000000/mnf.m3u8
-上海都市,http://183.207.255.188/live/program/live/ylpdhd/4000000/mnf.m3u8
+第1财经,http://183.207.255.188/live/program/live/dycjhd/4000000/mnf.m3u8#http://39.134.168.91/PLTV/1/224/3221225494/index.m3u8#http://111.26.225.22/PLTV/2/224/3221225492/index.m3u8
+上海新闻综合,http://183.207.255.188/live/program/live/xwzhhd/4000000/mnf.m3u8#http://39.135.248.135/huaweicdn.hb.chinamobile.com/PLTV/2510088/224/3221225973/3.m3u8#http://111.26.225.22/PLTV/2/224/3221225487/index.m3u8
+上海五星体育,http://183.207.255.188/live/program/live/ssty/4000000/mnf.m3u8#http://39.135.248.141/huaweicdn.hb.chinamobile.com/PLTV/2510088/224/3221225964/3.m3u8#http://111.26.225.22/PLTV/2/224/3221225491/index.m3u8
+上海东方影视,http://183.207.255.188/live/program/live/dsjpdhd/4000000/mnf.m3u8#http://111.26.225.22/PLTV/2/224/3221225603/index.m3u8
+上海外语,http://183.207.255.188/live/program/live/wypdhd/4000000/mnf.m3u8#http://111.26.225.22/PLTV/2/224/3221225484/index.m3u8
+上海都市,http://183.207.255.188/live/program/live/ylpdhd/4000000/mnf.m3u8#http://111.26.225.22/PLTV/2/224/3221225601/index.m3u8
 上海法制天地,http://183.207.255.188/live/program/live/fztd/1300000/mnf.m3u8
 上海浦东财经,http://183.207.255.188/live/program/live/dfcj/1300000/mnf.m3u8
 上海七彩戏曲,http://183.207.255.188/live/program/live/qcxj/1300000/mnf.m3u8
 上海生活时尚,http://183.207.255.188/live/program/live/shsshd/4000000/mnf.m3u8
-上海纪实,http://39.134.115.163:8080/PLTV/88888910/224/3221225655/index.m3u8#http://183.207.255.188/live/program/live/jspdhd/4000000/mnf.m3u8
+上海纪实,http://39.134.115.163:8080/PLTV/88888910/224/3221225655/index.m3u8#http://183.207.255.188/live/program/live/jspdhd/4000000/mnf.m3u8#http://111.26.225.22/PLTV/2/224/3221225486/index.m3u8
+上海哈哈炫动 540,http://111.26.225.22/PLTV/2/224/3221225597/index.m3u8
 浙江钱江,http://hw-m-l.cztv.com/channels/lantian/channel02/1080p.m3u8?k=ace136d16e3700972b06cca5316b34d8&t=1577153432
 浙江经视,http://yd-m-l.cztv.com/channels/lantian/channel03/1080p.m3u8?k=3bc164885721feecc386b066a39b8567&t=1577153471
 浙江影视娱乐,http://yd-m-l.cztv.com/channels/lantian/channel05/1080p.m3u8?k=79b277c166767a9e072b9629b446d4e9&t=1577153637
@@ -876,6 +877,23 @@ NewTV精品体育,http://39.134.198.38:6610/yst.live.scmobile.com/otvzte.scmcc.c
 NewTV精品大剧本,http://39.134.198.38:6610/yst.live.scmobile.com/otvzte.scmcc.com.cNF:8080/ysten-business/live/jdaju/index.m3u8?%20
 NewTV精品唱片,http://39.134.198.38:6610/yst.live.scmobile.com/otvzte.scmcc.com.cNF:8080/ysten-business/live/jingpinjl/index.m3u8?%20
 NewTV金牌综艺,http://39.134.198.38:6610/yst.live.scmobile.com/otvzte.scmcc.com.cNF:8080/ysten-business/live/saishijx/index.m3u8?%20
+SiTV动漫秀场,http://111.26.225.22/PLTV/2/224/3221225648/index.m3u8
+SiTV劲爆体育,http://111.26.225.22/PLTV/2/224/3221225658/index.m3u8
+SiTV欢笑剧场,http://111.26.225.22/PLTV/2/224/3221225849/index.m3u8
+上海东方影视,http://111.26.225.22/PLTV/2/224/3221225656/index.m3u8
+上海五星体育,http://111.26.225.22/PLTV/2/224/3221225857/index.m3u8
+北京卡酷少儿,http://111.26.225.22/PLTV/2/224/3221225633/index.m3u8
+广东嘉佳卡通,http://111.26.225.22/PLTV/2/224/3221225635/index.m3u8
+湖南金鹰卡通,http://111.26.225.22/PLTV/2/224/3221225593/index.m3u8
+SiTV七彩戏剧,http://111.26.225.22/PLTV/2/224/3221225595/index.m3u8
+SiTV东方财经,http://111.26.225.22/PLTV/2/224/3221225569/index.m3u8
+SiTV动漫秀场,http://111.26.225.22/PLTV/2/224/3221225587/index.m3u8
+SiTV极速汽车,http://111.26.225.22/PLTV/2/224/3221225591/index.m3u8
+SiTV法治天地,http://111.26.225.22/PLTV/2/224/3221225605/index.m3u8
+SiTV游戏风雨,http://111.26.225.22/PLTV/2/224/3221225599/index.m3u8
+SiTV生活时尚,http://111.26.225.22/PLTV/2/224/3221225489/index.m3u8
+SiTV都市剧场,http://111.26.225.22/PLTV/2/224/3221225607/index.m3u8
+上海东方影视,http://111.26.225.22/PLTV/2/224/3221225603/index.m3u8
 
 轮播,#genre#
 周星驰电影,http://kuqq.tk/00/huya.php?id=11342412

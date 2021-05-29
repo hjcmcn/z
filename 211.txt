@@ -1,5 +1,6 @@
 ﻿央视,#genre#
-CCTV1,http://39.134.115.163:8080/PLTV/88888910/224/3221225642/index.m3u8
+CCTV1,
+http://39.135.33.209/cdnrrs.gx.chinamobile.com/PLTV/3/224/3221225654/index.m3u8#http://223.110.243.159/ott.js.chinamobile.com/PLTV/3/224/3221227725/index.m3u8#http://39.135.33.209/cdnrrs.gx.chinamobile.com/PLTV/3/224/3221225674/index.m3u8#http://39.134.115.163:8080/PLTV/88888910/224/3221225642/index.m3u8
 CCTV2,http://39.134.115.163:8080/PLTV/88888910/224/3221225619/index.m3u8
 CCTV3,http://39.134.115.163:8080/PLTV/88888910/224/3221225647/index.m3u8
 CCTV4,http://39.134.115.163:8080/PLTV/88888910/224/3221225621/index.m3u8
@@ -20,7 +21,7 @@ CCTV-4K,http://39.134.176.148/PLTV/88888888/224/3221226758/index.m3u8
 CETV-1,http://39.134.176.253/PLTV/88888888/224/3221226132/index.m3u8
 CGTN-国际台,http://39.134.176.253/PLTV/88888888/224/3221226314/index.m3u8
 CETV-1,http://39.134.176.253/PLTV/88888888/224/3221226132/index.m3u8
-
+CCTV1,http://39.135.33.209/cdnrrs.gx.chinamobile.com/PLTV/3/224/3221225654/index.m3u8
 
 卫视,#genre#
 湖南卫视,http://39.134.115.163:8080/PLTV/88888910/224/3221225745/index.m3u8
@@ -1599,4 +1600,4 @@ CPBC,https://media1.cpbc.co.kr:8888/vod/_definst_/mp4:ads/spot_khs.mp4/chunklist
 凤凰中文全网通,rtmp://58.200.131.2:1935/livetv/fhzw
 凤凰资讯全网通,rtmp://58.200.131.2:1935/livetv/fhzx
 上海耀才财经台,http://202.69.67.66:443/webcast/bshdlive-mobile/playlist.m3u8
-﻿央视电信,#genre#
+

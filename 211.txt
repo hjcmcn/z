@@ -1,6 +1,5 @@
 ﻿央视,#genre#
-CCTV1,
-http://39.135.33.209/cdnrrs.gx.chinamobile.com/PLTV/3/224/3221225654/index.m3u8#http://223.110.243.159/ott.js.chinamobile.com/PLTV/3/224/3221227725/index.m3u8#http://39.135.33.209/cdnrrs.gx.chinamobile.com/PLTV/3/224/3221225674/index.m3u8#http://39.134.115.163:8080/PLTV/88888910/224/3221225642/index.m3u8
+CCTV1,http://39.134.115.163:8080/PLTV/88888910/224/3221225642/index.m3u8
 CCTV2,http://39.134.115.163:8080/PLTV/88888910/224/3221225619/index.m3u8
 CCTV3,http://39.134.115.163:8080/PLTV/88888910/224/3221225647/index.m3u8
 CCTV4,http://39.134.115.163:8080/PLTV/88888910/224/3221225621/index.m3u8
@@ -950,11 +949,6 @@ TVBS新聞,rtmp://59.124.75.130/sat/tv551
 翡翠台,http://23.224.121.115/dai/tang.php?id=jade
 翡翠台1,http://116.199.5.52:8114/index.m3u8?Fsv_chan_hls_se_idx=188&FvSeid=1&Fsv_filetype=1&Fsv_ctype=LIVES&Fsv_cid=0&Fsv_chan_hls_se_idx=188&Fsv_rate_id=2&Fsv_SV_PARAM1=0&Fsv_ShiftEnable=0&Fsv_ShiftTsp=0&Provider_id=&Pcontent_id=.m3u8&Fsv_CMSID=&Fsv_otype=1
 莲花卫视,http://live-hls.macaulotustv.com/lotustv/macaulotustv.m3u8
-无线新闻台,http://qj.yyrjdp.cn/jiuban/tvb22.php?id=1
-无线财经台,http://qj.yyrjdp.cn/jiuban/tvb22.php?id=2
-凤凰中文,http://qj.yyrjdp.cn/jiuban/iptv5/fenghuang2.php?id=2
-凤凰资讯,http://qj.yyrjdp.cn/jiuban/iptv5/fenghuang2.php?id=1
-凤凰香港,http://qj.yyrjdp.cn/jiuban/iptv5/fenghuang2.php?id=3
 英国sky TG24,http://skyianywhere2-i.akamaihd.net:80/hls/live/200275/tg24/playlist.m3u8
 CNN,http://218.202.220.2:5000/nn_live.ts?id=CNN
 星空卫视,rtmp://ivi.bupt.edu.cn:1935/livetv/startv
@@ -969,28 +963,7 @@ CNN,http://218.202.220.2:5000/nn_live.ts?id=CNN
 香港卫视文旅,https://myun-hw-s3.myun.tv/melj80jz/lxx27bol/1551285536499984128.m3u8
 Fox Family,https://livecdn.fptplay.net/hda/foxfamilymovies_hls.smil/chunklist_b2500000.m3u8
 ﻿感奥苔极速2,#genre#
-TVB 翡翠台,http://qj.yyrjdp.cn/jiuban/iptv5/qita222.php?id=tv-81
-TVB J2,http://qj.yyrjdp.cn/jiuban/iptv5/qita222.php?id=tv-82
-TVB 新聞台,http://qj.yyrjdp.cn/jiuban/iptv5/qita222.php?id=tv-83
-明珠台,http://qj.yyrjdp.cn/jiuban/iptv5/qita222.php?id=tv-84
-財經資訊台,http://qj.yyrjdp.cn/jiuban/iptv5/qita222.php?id=tv-85
-31港台,http://qj.yyrjdp.cn/jiuban/iptv5/qita222.php?id=tv-31
-32港台,http://qj.yyrjdp.cn/jiuban/iptv5/qita222.php?id=tv-32
-33港台,http://qj.yyrjdp.cn/jiuban/iptv5/qita222.php?id=tv-33
-ViuTV six,http://qj.yyrjdp.cn/jiuban/iptv5/qita222.php?id=tv-96
-ViuTV,http://qj.yyrjdp.cn/jiuban/iptv5/qita222.php?id=tv-99
-華視,http://qj.yyrjdp.cn/jiuban/iptv5/qita222.php?id=tw-501
-華視教育體育文化台,http://qj.yyrjdp.cn/jiuban/iptv5/qita222.php?id=tw-502
-華視新聞資訊台,http://qj.yyrjdp.cn/jiuban/iptv5/qita222.php?id=tw-503
-華視國會頻道1,http://qj.yyrjdp.cn/jiuban/iptv5/qita222.php?id=tw-504
-華視國會頻道2,http://qj.yyrjdp.cn/jiuban/iptv5/qita222.php?id=tw-505
-中視,http://qj.yyrjdp.cn/jiuban/iptv5/qita222.php?id=tw-100
-中視新聞台,http://qj.yyrjdp.cn/jiuban/iptv5/qita222.php?id=tw-101
-中視經典台,http://qj.yyrjdp.cn/jiuban/iptv5/qita222.php?id=tw-102
-中視菁采台,http://qj.yyrjdp.cn/jiuban/iptv5/qita222.php?id=tw-103
-民視,http://qj.yyrjdp.cn/jiuban/iptv5/qita222.php?id=tw-300
-民視第一台,http://qj.yyrjdp.cn/jiuban/iptv5/qita222.php?id=tw-301
-民視新聞台,http://qj.yyrjdp.cn/jiuban/iptv5/qita222.php?id=tw-302
+
 耀才財經台1,http://202.69.67.66:443/webcast/bshdlive-pc/playlist.m3u8?wowzasessionid=64000
 耀才財經台1,http://202.69.67.66:443/webcast/bshdlive-pc/playlist.m3u8
 澳门卫视,http://61.244.22.5/ch3/ch3.live/chunklist_w1228316132.m3u8
@@ -1600,4 +1573,43 @@ CPBC,https://media1.cpbc.co.kr:8888/vod/_definst_/mp4:ads/spot_khs.mp4/chunklist
 凤凰中文全网通,rtmp://58.200.131.2:1935/livetv/fhzw
 凤凰资讯全网通,rtmp://58.200.131.2:1935/livetv/fhzx
 上海耀才财经台,http://202.69.67.66:443/webcast/bshdlive-mobile/playlist.m3u8
-
+山西频道,#genre#
+山西卫视,http://39.134.168.91/PLTV/1/224/3221225646/index.m3u8
+山西卫视,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225895/index.m3u8
+山西卫视,http://39.135.33.12/PLTV/77777777/224/3221226655/index.m3u8
+朔州电视台二套,http://stream.sxsztv.com/live2/sd/live.m3u8
+长治新闻综合,http://streaming.czgd.cn:8084/4b0bcd8509d748358b4450921fc3443b/h264_300k_ts/index.m3u8?type=hls_live_redirect
+长治公共,http://streaming.czgd.cn:8084/7223161a96984d81b711d762d7e7fdd1/h264_300k_ts/index.m3u8?type=hls_live_redirect
+长治文化,http://streaming.czgd.cn:8084/2b7f0174d0f44c34bf466fc0ab801a3a/h264_300k_ts/index.m3u8?type=hls_live_redirect
+晋城新闻综合,http://live1.jcbctv.com:1935/live/XWZH/1000K/tzwj_video.m3u8
+运城新闻综合,http://live.0359tv.com/ss4Lj11/500/k4gsg40.m3u8
+运城套公共,http://live.0359tv.com/t667aTY/500/060tg60.m3u8
+运城科教,http://live.0359tv.com/p5eq48m/500/d5npge0.m3u8
+吕梁公共,http://sxllvideo.chinashadt.com:1935/live/ll2/playlist.m3u8
+离石综合,http://p4.weizan.cn/1135473620/801858602177077621/live.m3u8
+柳林综合,http://pili-live-rtmp.212.i2863.com/i2863-212/live_212_336940.m3u8
+柳林影视,http://pili-live-hls.212.i2863.com/i2863-212/live_212_316579.m3u8
+文水新闻综合m3u8,http://sxws.chinashadt.com:1938/live/tv10.stream_360p/playlist.m3u8
+文水时尚秀,http://sxws.chinashadt.com:1938/live/tv11.stream_360p/playlist.m3u8
+长子综合,rtmp://zzlive.zzc-media.com/live/xwzh
+大宁综合,http://live.daningtv.com/channel1/sd/live.m3u8
+侯马新闻,https://40897.hlsplay.aodianyun.com/tv_radio_40897/tv_channel_2125.m3u8
+洪洞综合m3u8,http://ws8rktr8.live.sxmty.com/live/hls/4227fed8da394274ad72bd476a9fb6ef/29b7cef8cd4f4059850c263339a4a673-1.m3u8
+吉县新闻综合,http://jxlive.jxrmtzx.com:8091/live/xwzh.m3u8
+襄汾综合,http://7sycrzf7.live.sxmty.com/live/hls/da9222d15ce7491d85fe3519e5201df5/af161dfd2a434b22b3b75fdd72fb9038-1.m3u8
+翼城综合,http://live.aiyicheng.com.cn/channel1/sd/live.m3u8
+灵石新闻综合,https://live-stream.lsxrmtzx.com/live/video.m3u8
+祁县新闻综合m3u8,http://ggpagerl.live.sxmty.com/live/hls/b350dc1ac5da45c2b2233f6eb122ddf4/49d3766c7f204685a2a8f027b234c33d.m3u8
+太谷新闻综合,https://p2.weizan.cn/1725814272/035167554667993420/live.m3u8
+昔阳电视台m3u8,http://ijd3oy6z.live.sxmty.com/live/hls/1c6f81ee75814dc4afd24dc7ee4cf19d/bf8bd75a360e48ca858dcb7bf38de3b1-1.m3u8
+稷山一套,http://imwuo7s2.live.sxmty.com/live/hls/e2c1d60db032441eb14c4f346b7fdc55/21616c49a5914ac0a821fee71716955f-1.m3u8
+绛县综合,http://push.vyuan8.com/vyuan/28739115379384191.m3u8?auth_key=1735660800-0-0-7c8c609fcbecfdd228c5d4525d748b77
+临猗综合,http://pili-live-hls.lyzx.live.chinacici.cn/lyrmt/ceshi-ly.m3u8
+芮城综合,http://qcloud-play.lezhibo.com/live/10349_17b46a51d5a2491b9a9eeaca69365b74.m3u8
+定襄综合,http://lbyzztfe.live.sxmty.com/live/hls/645ff4c60e0a49f0a203abbd73dd8be9/0720e665f10f48e98c9639f4f492fb4a-1.m3u8
+五台综合,https://568slnjf.live.sxmty.com/live/hls/90c8b2efeb164cc0a6c2409eed668d6b/f77cbb89ec57435b9ba4c47589c16e4f-1.m3u8
+原平综合,http://xkmspyxn.live.sxmty.com/live/hls/65072fcc05414062bf02088d2a2a77b2/9da977614b044ef59d11779e997a12f8-1.m3u8
+陵川综合,https://hwapi.yunshicloud.com/n2hx3e/x8461t.m3u8
+阳城电视台,https://hwapi.yunshicloud.com/gazuo8/bz5z68.m3u8
+灵丘电视台,https://stream.icelook.cn/1a7c625fde427dc3/6735154231323395076_1611041008.m3u8?auth_key=1893456000-0-0-fe9d45877d8cdddb4afccd9c1a12f3f8
+西山电视台,http://218.26.97.12:5021/live_hls/1/c01.m3u8

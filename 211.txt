@@ -333,10 +333,33 @@ SiTV游戏风雨,http://111.26.225.22/PLTV/2/224/3221225599/index.m3u8
 SiTV生活时尚,http://111.26.225.22/PLTV/2/224/3221225489/index.m3u8
 SiTV都市剧场,http://111.26.225.22/PLTV/2/224/3221225607/index.m3u8
 上海东方影视,http://111.26.225.22/PLTV/2/224/3221225603/index.m3u8
-
 卫视体育1台,http://47.240.60.73/gzyx.php?id=wsty1
 卫视体育2台,http://47.240.60.73/gzyx.php?id=wsty
 Star Sports,rtmp://ivi.bupt.edu.cn:1935/livetv/starsports
+百视通谍战,http://39.135.230.66/ott.fj.chinamobile.com/PLTV/88888888/224/3221227045/index.m3u8
+百视通轮科幻,http://39.135.230.79/ott.fj.chinamobile.com/PLTV/88888888/224/3221227037/index.m3u8
+百视通轮播1,http://39.135.53.199/ott.fj.chinamobile.com/PLTV/88888888/224/3221227134/index.m3u8
+百视通轮播2,http://39.135.53.199/ott.fj.chinamobile.com/PLTV/88888888/224/3221227036/index.m3u8
+百视通轮播3,http://39.135.230.79/ott.fj.chinamobile.com/PLTV/88888888/224/3221227130/index.m3u8
+百视通港剧,http://39.135.53.199/ott.fj.chinamobile.com/PLTV/88888888/224/3221226991/index.m3u8
+百视通棋牌,http://39.135.53.199/ott.fj.chinamobile.com/PLTV/88888888/224/3221227041/index.m3u8
+百视通运动,http://39.135.53.199/ott.fj.chinamobile.com/PLTV/88888888/224/3221227044/index.m3u8
+百视通演出,http://39.135.53.199/ott.fj.chinamobile.com/PLTV/88888888/224/3221227049/index.m3u8
+百视通动画,http://39.135.230.75/ott.fj.chinamobile.com/PLTV/88888888/224/3221227053/index.m3u8
+百视通电影,http://39.135.230.75/ott.fj.chinamobile.com/PLTV/88888888/224/3221227032/index.m3u8
+影视1,http://39.135.53.199/ott.fj.chinamobile.com/PLTV/88888888/224/3221226741/index.m3u8
+影视2,http://39.135.53.199/ott.fj.chinamobile.com/PLTV/88888888/224/3221226736/index.m3u8
+影视3,http://39.135.230.87/ott.fj.chinamobile.com/PLTV/88888888/224/3221226712/index.m3u8
+影视5,http://39.135.230.86ott.fj.chinamobile.com/PLTV/88888888/224/3221226732/index.m3u8
+影视4,http://39.135.230.82/ott.fj.chinamobile.com/PLTV/88888888/224/3221226754/index.m3u8
+影视5,http://39.135.230.86/ott.fj.chinamobile.com/PLTV/88888888/224/3221226732/index.m3u8
+影视6,http://39.135.230.86/ott.fj.chinamobile.com/PLTV/88888888/224/3221226712/index.m3u8
+影视7,http://39.135.230.80/ott.fj.chinamobile.com/PLTV/88888888/224/3221226743/index.m3u8
+影视8,http://112.5.223.39/ott.fj.chinamobile.com/PLTV/88888888/224/3221227045/index.m3u8
+影视9,http://39.135.53.199/ott.fj.chinamobile.com/PLTV/88888888/224/3221226708/index.m3u8
+影视8,http://39.135.53.199/ott.fj.chinamobile.com/PLTV/88888888/224/3221226708/index.m3u8
+影视9,http://39.135.230.72/ott.fj.chinamobile.com/PLTV/88888888/224/3221225893/index.m3u8
+影视10,http://39.135.53.199/ott.fj.chinamobile.com/PLTV/88888888/224/3221226664/index.m3u8
 
 轮播,#genre#
 周星驰电影,http://qj.yyrjdp.cn/jiuban/huya.php?id=11342412
@@ -1209,184 +1232,8 @@ CMusic,mitv://ns2.hellotvvod.com:9906/5fd90a470005f44d9166d9dd2b7e5114.ts
 JET综合台,mitv://ns2.hellotvvod.com:9906/5ff4065d000e628060632518770b5cbe.ts
 客家电视台,mitv://ns2.hellotvvod.com:9906/5fce4ce900062b2067731a3159531ad6.ts
 原住民族电视台,mitv://ns2.hellotvvod.com:9906/5fd0b6af0008bd4470e0484d67f83ae2.ts
+
 ﻿感奥苔测试2,#genre#
-WWE,http://47.242.54.220/daili/ce50.php?gun=3&id=wwe_pye
-TVB 翡翠,http://47.242.54.220/daili/ce50.php?gun=1&id=Jade
-天映经典,http://47.242.54.220/daili/ce50.php?gun=3&id=celestial2_pye
-天映频道,http://47.242.54.220/daili/ce50.php?gun=3&id=celestial_pye
-CATCHPAYj电影台,http://47.242.54.220/daili/ce50.php?gun=3&id=cmovie_pye
-三立都会台,http://47.242.54.220/daili/ce50.php?gun=3&id=sldou_pye
-三立都会台,http://50.7.59.216:61980/myplay/cn_4_14024/index.m3u8?key=84797b799ae18d1b
-三立台湾台,http://47.242.54.220/daili/ce50.php?gun=3&id=sltw_pye
-三立台湾台,http://50.7.59.216:61980/myplay/cn_4_14023/index.m3u8?key=84797b799ae18d1b
-民视台,http://50.7.59.216:61980/myplay/cn_0_8813/index.m3u8?key=84797b799ae18d1b
-民视台新闻台,http://50.7.59.216:61980/myplay/cn_0_8820/index.m3u8?key=84797b799ae18d1b
-公视台,http://50.7.59.216:61980/myplay/cn_0_8817/index.m3u8?key=84797b799ae18d1b
-公视台语,http://50.7.59.216:61980/myplay/cn_0_8818/index.m3u8?key=84797b799ae18d1b
-公视台3,http://50.7.59.216:61980/myplay/cn_0_8819/index.m3u8?key=84797b799ae18d1b
-台视台,http://50.7.59.216:61980/myplay/cn_0_8815/index.m3u8?key=84797b799ae18d1b
-台视台综合台,http://50.7.59.216:61980/myplay/cn_0_8828/index.m3u8?key=84797b799ae18d1b
-台视台新闻台,http://50.7.59.216:61980/myplay/cn_0_8822/index.m3u8?key=84797b799ae18d1b
-华视台,http://50.7.59.216:61980/myplay/cn_0_8816/index.m3u8?key=84797b799ae18d1b
-华视台新闻台资讯,http://50.7.59.216:61980/myplay/cn_0_8823/index.m3u8?key=84797b799ae18d1b
-客家电视台,http://50.7.59.216:61980/myplay/cn_0_8825/index.m3u8?key=84797b799ae18d1b
-原住民,http://50.7.59.216:61980/myplay/cn_0_8824/index.m3u8?key=84797b799ae18d1b
-非凡商业,http://50.7.59.216:61980/myplay/cn_2_12023/index.m3u8?key=84797b799ae18d1b
-非凡新闻台,http://50.7.59.216:61980/myplay/cn_2_12024/index.m3u8?key=84797b799ae18d1b
-中视台,http://50.7.59.216:61980/myplay/cn_0_8814/index.m3u8?key=84797b799ae18d1b
-中视台新闻台,http://50.7.59.216:61980/myplay/cn_0_8821/index.m3u8?key=84797b799ae18d1b
-中视台菁采,http://50.7.59.216:61980/myplay/cn_0_8827/index.m3u8?key=84797b799ae18d1b
-中视台经典,http://50.7.59.216:61980/myplay/cn_0_8826/index.m3u8?key=84797b799ae18d1b
-台视台财经,http://50.7.59.216:61980/myplay/cn_0_8829/index.m3u8?key=84797b799ae18d1b
-美亚电影台,http://50.7.59.216:61980/myplay/cn_1_11001/index.m3u8?key=84797b799ae18d1b
-卫视台中文台,http://50.7.59.216:61980/myplay/cn_3_13018/index.m3u8?key=84797b799ae18d1b
-卫视台电影台,http://50.7.59.216:61980/myplay/cn_3_13017/index.m3u8?key=84797b799ae18d1b
-卫视台洋片台,http://50.7.59.216:61980/myplay/cn_1_11002/index.m3u8?key=84797b799ae18d1b
-星卫电影台,http://50.7.59.216:61980/myplay/cn_1_11003/index.m3u8?key=84797b799ae18d1b
-星卫娱乐台台,http://50.7.59.216:61980/myplay/cn_1_11004/index.m3u8?key=84797b799ae18d1b
-国家地理野生,http://50.7.59.216:61980/myplay/cn_1_11008/index.m3u8?key=84797b799ae18d1b
-华纳电影台,http://50.7.59.216:61980/myplay/cn_1_11011/index.m3u8?key=84797b799ae18d1b
-韩国娱乐台台,http://50.7.59.216:61980/myplay/cn_1_11016/index.m3u8?key=84797b799ae18d1b
-Cbeebies卡通,http://50.7.59.216:61980/myplay/cn_1_11018/index.m3u8?key=84797b799ae18d1b
-亚洲旅游台,http://50.7.59.216:61980/myplay/cn_1_11020/index.m3u8?key=84797b799ae18d1b
-博斯运动,http://50.7.59.216:61980/myplay/cn_2_12005/index.m3u8?key=84797b799ae18d1b
-博斯运动2,http://50.7.59.216:61980/myplay/cn_2_12006/index.m3u8?key=84797b799ae18d1b
-博斯高球,http://50.7.59.216:61980/myplay/cn_2_12007/index.m3u8?key=84797b799ae18d1b
-博斯高球2,http://50.7.59.216:61980/myplay/cn_2_12008/index.m3u8?key=84797b799ae18d1b
-博斯魅力,http://50.7.59.216:61980/myplay/cn_2_12009/index.m3u8?key=84797b799ae18d1b
-博斯网球,http://50.7.59.216:61980/myplay/cn_2_12010/index.m3u8?key=84797b799ae18d1b
-博斯無限,http://50.7.59.216:61980/myplay/cn_2_12011/index.m3u8?key=84797b799ae18d1b
-CNN,http://50.7.59.216:61980/myplay/cn_2_12012/index.m3u8?key=84797b799ae18d1b
-MTV台湾,http://50.7.59.216:61980/myplay/cn_2_12013/index.m3u8?key=84797b799ae18d1b
-Z频道,http://50.7.59.216:61980/myplay/cn_2_12014/index.m3u8?key=84797b799ae18d1b
-EYE TV旅游,http://50.7.59.216:61980/myplay/cn_0_8807/index.m3u8?key=84797b799ae18d1b
-NBA动态,http://50.7.59.216:61980/myplay/cn_0_8810/index.m3u8?key=84797b799ae18d1b
-东风37,http://50.7.59.216:61980/myplay/cn_2_12015/index.m3u8?key=84797b799ae18d1b
-年代MUCH,http://50.7.59.216:61980/myplay/cn_2_12016/index.m3u8?key=84797b799ae18d1b
-年代新闻台,http://50.7.59.216:61980/myplay/cn_2_12017/index.m3u8?key=84797b799ae18d1b
-JET综合台,http://50.7.59.216:61980/myplay/cn_2_12018/index.m3u8?key=84797b799ae18d1b
-龙翔时代,http://50.7.59.216:61980/myplay/cn_2_12019/index.m3u8?key=84797b799ae18d1b
-霹雳台湾台,http://50.7.59.216:61980/myplay/cn_2_12020/index.m3u8?key=84797b799ae18d1b
-MOMO亲子台,http://50.7.59.216:61980/myplay/cn_2_12021/index.m3u8?key=84797b799ae18d1b
-国兴卫视台,http://50.7.59.216:61980/myplay/cn_2_12022/index.m3u8?key=84797b799ae18d1b
-动物星球,http://50.7.59.216:61980/myplay/cn_3_13014/index.m3u8?key=84797b799ae18d1b
-CN卡通频道,http://50.7.59.216:61980/myplay/cn_3_13015/index.m3u8?key=84797b799ae18d1b
-Disney卡通,http://50.7.59.216:61980/myplay/cn_3_13019/index.m3u8?key=84797b799ae18d1b
-三立戏剧台,http://50.7.59.216:61980/myplay/cn_0_8809/index.m3u8?key=84797b799ae18d1b
-三立iNEWS,http://50.7.59.216:61980/myplay/cn_4_14022/index.m3u8?key=84797b799ae18d1b
-三立新闻台,http://50.7.59.216:61980/myplay/cn_4_14021/index.m3u8?key=84797b799ae18d1b
-东森新闻台,http://50.7.59.216:61980/myplay/cn_4_14001/index.m3u8?key=84797b799ae18d1b
-东森财经新闻台,http://50.7.59.216:61980/myplay/cn_4_14004/index.m3u8?key=84797b799ae18d1b
-东森洋片台,http://50.7.59.216:61980/myplay/cn_4_14003/index.m3u8?key=84797b799ae18d1b
-东森电影台,http://50.7.59.216:61980/myplay/cn_4_14002/index.m3u8?key=84797b799ae18d1b
-东森戏剧台,http://50.7.59.216:61980/myplay/cn_4_14005/index.m3u8?key=84797b799ae18d1b
-东森超视台,http://50.7.59.216:61980/myplay/cn_4_14008/index.m3u8?key=84797b799ae18d1b
-东森综合台,http://50.7.59.216:61980/myplay/cn_4_14006/index.m3u8?key=84797b799ae18d1b
-东森幼幼台,http://50.7.59.216:61980/myplay/cn_4_14007/index.m3u8?key=84797b799ae18d1b
-纬来综合台,http://50.7.59.216:61980/myplay/cn_4_14014/index.m3u8?key=84797b799ae18d1b
-纬来电影台,http://50.7.59.216:61980/myplay/cn_4_14009/index.m3u8?key=84797b799ae18d1b
-纬来育樂台,http://50.7.59.216:61980/myplay/cn_4_14010/index.m3u8?key=84797b799ae18d1b
-纬来日本台,http://50.7.59.216:61980/myplay/cn_4_14013/index.m3u8?key=84797b799ae18d1b
-纬来体育台,http://50.7.59.216:61980/myplay/cn_4_14011/index.m3u8?key=84797b799ae18d1b
-纬来戏剧台,http://50.7.59.216:61980/myplay/cn_4_14012/index.m3u8?key=84797b799ae18d1b
-TVBS,http://50.7.59.216:61980/myplay/cn_4_14015/index.m3u8?key=84797b799ae18d1b
-TVBS新闻台,http://50.7.59.216:61980/myplay/cn_4_14017/index.m3u8?key=84797b799ae18d1b
-TVBS欢乐台,http://50.7.59.216:61980/myplay/cn_4_14016/index.m3u8?key=84797b799ae18d1b
-中天新闻台,http://50.7.59.216:61980/myplay/cn_4_14018/index.m3u8?key=84797b799ae18d1b
-中天娱乐台,http://50.7.59.216:61980/myplay/cn_4_14020/index.m3u8?key=84797b799ae18d1b
-中天综合台,http://50.7.59.216:61980/myplay/cn_4_14019/index.m3u8?key=84797b799ae18d1b
-寰宇新闻台,http://50.7.59.216:61980/myplay/cn_5_15005/index.m3u8?key=84797b799ae18d1b
-八大综合台,http://50.7.59.216:61980/myplay/cn_5_15002/index.m3u8?key=84797b799ae18d1b
-八大娱乐台台,http://50.7.59.216:61980/myplay/cn_5_15004/index.m3u8?key=84797b799ae18d1b
-八大第一台,http://50.7.59.216:61980/myplay/cn_5_15001/index.m3u8?key=84797b799ae18d1b
-八大戏剧台,http://50.7.59.216:61980/myplay/cn_5_15003/index.m3u8?key=84797b799ae18d1b
-壹电影台,http://50.7.59.216:61980/myplay/cn_5_15006/index.m3u8?key=84797b799ae18d1b
-美食星球,http://50.7.59.216:61980/myplay/cn_0_8804/index.m3u8?key=84797b799ae18d1b
-ANIMAX,http://50.7.59.216:61980/myplay/cn_3_13020/index.m3u8?key=84797b799ae18d1b
-AXN,http://50.7.59.216:61980/myplay/cn_3_13021/index.m3u8?key=84797b799ae18d1b
-AXN,http://47.242.54.220/daili/ce50.php?gun=2&id=Axn
-DMAX,http://50.7.59.216:61980/myplay/cn_3_13011/index.m3u8?key=84797b799ae18d1b
-Travel Channel,http://50.7.59.216:61980/myplay/cn_3_13024/index.m3u8?key=84797b799ae18d1b
-HBO,http://50.7.59.216:61980/myplay/cn_3_13001/index.m3u8?key=84797b799ae18d1b
-HBO HITS,http://50.7.59.216:61980/myplay/cn_3_13002/index.m3u8?key=84797b799ae18d1b
-HBO family,http://50.7.59.216:61980/myplay/cn_3_13003/index.m3u8?key=84797b799ae18d1b
-HBO signature,http://50.7.59.216:61980/myplay/cn_3_13004/index.m3u8?key=84797b799ae18d1b
-Asian Food Network,http://50.7.59.216:61980/myplay/cn_3_13005/index.m3u8?key=84797b799ae18d1b
-EVE,http://50.7.59.216:61980/myplay/cn_3_13006/index.m3u8?key=84797b799ae18d1b
-HITS,http://50.7.59.216:61980/myplay/cn_3_13007/index.m3u8?key=84797b799ae18d1b
-HITS,http://47.242.54.220/daili/ce50.php?gun=2&id=Hits
-Discovery,http://50.7.59.216:61980/myplay/cn_3_13008/index.m3u8?key=84797b799ae18d1b
-Discovery Asia,http://50.7.59.216:61980/myplay/cn_3_13009/index.m3u8?key=84797b799ae18d1b
-Discovery Scirnce,http://50.7.59.216:61980/myplay/cn_3_13010/index.m3u8?key=84797b799ae18d1b
-National Geographic,http://50.7.59.216:61980/myplay/cn_3_13012/index.m3u8?key=84797b799ae18d1b
-TLC,http://50.7.59.216:61980/myplay/cn_3_13013/index.m3u8?key=84797b799ae18d1b
-Hollywood,http://50.7.59.216:61980/myplay/cn_3_13016/index.m3u8?key=84797b799ae18d1b
-Euro Sports,http://50.7.59.216:61980/myplay/cn_3_13023/index.m3u8?key=84797b799ae18d1b
-CINEMAX,http://50.7.59.216:61980/myplay/cn_3_13022/index.m3u8?key=84797b799ae18d1b
-BBC WORLD NEWS,http://50.7.59.216:61980/myplay/cn_5_15007/index.m3u8?key=84797b799ae18d1b
-BBC Lifestyle,http://50.7.59.216:61980/myplay/cn_0_8805/index.m3u8?key=84797b799ae18d1b
-BBC Earth,http://50.7.59.216:61980/myplay/cn_1_11005/index.m3u8?key=84797b799ae18d1b
-Food Network,http://50.7.59.216:61980/myplay/cn_0_8802/index.m3u8?key=84797b799ae18d1b
-Food Network,http://50.7.59.216:61980/myplay/cn_0_8801/index.m3u8?key=84797b799ae18d1b
-Baby First,http://50.7.59.216:61980/myplay/cn_0_8803/index.m3u8?key=84797b799ae18d1b
-Outdoor Channel,http://50.7.59.216:61980/myplay/cn_0_8806/index.m3u8?key=84797b799ae18d1b
-History,http://50.7.59.216:61980/myplay/cn_0_8811/index.m3u8?key=84797b799ae18d1b
-History,http://47.242.54.220/daili/ce50.php?gun=2&id=History
-History Channel 2,http://50.7.59.216:61980/myplay/cn_0_8812/index.m3u8?key=84797b799ae18d1b
-HGTV,http://50.7.59.216:61980/myplay/cn_0_8808/index.m3u8?key=84797b799ae18d1b
-FOX,http://50.7.59.216:61980/myplay/cn_2_12001/index.m3u8?key=84797b799ae18d1b
-FOX,http://47.242.54.220/daili/ce50.php?gun=2&id=Foxhd
-FOX MOVIES,http://50.7.59.216:61980/myplay/cn_2_12002/index.m3u8?key=84797b799ae18d1b
-FOX CRIME,http://50.7.59.216:61980/myplay/cn_1_11009/index.m3u8?key=84797b799ae18d1b
-FOX family,http://50.7.59.216:61980/myplay/cn_1_11010/index.m3u8?key=84797b799ae18d1b
-FOX SPORTS,http://50.7.59.216:61980/myplay/cn_2_12003/index.m3u8?key=84797b799ae18d1b
-FOX SPORTS 2,http://50.7.59.216:61980/myplay/cn_2_12004/index.m3u8?key=84797b799ae18d1b
-FOX Sport 3,http://50.7.59.216:61980/myplay/cn_1_11019/index.m3u8?key=84797b799ae18d1b
-TVN,http://50.7.59.216:61980/myplay/cn_1_11015/index.m3u8?key=84797b799ae18d1b
-Eleven Sports Plus,http://50.7.59.216:61980/myplay/cn_1_11006/index.m3u8?key=84797b799ae18d1b
-Eleven Sports 2,http://50.7.59.216:61980/myplay/cn_1_11007/index.m3u8?key=84797b799ae18d1b
-Fx Movie Channel,http://50.7.59.216:61980/myplay/cn_1_11012/index.m3u8?key=84797b799ae18d1b
-Crime Investigation,http://50.7.59.216:61980/myplay/cn_1_11013/index.m3u8?key=84797b799ae18d1b
-Baby TV,http://50.7.59.216:61980/myplay/cn_1_11014/index.m3u8?key=84797b799ae18d1b
-Baby TV,http://47.242.54.220/daili/ce50.php?gun=2&id=Babytv
-Life Time,http://50.7.59.216:61980/myplay/cn_1_11017/index.m3u8?key=84797b799ae18d1b
-OHK,http://47.242.54.220/daili/ce50.php?gun=3&id=ohk_pye
-OHK,http://47.242.54.220/daili/ce50.php?gun=3&id=Ohk
-FOX Action Movies,http://47.242.54.220/daili/ce50.php?gun=2&id=Foxactionhd
-FOX Crime,http://47.242.54.220/daili/ce50.php?gun=2&id=Foxcrime
-FOX Family Movies,http://47.242.54.220/daili/ce50.php?gun=2&id=Foxfamily
-FOX Life,http://47.242.54.220/daili/ce50.php?gun=2&id=Foxlife
-FOX Movies,http://47.242.54.220/daili/ce50.php?gun=2&id=Foxmovie
-Hits Movie,http://47.242.54.220/daili/ce50.php?gun=2&id=Hitsmovie
-KIX,http://45.126.83.51/uq2663/h/h07/01.m3u8
-LifeTime,http://47.242.54.220/daili/ce50.php?gun=2&id=Lifetime
-Thrill,http://47.242.54.220/daili/ce50.php?gun=2&id=Thrill
-Warner TV,http://47.242.54.220/daili/ce50.php?gun=2&id=WarnerTV
-Discovery Channel,http://47.242.54.220/daili/ce50.php?gun=2&id=Discoveryhd
-Nat Geo,http://47.242.54.220/daili/ce50.php?gun=2&id=Natgeo
-Nat Geo Wild,http://47.242.54.220/daili/ce50.php?gun=2&id=Natgeopeople
-Animax,http://47.242.54.220/daili/ce50.php?gun=2&id=Animax
-Boomerang,http://47.242.54.220/daili/ce50.php?gun=2&id=Boomerang
-Cartoon Network,http://47.242.54.220/daili/ce50.php?gun=2&id=Cn
-CBeebies,http://47.242.54.220/daili/ce50.php?gun=2&id=Cbeebies
-Disney Channel,http://47.242.54.220/daili/ce50.php?gun=2&id=Disneyxd
-Nick Jr,http://47.242.54.220/daili/ce50.php?gun=2&id=Nickjr
-Nickelodeon,http://47.242.54.220/daili/ce50.php?gun=2&id=Nickelodeon
-AFN,http://47.242.54.220/daili/ce50.php?gun=2&id=Afc
-Channel V,http://47.242.54.220/daili/ce50.php?gun=2&id=ChannelV
-Channel V,https://htv-drm-live-cdn.fptplay.net/CDN-FPT02/CHANNELV--1080p
-KBS World,http://47.242.54.220/daili/ce50.php?gun=2&id=KBS
-Sony ONE,http://47.242.54.220/daili/ce50.php?gun=2&id=SetOne
-tVN Movies,http://47.242.54.220/daili/ce50.php?gun=2&id=Tvnmovie
-ASTRO iQIYI,http://47.242.54.220/daili/ce50.php?gun=2&id=Qiyi
-ASTRO AOD,http://47.242.54.220/daili/ce50.php?gun=2&id=Aod
-ASTRO AEC,http://47.242.54.220/daili/ce50.php?gun=2&id=Aec
-ASTRO HUA HEE DAI,http://47.242.54.220/daili/ce50.php?gun=2&id=Huahee
-ASTRO WAH LAI TOI,http://47.242.54.220/daili/ce50.php?gun=2&id=Wlt
-Channel 8,http://47.242.54.220/daili/ce50.php?gun=2&id=Channel8
-Channel 5,http://47.242.54.220/daili/ce50.php?gun=2&id=Channel5
-Channel U,http://47.242.54.220/daili/ce50.php?gun=2&id=ChannelU
-﻿感奥苔测试3,#genre#
 有线新闻,http://93.190.139.36:8278/streams/d/hkcnews_twn/playlist.m3u8
 无线新闻台,http://qj.yyrjdp.cn/jiuban/iptv5/huanip.php?id=Inews
 TVB·翡翠台,http://qj.yyrjdp.cn/jiuban/iptv5/huanip.php?id=Jade

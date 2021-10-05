@@ -9,16 +9,7 @@
     "searchable": 1,
     "quickSearch": 0,
     "filterable": 1
-    },
-     {
-  "key": "csp_EPang",
-  "name": "阿房影视(爬虫)",
-  "type": 3,
-  "api": "csp_EPang",
-  "searchable": 1,
-  "quickSearch": 0,
-  "filterable": 1
-},    
+    },  
     {
     "key": "csp_Enlienli",
     "name": "嗯哩嗯哩(爬虫)",
@@ -36,6 +27,42 @@
   "searchable": 1,
   "quickSearch": 0,
   "filterable": 1
+},
+{
+  "key": "csp_Cokemv",
+  "name": "Cokemv(爬虫)",
+  "type": 3,
+  "api": "csp_Cokemv",
+  "searchable": 1,
+  "quickSearch": 0,
+  "filterable": 1
+},
+{
+  "key": "csp_Buka",
+  "name": "真不卡(爬虫)",
+  "type": 3,
+  "api": "csp_Buka",
+  "searchable": 0,
+  "quickSearch": 0,
+  "filterable": 1
+},
+{
+  "key": "csp_Ysgc",
+  "name": "影视工厂(爬虫)",
+  "type": 3,
+  "api": "csp_Ysgc",
+  "searchable": 1,
+  "quickSearch": 0,
+  "filterable": 1
+},
+{
+  "key": "csp_N0ys",
+  "name": "90影视(爬虫)",
+  "type": 3,
+  "api": "csp_N0ys",
+  "searchable": 1,
+  "quickSearch": 0,
+  "filterable": 0
 },
       {
       "key": "红牛资源",
@@ -883,7 +910,7 @@
     "wasu",
     "bilibili"
   ],
-  "spider": "https://www.sharerw.com/custom_spider.jar",
+  "spider": "https://gitee.com/sharerwtv/mao/raw/master/custom_spider.jar",
   "parses": [
     {
       "name": "暮光解析",

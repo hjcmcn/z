@@ -1,3 +1,34 @@
+﻿Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@hjcmcn 
+hjcmcn
+/
+z
+Public
+2
+21
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+z/211.txt
+@hjcmcn
+hjcmcn Add files via upload
+Latest commit 1ce2d77 27 days ago
+ History
+ 1 contributor
+2083 lines (1709 sloc)  155 KB
+   
 ﻿央视,#genre#
 CCTV1,http://39.134.115.163:8080/PLTV/88888910/224/3221225642/index.m3u8
 CCTV2,http://39.134.115.163:8080/PLTV/88888910/224/3221225619/index.m3u8
@@ -585,7 +616,7 @@ Star Sports,rtmp://ivi.bupt.edu.cn:1935/livetv/starsports
 爱赛车,http://39.134.176.167/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221230032/1.m3u8
 韩国女团,http://tx2play1.douyucdn.cn/live/17732rtara.flv
 
-轮播2_2180,#genre#
+轮播2_10088,#genre#
 成龙,http://39.134.216.5/live.hcs.cmvideo.cn:8088/wd_r2/virtuallive/5102010211/150/index.m3u8?&encrypt=
 .m3u8?&encrypt=
 古天乐,http://39.134.216.5/live.hcs.cmvideo.cn:8088/wd_r1/virtuallive/5101000744/150/index.m3u8?&encrypt=
@@ -1052,7 +1083,7 @@ CCTV女性时尚,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226237/i
 
 国学频道,http://223.110.241.137:6610/gitv/live1/G_GUOXUE/G_GUOXUE/.m3u8
 
-感奥苔高清_2190,#genre#
+感奥苔高清_10086,#genre#
 有线 SPORTS 1,rtmp://161.202.204.248:1935/sat/hk011
 
 有线18台,rtmp://161.202.204.248/sat/hk042
@@ -1227,7 +1258,7 @@ RTHK31,https://cdn.hkdtmb.com/hls/31/index.m3u8
 RTHK32,https://cdn.hkdtmb.com/hls/32/index.m3u8
 
 RTHK33,https://cdn.hkdtmb.com/hls/33/index.m3u8
-﻿感奥苔极速_2180,#genre#
+﻿感奥苔极速_10086,#genre#
 翡翠台,http://23.224.121.115/dai/tang.php?id=jade
 翡翠台1,http://116.199.5.52:8114/index.m3u8?Fsv_chan_hls_se_idx=188&FvSeid=1&Fsv_filetype=1&Fsv_ctype=LIVES&Fsv_cid=0&Fsv_chan_hls_se_idx=188&Fsv_rate_id=2&Fsv_SV_PARAM1=0&Fsv_ShiftEnable=0&Fsv_ShiftTsp=0&Provider_id=&Pcontent_id=.m3u8&Fsv_CMSID=&Fsv_otype=1
 莲花卫视,http://live-hls.macaulotustv.com/lotustv/macaulotustv.m3u8
@@ -1244,7 +1275,7 @@ CNN,http://218.202.220.2:5000/nn_live.ts?id=CNN
 中国环球电视,http://live.cgtn.com/500/prog_index.m3u8
 香港卫视文旅,https://myun-hw-s3.myun.tv/melj80jz/lxx27bol/1551285536499984128.m3u8
 Fox Family,https://livecdn.fptplay.net/hda/foxfamilymovies_hls.smil/chunklist_b2500000.m3u8
-﻿感奥苔极速2_2160,#genre#
+﻿感奥苔极速2_10086,#genre#
 
 耀才財經台1,http://202.69.67.66:443/webcast/bshdlive-pc/playlist.m3u8?wowzasessionid=64000
 耀才財經台1,http://202.69.67.66:443/webcast/bshdlive-pc/playlist.m3u8
@@ -1288,7 +1319,7 @@ TVBS新闻,http://seb.sason.top/sc/tvbsxw_fhd.m3u8
 台視新闻,http://seb.sason.top/sc/tsxw_fhd.m3u8
 
 
-﻿感奥苔测试_2170,#genre#
+﻿感奥苔测试_10086,#genre#
  HKC电影台,mitv://ns2.hellotvvod.com:9906/29fc6c424bb04f4abf5701ae4dbe59e8.ts
  凤凰电影台,mitv://ns2.hellotvvod.com:9906/6bd66634bff74f80a56740b285a3e358.ts
  卫视电影台,mitv://ns2.hellotvvod.com:9906/a6982db5fa984f8f88268a8d963b2d22.ts
@@ -1519,7 +1550,7 @@ JET综合台,mitv://ns2.hellotvvod.com:9906/5ff4065d000e628060632518770b5cbe.ts
 客家电视台,mitv://ns2.hellotvvod.com:9906/5fce4ce900062b2067731a3159531ad6.ts
 原住民族电视台,mitv://ns2.hellotvvod.com:9906/5fd0b6af0008bd4470e0484d67f83ae2.ts
 
-﻿感奥苔测试2_2160,#genre#
+﻿感奥苔测试2_10086,#genre#
 有线新闻,http://93.190.139.36:8278/streams/d/hkcnews_twn/playlist.m3u8
 无线新闻台,http://qj.yyrjdp.cn/jiuban/iptv5/huanip.php?id=Inews
 TVB·翡翠台,http://qj.yyrjdp.cn/jiuban/iptv5/huanip.php?id=Jade
@@ -1537,7 +1568,7 @@ BOO,http://50.7.161.82:8278/streams/d/Boo/playlist.m3u8
 双星,http://50.7.161.82:8278/streams/d/Shuangxing/playlist.m3u8
 TVB星河,http://50.7.161.82:8278/streams/d/Xinhe/playlist.m3u8
 小太阳,http://50.7.161.82:8278/streams/d/Xiaotaiyang/playlist.m3u8
-﻿日本频道_2190,#genre#
+﻿日本频道_10088,#genre#
 日本∣BRE,https://n24-cdn-live.ntv.co.jp/ch01/High.m3u8
 Shop Channel,http://stream1.shopch.jp/HLS/out1/prog_index.m3u8
 日テレ,http://redlabmcdn.s.llnwi.net/jp01/ryowa3/index.m3u8
@@ -1579,7 +1610,7 @@ BS TBS,http://203.162.235.41:16913
 BSフジ,http://203.162.235.41:16911
 テレビ东京,http://203.162.235.41:16908
 BS东京,http://203.162.235.41:16915
-﻿歪果频道_2180,#genre#
+﻿歪果频道_10088,#genre#
 BBC World News,http://103.199.161.254/Content/bbcworld/Live/Channel(BBCworld)/index.m3u8
 cnns,http://a3569458063-s26881.cdn.ngenix.net/vgtrkrtmp/smil:r1_lipetsk.smil/chunklist_b1500000.m3u8
 CNN International,http://1111296894.rsc.cdn77.org/ls-54548-1/tracks-v1a1/mono.m3u8
@@ -1623,7 +1654,7 @@ Luxury World,http://nano.teleservice.su:8080/hls/luxury.m3u8
 俄罗斯 Ⅰ OR 音乐频道,http://rtmp.one.by:2200/
 意大利 Ⅰ V2 音乐频道,http://de1se01.v2beat.live/playlist.m3u8
 西班牙 Ⅰ 中国环球 (西班牙),http://livees.cgtn.com/1000e/prog_index.m3u8
-﻿海外频道_2170,#genre#
+﻿海外频道_10088,#genre#
 KBS 2,http://112.170.47.242:83//klive/api/url.m3u8?m=url&s=wavve&i=K02&q=&apikey=OANLA7MNOY
 SBS,http://112.170.47.242:83//klive/api/url.m3u8?m=url&s=wavve&i=S01&q=&apikey=OANLA7MNOY
 MBC,http://112.170.47.242:83//klive/api/url.m3u8?m=url&s=wavve&i=M01&q=&apikey=OANLA7MNOY
@@ -1678,7 +1709,7 @@ TVWorkNet,http://live.worktv.or.kr:1935/live/wowtvlive1.sdp/playlist.m3u8
 YTN DMB,http://slive.ytn.co.kr:1935/dmb/ydlive_20140419_1/playlist.m3u8
 CPBC,https://media1.cpbc.co.kr:8888/vod/_definst_/mp4:ads/spot_khs.mp4/chunklist.m3u8
 
-群里定制_2160,#genre#
+群里定制_10086,#genre#
 凤凰中文,http://223.110.235.3/ott.js.chinamobile.com/PLTV/3/224/3221228057/index.m3u8$JS1080P
 凤凰中文,http://39.135.53.199/ott.fj.chinamobile.com/PLTV/88888888/224/3221225900/index.m3u8
 凤凰资讯,http://223.110.235.13/ott.js.chinamobile.com/PLTV/3/224/3221228098/index.m3u8$JS1080P

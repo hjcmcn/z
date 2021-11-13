@@ -254,31 +254,31 @@ Baby TV Eng HD,http://198.16.106.62:8278/streams/d/Babytv/playlist.m3u8
 澳视卫视,http://live4.tdm.com.mo:80/ch3/_definst_/ch3.live/playlist.m3u8
 熱血時報,http://ptmirror3.passiontimes.hk/hls3/582000/stream.m3u8
 港台测试,#genre#
-民视,rtmp://161.202.204.248/sat/tv051#rtmp://161.202.204.248:1935/sat/tv051
-台视,rtmp://161.202.204.248/sat/tv071#rtmp://161.202.204.248:1935/sat/tv071
-中视,rtmp://161.202.204.248/sat/tv091#rtmp://161.202.204.248:1935/sat/tv091
-華视,rtmp://161.202.204.248:1935/sat/tv111
-TVBS欢乐台,rtmp://161.202.204.248/sat/tv421
-纬来日本,rtmp://161.202.204.248:1935/sat/tv521
-TVBS新闻台,rtmp://161.202.204.248/sat/tv551
-东森财经新闻,rtmp://161.202.204.248:1935/sat/tv571
-纬来育乐,rtmp://161.202.204.248/sat/tv701
-纬来育乐,rtmp://161.202.204.248:1935/sat/tv701
-纬来体育,rtmp://161.202.204.248/sat/tv721
-纬来体育,rtmp://161.202.204.248:1935/sat/tv721
-eleven1,rtmp://161.202.204.248:1935/sat/tv731
-eleven2,rtmp://161.202.204.248:1935/sat/tv741
-MoMo综合台,rtmp://161.202.204.248/sat/tv761
-东森超视,rtmp://161.202.204.248/sat/tv771
-爱尔达体育1,rtmp://161.202.204.248/sat/md011
-eleven2,rtmp://161.202.204.248/sat/md021
-博斯网球,rtmp://161.202.204.248/sat/md031
-博斯魅力,rtmp://161.202.204.248/sat/md041
-爱尔达体育1,rtmp://161.202.204.248/sat/md051
-有线 SPORTS 1,rtmp://161.202.204.248:1935/sat/hk021
-有线603HD,rtmp://161.202.204.248:1935/sat/hk011
-有线18台,rtmp://161.202.204.248/sat/hk041
-CBS2 720,rtmp://161.202.204.248:1935/sat/us011
+民视,rtmp://59.124.75.138/sat/tv051#rtmp://59.124.75.138:1935/sat/tv051
+台视,rtmp://59.124.75.138/sat/tv071#rtmp://59.124.75.138:1935/sat/tv071
+中视,rtmp://59.124.75.138/sat/tv091#rtmp://59.124.75.138:1935/sat/tv091
+華视,rtmp://59.124.75.138:1935/sat/tv111
+TVBS欢乐台,rtmp://59.124.75.138/sat/tv421
+纬来日本,rtmp://59.124.75.138:1935/sat/tv521
+TVBS新闻台,rtmp://59.124.75.138/sat/tv551
+东森财经新闻,rtmp://59.124.75.138:1935/sat/tv571
+纬来育乐,rtmp://59.124.75.138/sat/tv701
+纬来育乐,rtmp://59.124.75.138:1935/sat/tv701
+纬来体育,rtmp://59.124.75.138/sat/tv721
+纬来体育,rtmp://59.124.75.138:1935/sat/tv721
+eleven1,rtmp://59.124.75.138:1935/sat/tv731
+eleven2,rtmp://59.124.75.138:1935/sat/tv741
+MoMo综合台,rtmp://59.124.75.138/sat/tv761
+东森超视,rtmp://59.124.75.138/sat/tv771
+爱尔达体育1,rtmp://59.124.75.138/sat/md011
+eleven2,rtmp://59.124.75.138/sat/md021
+博斯网球,rtmp://59.124.75.138/sat/md031
+博斯魅力,rtmp://59.124.75.138/sat/md041
+爱尔达体育1,rtmp://59.124.75.138/sat/md051
+有线 SPORTS 1,rtmp://59.124.75.138:1935/sat/hk021
+有线603HD,rtmp://59.124.75.138:1935/sat/hk011
+有线18台,rtmp://59.124.75.138/sat/hk041
+CBS2 720,rtmp://59.124.75.138:1935/sat/us011
 原住民电视,http://streamipcf.akamaized.net/live/_definst_/live_720/key_b1500.m3u8
 寰宇新闻台,http://58.99.33.16:1935/liveedge17/live_163_3.stream/chunklist.m3u8
 中视新闻,http://seb.sason.top/sc/zsxw_fhd.m3u8
@@ -1930,6 +1930,356 @@ NewTV怡伴健康,http://223.110.243.147/ott.js.chinamobile.com/PLTV/3/224/32212
 华数云_抗日大片,http://39.134.216.5/live.hcs.cmvideo.cn:8088/wd_r3/cctv/gaoqingdapian/600/index.m3u8?ProgramID=&amp;encrypt=
 华数云_抗战连播,http://39.134.216.5/live.hcs.cmvideo.cn:8088/wd_r2/virtuallive/5100180869/75/index.m3u8?ProgramID=&amp;encrypt=
 华数云_红色谍战,http://39.134.216.5/live.hcs.cmvideo.cn:8088/wd_r3/virtuallive/5101079524/50/index.m3u8?ProgramID=&amp;encrypt=
+哔哩轮播,#genre#
+TVB星河,http://103.140.229.13/BOBO/bibi.php?id=23285297
+邵氏影院老电影,http://103.140.229.13/BOBO/bibi.php?id=21759196
+1905电影网,http://103.140.229.13/BOBO/bibi.php?id=22728767
+经典功夫台,http://103.140.229.13/BOBO/bibi.php?id=21715386
+经典影视台,http://103.140.229.13/BOBO/bibi.php?id=23169468
+【阿梅】大片经典,http://103.140.229.13/BOBO/bibi.php?id=127343
+【怀旧影视】国语专场,http://103.140.229.13/BOBO/bibi.php?id=8199817
+怀旧剧场：大寶台,http://103.140.229.13/BOBO/bibi.php?id=21973833
+/BOBO/bibi.php?id=23490613
+【周星驰】喜剧 动作 僵尸,http://103.140.229.13/BOBO/bibi.php?id=47917
+林正英 鬼片 僵尸 经典 护体,http://103.140.229.13/BOBO/bibi.php?id=70155
+林正英 鬼片 僵尸 女鬼 经典 高能,http://103.140.229.13/BOBO/bibi.php?id=5226265
+【小凤仙】林正英 鬼片 僵尸 24小时,http://103.140.229.13/BOBO/bibi.php?id=21360358
+鬼片老片僵尸片林正英开心鬼,http://103.140.229.13/BOBO/bibi.php?id=22777909
+粤语tbb电影动画综艺,http://103.140.229.13/BOBO/bibi.php?id=136843
+橙子影视1台,http://103.140.229.13/BOBO/bibi.php?id=23318788
+橙子台影视2台,http://103.140.229.13/BOBO/bibi.php?id=21571201
+橙子影视3台,http://103.140.229.13/BOBO/bibi.php?id=23318768
+橙子影视4台,http://103.140.229.13/BOBO/bibi.php?id=23320714
+粤语电影,http://103.140.229.13/BOBO/bibi.php?id=23464888
+恶作剧之吻1、2部 ,http://103.140.229.13/BOBO/bibi.php?id=21298611
+终极一家 终极三国,http://103.140.229.13/BOBO/bibi.php?id=22587179
+一起看,http://103.140.229.13/BOBO/bibi.php?id=21680912
+经典国剧,http://103.140.229.13/BOBO/bibi.php?id=21791019
+王子变青蛙/忘记你记得爱情,http://103.140.229.13/BOBO/bibi.php?id=3712061
+放羊的星星/命中注定我爱你,http://103.140.229.13/BOBO/bibi.php?id=9742831
+靖洋戏剧台美猴王,http://103.140.229.13/BOBO/bibi.php?id=23118245
+【4K时光】,http://103.140.229.13/BOBO/bibi.php?id=22449693
+少年包青天1,http://103.140.229.13/BOBO/bibi.php?id=8566972
+西片,http://103.140.229.13/BOBO/bibi.php?id=21377115
+光芒继承者,http://103.140.229.13/BOBO/bibi.php?id=21790081
+倚天屠龙记,http://103.140.229.13/BOBO/bibi.php?id=22361077
+电视剧 电影 动画 动漫 点播,http://103.140.229.13/BOBO/bibi.php?id=22054619
+神话时空电影,http://103.140.229.13/BOBO/bibi.php?id=22747403
+思密达爱情剧轮播,http://103.140.229.13/BOBO/bibi.php?id=21393257
+松鼠电影屋动作片专场,http://103.140.229.13/BOBO/bibi.php?id=6827037
+【一剑】经典电视剧精选,http://103.140.229.13/BOBO/bibi.php?id=23331776
+【台剧俗女养成记1、2部,http://103.140.229.13/BOBO/bibi.php?id=1861656
+恶吻/不良笑花/公主小妹,http://103.140.229.13/BOBO/bibi.php?id=23179425
+放羊的星星,http://103.140.229.13/BOBO/bibi.php?id=22992262
+七十二家房客,http://103.140.229.13/BOBO/bibi.php?id=23436741
+放羊的星星,http://103.140.229.13/BOBO/bibi.php?id=22776783
+时装~【粤语】,http://103.140.229.13/BOBO/bibi.php?id=2080306
+东北一家人,http://103.140.229.13/BOBO/bibi.php?id=22912887
+怀旧老剧联播,http://103.140.229.13/BOBO/bibi.php?id=22786199
+
+龙门镖局,http://103.140.229.13/BOBO/bibi.php?id=12156991
+武林现代版】都市男女,http://103.140.229.13/BOBO/bibi.php?id=4791461
+【原版士兵突击】别再叫我【龟】儿子-轮播,http://103.140.229.13/BOBO/bibi.php?id=23462178
+少年包青天高清123神雕侠侣雕英雄传天八,http://103.140.229.13/BOBO/bibi.php?id=23145747
+随便看看,http://103.140.229.13/BOBO/bibi.php?id=23020622
+新白娘子传奇,http://103.140.229.13/BOBO/bibi.php?id=5960549
+【伪装者】,http://103.140.229.13/BOBO/bibi.php?id=14386552
+铁齿铜牙纪晓岚 神探狄仁杰 人间正道,http://103.140.229.13/BOBO/bibi.php?id=22665698
+医馆笑传,http://103.140.229.13/BOBO/bibi.php?id=21070400
+李子键狄仁杰,http://103.140.229.13/BOBO/bibi.php?id=21364958
+少年包青天3,http://103.140.229.13/BOBO/bibi.php?id=22964018
+少年包青天] 暴雨梨花针,http://103.140.229.13/BOBO/bibi.php?id=4928767
+命中注定我爱你+恶作剧之吻,http://103.140.229.13/BOBO/bibi.php?id=15083950
+红楼梦,http://103.140.229.13/BOBO/bibi.php?id=5568482
+海豚湾恋人,http://103.140.229.13/BOBO/bibi.php?id=21694925
+狄仁杰神探系列,http://103.140.229.13/BOBO/bibi.php?id=8331905
+大宋提刑官 狄仁杰 神探 断案传奇,http://103.140.229.13/BOBO/bibi.php?id=22241052
+捉鬼,http://103.140.229.13/BOBO/bibi.php?id=22033743
+终极一班一家三国,http://103.140.229.13/BOBO/bibi.php?id=10174580
+炊事班的故事1、2部,http://103.140.229.13/BOBO/bibi.php?id=14457148
+铁齿铜牙纪晓岚o,http://103.140.229.13/BOBO/bibi.php?id=6694373
+扎导版《龙门镖局》,http://103.140.229.13/BOBO/bibi.php?id=81789
+陈侨恩侨千金百分百,http://103.140.229.13/BOBO/bibi.php?id=21694925
+[炊事班的故事]超清,http://103.140.229.13/BOBO/bibi.php?id=21354981
+特摄放映室奥特曼4K重制版,http://103.140.229.13/BOBO/bibi.php?id=10267370
+倚天屠龙记板栗,http://103.140.229.13/BOBO/bibi.php?id=21974731
+一起追剧放羊星星,http://103.140.229.13/BOBO/bibi.php?id=2811145
+曲线救国贾队长晴天,http://103.140.229.13/BOBO/bibi.php?id=21070039
+少年包青天-1和3部,http://103.140.229.13/BOBO/bibi.php?id=2803563
+士兵突击,http://103.140.229.13/BOBO/bibi.php?id=8504386
+僵尸 灵幻 喜剧幻想余生夜,http://103.140.229.13/BOBO/bibi.php?id=22070492
+康熙微服私访记1—4,http://103.140.229.13/BOBO/bibi.php?id=4153440
+影视剧轮播Cassiel,http://103.140.229.13/BOBO/bibi.php?id=23304182
+十五夜,http://103.140.229.13/BOBO/bibi.php?id=75989
+【大秦帝国】：秦武安,http://103.140.229.13/BOBO/bibi.php?id=11259274
+新白娘子传奇狮子,http://103.140.229.13/BOBO/bibi.php?id=5960549
+蓉城影院,http://103.140.229.13/BOBO/bibi.php?id=2456525
+【怀旧老剧联播】Young,http://103.140.229.13/BOBO/bibi.php?id=22786199
+【大秦帝国】放映厅,http://103.140.229.13/BOBO/bibi.php?id=21733247
+放羊的星星乡民,http://103.140.229.13/BOBO/bibi.php?id=22776783
+催泪片场！！！,http://103.140.229.13/BOBO/bibi.php?id=23340779
+【宰相刘墉】辣椒酱,http://103.140.229.13/BOBO/bibi.php?id=22621344
+小唐菜,http://103.140.229.13/BOBO/bibi.php?id=23513347
+铁齿铜牙纪晓岚一和二无片头尾,http://103.140.229.13/BOBO/bibi.php?id=572978
+IDOLiSH7 アイドリッシュセブン,http://103.140.229.13/BOBO/bibi.php?id=807006
+神探高能影视台,http://103.140.229.13/BOBO/bibi.php?id=1546352
+非时政>陕北锤王孙少安-《平凡的世界》,http://103.140.229.13/BOBO/bibi.php?id=8314254
+【经典影剧馆】终极三国,http://103.140.229.13/BOBO/bibi.php?id=22527703
+宝莲灯前传-微笑pasta-宝莲灯电视剧,http://103.140.229.13/BOBO/bibi.php?id=22524461
+阳光的快乐生活1-8季,http://103.140.229.13/BOBO/bibi.php?id=9816952
+回忆杀,http://103.140.229.13/BOBO/bibi.php?id=6237182
+经典动画山海壹零玖,http://103.140.229.13/BOBO/bibi.php?id=23162926
+金粉世家,http://103.140.229.13/BOBO/bibi.php?id=5749539
+新还珠 花非花 轮播（介意慎入）,http://103.140.229.13/BOBO/bibi.php?id=23296277
+SaturnRing｜ForDE,http://103.140.229.13/BOBO/bibi.php?id=23542596
+我的团长我的团,http://103.140.229.13/BOBO/bibi.php?id=14901318
+【经典】xiner1216yo,http://103.140.229.13/BOBO/bibi.php?id=3123520
+大明宫词轮播,http://103.140.229.13/BOBO/bibi.php?id=21046732
+倩女幽魂,http://103.140.229.13/BOBO/bibi.php?id=6304822
+狄仁杰,http://103.140.229.13/BOBO/bibi.php?id=23198102
+【老剧时间】点心团子,http://103.140.229.13/BOBO/bibi.php?id=22875536
+鹤山大碌竹会客室新粤语区电影剧集动漫,http://103.140.229.13/BOBO/bibi.php?id=1324160
+粤语 日语 动漫 电影 音乐 MV,http://103.140.229.13/BOBO/bibi.php?id=4654153
+比七个夏天和寒冷的冬天！更加长久！BTS,http://103.140.229.13/BOBO/bibi.php?id=22153308
+金婚,http://103.140.229.13/BOBO/bibi.php?id=22877510
+防弹少年团BTS,http://103.140.229.13/BOBO/bibi.php?id=22981039
+下一站幸福|海豚湾恋人|MVP情人|轮播,http://103.140.229.13/BOBO/bibi.php?id=23193465
+8090？自助点播（电视剧）,http://103.140.229.13/BOBO/bibi.php?id=142721
+喜欢欧皓辰的第一千天,http://103.140.229.13/BOBO/bibi.php?id=927029
+冯佳人,http://103.140.229.13/BOBO/bibi.php?id=23619845
+道长/卫斯理,http://103.140.229.13/BOBO/bibi.php?id=23000383
+西游后传,http://103.140.229.13/BOBO/bibi.php?id=儿7268271
+粤语 配音 电视,http://103.140.229.13/BOBO/bibi.php?id=1317122
+汪东城,http://103.140.229.13/BOBO/bibi.php?id=4553892
+粤语老番,http://103.140.229.13/BOBO/bibi.php?id=7691685
+黑冰,http://103.140.229.13/BOBO/bibi.php?id=23565272
+老电视剧,http://103.140.229.13/BOBO/bibi.php?id=23612520
+摸鱼,http://103.140.229.13/BOBO/bibi.php?id=56064
+古灵jing探国语版,http://103.140.229.13/BOBO/bibi.php?id=23621380
+天师钟馗,http://103.140.229.13/BOBO/bibi.php?id=23563952
+bilibili主播,http://103.140.229.13/BOBO/bibi.php?id=51082
+腾讯视频,http://103.140.229.13/BOBO/bibi.php?id=9877299
+灰猎犬号、狙击手：幽灵射手 两连发,http://103.140.229.13/BOBO/bibi.php?id=23621622
+花样少年少女,http://103.140.229.13/BOBO/bibi.php?id=23610156
+【五亿探长雷洛传】,http://103.140.229.13/BOBO/bibi.php?id=22337593
+逆袭女警特别篇,http://103.140.229.13/BOBO/bibi.php?id=23633652
+武林达人秀,http://103.140.229.13/BOBO/bibi.php?id=14536431
+麻雀爱上凤凰,http://103.140.229.13/BOBO/bibi.php?id=23474935
+郭德昌剧集,http://103.140.229.13/BOBO/bibi.php?id=23506460
+仙乐最美,http://103.140.229.13/BOBO/bibi.php?id=23613991
+九阳神功、乾坤大挪移、风和云争霸,http://103.140.229.13/BOBO/bibi.php?id=14262592
+游戏全能娱乐小王子,http://103.140.229.13/BOBO/bibi.php?id=23429526
+和大人,http://103.140.229.13/BOBO/bibi.php?id=23433709
+江湖儿女,http://103.140.229.13/BOBO/bibi.php?id=23393109
+一起看电影——紗耶_sayako,http://103.140.229.13/BOBO/bibi.php?id=21749031
+剧集电影综艺音乐剧,http://103.140.229.13/BOBO/bibi.php?id=1215668
+粤语版动画、电影、电视剧,http://103.140.229.13/BOBO/bibi.php?id=1528670
+动漫少儿/电影科学,http://103.140.229.13/BOBO/bibi.php?id=22426070
+林正英搞笑系列,http://103.140.229.13/BOBO/bibi.php?id=23287854
+来看美女女团,http://103.140.229.13/BOBO/bibi.php?id=22969683
+天下第一可爱养乌龙猫的欠欠,http://103.140.229.13/BOBO/bibi.php?id=9115569
+一点歌kavencat,http://103.140.229.13/BOBO/bibi.php?id=3702914
+动画狂欢曲-芭比少儿,http://103.140.229.13/BOBO/bibi.php?id=662181
+搓碟现场音乐,http://103.140.229.13/BOBO/bibi.php?id=426077
+在b站看b站,http://103.140.229.13/BOBO/bibi.php?id=4091339
+康子直播,http://103.140.229.13/BOBO/bibi.php?id=21161874
+放放演唱会,http://103.140.229.13/BOBO/bibi.php?id=202881
+GBA56,http://103.140.229.13/BOBO/bibi.php?id=22759959
+刘惜君 我和我的祖国,http://103.140.229.13/BOBO/bibi.php?id=22786802
+破旧的音悦台（点歌姬已开放）,http://103.140.229.13/BOBO/bibi.php?id=215057
+防弹少年团BTS,http://103.140.229.13/BOBO/bibi.php?id=22981039
+公视,http://103.140.229.13/BOBO/bibi.php?id=13889350
+音乐台,http://103.140.229.13/BOBO/bibi.php?id=23631474
+粤语怀旧影视剧集,http://103.140.229.13/BOBO/bibi.php?id=8613737
+高清电影,http://103.140.229.13/BOBO/bibi.php?id=22054083
+经典喜剧,http://103.140.229.13/BOBO/bibi.php?id=826124
+混剪周杰伦,http://103.140.229.13/BOBO/bibi.php?id=9038219
+怀旧经典剧 武侠 神话 神断案,http://103.140.229.13/BOBO/bibi.php?id=21763462
+黄余呢（精品电影赏）,http://103.140.229.13/BOBO/bibi.php?id=10513567
+鱿鱼游戏等电影,http://103.140.229.13/BOBO/bibi.php?id=23299821
+神话 胡歌 成龙,http://103.140.229.13/BOBO/bibi.php?id=7251976
+电影学考研,http://103.140.229.13/BOBO/bibi.php?id=11980561
+粤语乘龙怪婿1-3部,http://103.140.229.13/BOBO/bibi.php?id=22681174
+终极一班一家三国一班3恶女,http://103.140.229.13/BOBO/bibi.php?id=23017862
+一起同过窗,http://103.140.229.13/BOBO/bibi.php?id=75989
+高分害怕领域！,http://103.140.229.13/BOBO/bibi.php?id=20768
+电影原声音乐沙龙,http://103.140.229.13/BOBO/bibi.php?id=21921887
+周星驰 林正英 李连杰 搞笑 动作 武侠,http://103.140.229.13/BOBO/bibi.php?id=23141287
+周杰伦演唱会,http://103.140.229.13/BOBO/bibi.php?id=12164280
+老北京电影！,http://103.140.229.13
+王子变青蛙,http://103.140.229.13/BOBO/bibi.php?id=5438349
+周星驰成龙李连杰林正英经典电影,http://103.140.229.13/BOBO/bibi.php?id=22946948
+粤语 配音 动画,http://103.140.229.13/BOBO/bibi.php?id=21221987
+粤片粤睇,http://103.140.229.13/BOBO/bibi.php?id=6134672
+粤语电影超清HD 点播 国语,http://103.140.229.13/BOBO/bibi.php?id=5690920
+倚天屠龙记4731,http://103.140.229.13/BOBO/bibi.php?id=21974731
+【动漫/剧场版】二次元所有动漫,http://103.140.229.13/BOBO/bibi.php?id=2575775
+【蜡笔小新】国语少儿,http://103.140.229.13/BOBO/bibi.php?id=10375360
+蜡笔小新,http://103.140.229.13/BOBO/bibi.php?id=1895574
+蜡笔小新24h睡觉少儿,http://103.140.229.13/BOBO/bibi.php?id=11579951
+蜡笔小新专场少儿,http://103.140.229.13/BOBO/bibi.php?id=3651270
+【蜡笔小新/星际宝贝】少儿,http://103.140.229.13/BOBO/bibi.php?id=22804740
+樱桃小丸子国语台配少儿,http://103.140.229.13/BOBO/bibi.php?id=11765640
+161全集猫和老鼠少儿,http://103.140.229.13/BOBO/bibi.php?id=2171135
+【一切随缘】少儿,http://103.140.229.13/BOBO/bibi.php?id=27844
+原声中文字幕：猫和老鼠少儿,http://103.140.229.13/BOBO/bibi.php?id=1024814
+蜡笔小新怀旧版少儿轮播,http://103.140.229.13/BOBO/bibi.php?id=23427644
+【哆啦A梦】少儿旧版全集,http://103.140.229.13/BOBO/bibi.php?id=1717236
+【哆啦A梦】旧版班长少儿,http://103.140.229.13/BOBO/bibi.php?id=1717236
+蜡笔小新新番连载酱少儿,http://103.140.229.13/BOBO/bibi.php?id=23190944
+【奥特曼60帧系列】少儿,http://103.140.229.13/BOBO/bibi.php?id=7076493
+赛季初APEX少儿,http://103.140.229.13/BOBO/bibi.php?id=21316590
+中华小当家/中华一番少儿,http://103.140.229.13/BOBO/bibi.php?id=655291
+飞出个未来少儿,http://103.140.229.13/BOBO/bibi.php?id=1954990
+动漫点播屋（少儿,http://103.140.229.13/BOBO/bibi.php?id=4089143
+蜡笔小新新番社少儿,http://103.140.229.13/BOBO/bibi.php?id=23298495
+动漫 奥特曼 超级战队 其他特摄少儿,http://103.140.229.13/BOBO/bibi.php?id=939703
+樱桃小丸子画画少儿,http://103.140.229.13/BOBO/bibi.php?id=11392177
+名侦探柯南龍燚少儿,http://103.140.229.13/BOBO/bibi.php?id=181453
+涂糊涂的蜡笔小新少儿,http://103.140.229.13/BOBO/bibi.php?id=49132
+[蜡笔小新]爱动漫少儿,http://103.140.229.13/BOBO/bibi.php?id=22683218
+樱桃小丸子八少儿,http://103.140.229.13/BOBO/bibi.php?id=6554860
+哆啦A梦系列剧场版,http://103.140.229.13/BOBO/bibi.php?id=23167575
+少儿童年哆啦A梦,http://103.140.229.13/BOBO/bibi.php?id=472369
+妖精的尾巴少儿,http://103.140.229.13/BOBO/bibi.php?id=23306216
+加菲猫少儿,http://103.140.229.13/BOBO/bibi.php?id=2120904
+新版猫和老鼠,http://103.140.229.13/BOBO/bibi.php?id=22905626
+【精选影视】机核熊猫少儿,http://103.140.229.13/BOBO/bibi.php?id=23424971
+【日常】转发少儿,http://103.140.229.13/BOBO/bibi.php?id=164725
+全职猎人少儿重制,http://103.140.229.13/BOBO/bibi.php?id=4303753
+四驱兄弟/爆走兄弟少儿,http://103.140.229.13/BOBO/bibi.php?id=10544270
+【全天】樱桃小丸子国语少儿,http://103.140.229.13/BOBO/bibi.php?id=21991469
+奥特曼五代剑崎,http://103.140.229.13/BOBO/bibi.php?id=765452
+追忆似水年华少儿,http://103.140.229.13/BOBO/bibi.php?id=22236309
+中华小子7×24小时连播少儿,http://103.140.229.13/BOBO/bibi.php?id=22194340
+超兽武装循环少儿,http://103.140.229.13/BOBO/bibi.php?id=7356276
+台配樱桃小丸子少儿,http://103.140.229.13/BOBO/bibi.php?id=5827128
+经典番剧/动漫/剧场少儿版,http://103.140.229.13/BOBO/bibi.php?id=21751462
+粤次元,http://103.140.229.13/BOBO/bibi.php?id=21664542
+裸什么熊少儿,http://103.140.229.13/BOBO/bibi.php?id=3646375
+犬夜叉,http://103.140.229.13/BOBO/bibi.php?id=4519788
+【星游记】少儿,http://103.140.229.13/BOBO/bibi.php?id=23172056
+猫和老鼠206集少儿,http://103.140.229.13/BOBO/bibi.php?id=23150676
+D录像厅 80后动画兔八哥动画少儿国语,http://103.140.229.13/BOBO/bibi.php?id=22987700
+偶像活动~第一季少儿,http://103.140.229.13/BOBO/bibi.php?id=23119418
+童年回忆X百变小樱少儿,http://103.140.229.13/BOBO/bibi.php?id=34340
+童年的纸飞机。,http://103.140.229.13/BOBO/bibi.php?id=23237409
+加菲猫动画少儿,http://103.140.229.13/BOBO/bibi.php?id=906034
+回忆杀 | 快乐驿站少儿,http://103.140.229.13/BOBO/bibi.php?id=641743
+1080p DC 漫威 5.1 杜比声少儿,http://103.140.229.13/BOBO/bibi.php?id=871583
+【超兽武装】洛洛、少儿果宝轮播,http://103.140.229.13/BOBO/bibi.php?id=1338250
+粤语版动画、电影、少儿电视剧,http://103.140.229.13/BOBO/bibi.php?id=1528670
+新赛季，我emo了少儿,http://103.140.229.13/BOBO/bibi.php?id=22070914
+布heart粤语动画电视台,http://103.140.229.13/BOBO/bibi.php?id=2584006
+动画片.要开心少儿,http://103.140.229.13/BOBO/bibi.php?id=23608282
+钢铁飞龙少儿,http://103.140.229.13/BOBO/bibi.php?id=22221259
+便宜动画·范马刃牙,http://103.140.229.13/BOBO/bibi.php?id=14479
+【烧包谷】树莓派不断电少儿,http://103.140.229.13/BOBO/bibi.php?id=5977175
+恰饱饱然后少儿游戏,http://103.140.229.13/BOBO/bibi.php?id=21322066
+东方儿童】奥特曼,http://103.140.229.13/BOBO/bibi.php?id=4727584
+小邦邦传承粤语散播日漫,http://103.140.229.13/BOBO/bibi.php?id=3364782
+看番聊天,http://103.140.229.13/BOBO/bibi.php?id=3529364
+鱼肉烧,http://103.140.229.13/BOBO/bibi.php?id=2010774
+汤姆的各种形状,http://103.140.229.13/BOBO/bibi.php?id=23492753
+云南剧歌少儿,http://103.140.229.13/BOBO/bibi.php?id=23631182
+鱼缸,http://103.140.229.13/BOBO/bibi.php?id=21665630
+【初恋脸】,http://103.140.229.13/BOBO/bibi.php?id=21665630764155
+主播38岁带38娃8套房,http://103.140.229.13/BOBO/bibi.php?id=23453172
+女仆装！整点跳舞,http://103.140.229.13/BOBO/bibi.php?id=23214358
+小央上班追综艺,http://103.140.229.13/BOBO/bibi.php?id=8178490
+祢豆子找哥哥,http://103.140.229.13/BOBO/bibi.php?id=23071087
+超会玩的墩墩儿,http://103.140.229.13/BOBO/bibi.php?id=23270938
+收不到舰长不下播,http://103.140.229.13/BOBO/bibi.php?id=23574884
+耐看型 今日素颜 别走！,http://103.140.229.13/BOBO/bibi.php?id=23550094
+
+SNH女团,#genre#
+女团10月7,https://ts.48.cn/snh/20211007/gaoqing/bk/648919343238549504.m3u8
+女团10.6,https://ts.48.cn/snh/20211006/gaoqing/bk/648919196559544320.m3u8
+女团10.5,https://ts.48.cn/snh/20211005/gaoqing/bk/648919043777826816.m3u8
+女团10.3,https://ts.48.cn/snh/20211003/gaoqing/bk/648918619037437952.m3u8
+女团10.2,https://ts.48.cn/snh/20211002/gaoqing/bk/648918427886227456.m3u8
+女团10.1,https://ts.48.cn/snh/20211001/gaoqing/bk/648918146645561344.m3u8
+女团9.25,https://ts.48.cn/snh/20210925/gaoqing/bk/646047926713126912.m3u8
+女团1,https://ts.48.cn/bej/20210911/gaoqing/bk/639468765148155904.m3u8
+女团2,https://ts.48.cn/bej/20210703/gaoqing/bk/614054118253465600.m3u8
+女团3,https://ts.48.cn/snh/20210626/gaoqing/bk/614058772907495424.m3u8
+女团4,https://ts.48.cn/snh/20210801/gaoqing/bk/627512422128488448.m3u8
+女团5,https://ts.48.cn/snh/20210917/gaoqing/bk/642040771316092928.m3u8
+女团6,https://ts.48.cn/snh/20210829/gaoqing/bk/636973348787392512.m3u8
+女团7,https://ts.48.cn/snh/20210826/gaoqing/bk/635516952057286656.m3u8
+女团8,https://ts.48.cn/snh/20210801/gaoqing/bk/627512147128946688.m3u8
+女团9,https://ts.48.cn/snh/20210731/gaoqing/bk/625288506467225600.m3u8
+女团10,https://ts.48.cn/snh/20210730/gaoqing/bk/625288157920563200.m3u8
+女团11,https://ts.48.cn/snh/20210717/gaoqing/bk/621367157252231168.m3u8
+女团12,https://ts.48.cn/snh/20210912/gaoqing/bk/642040429866192896.m3u8
+女团13,https://ts.48.cn/snh/20210911/gaoqing/bk/640565016715399168.m3u8
+女团14,https://ts.48.cn/snh/20210918/gaoqing/bk/644242937241997312.m3u8
+女团15,https://ts.48.cn/snh/20210920/gaoqing/bk/644244325208494080.m3u8
+女团16,https://ts.48.cn/snh/20210627/gaoqing/bk/614058945683460096.m3u8
+女团17,https://ts.48.cn/snh/20210711/gaoqing/bk/618870915301445632.m3u8
+女团18,https://ts.48.cn/snh/20201017/gaoqing/bk/522415827029135360.m3u8
+女团19,https://ts.48.cn/snh/20210128/gaoqing/bk/559022081658654720.m3u8k/614058772907495424.m3u8
+女团20,https://ts.48.cn/snh/20210625/gaoqing/bk/614055955257954304.m3u8
+女团21,https://ts.48.cn/snh/20201031/gaoqing/bk/528239425371312128.m3u8
+女团22,https://ts.48.cn/gnz/20210903/gaoqing/bk/639134387754831872.m3u8
+女团23,https://ts.48.cn/gnz/20210921/gaoqing/bk/644177374499115008.m3u8
+女团24,https://ts.48.cn/gnz/20210920/gaoqing/bk/644177146882625536.m3u8
+女团25,https://ts.48.cn/gnz/20210920/gaoqing/bk/644176936542474240.m3u8
+女团26,https://ts.48.cn/gnz/20210919/gaoqing/bk/644176667830194176.m3u8
+女团27,https://ts.48.cn/gnz/20210919/gaoqing/bk/644176449659277312.m3u8
+女团28,https://ts.48.cn/gnz/20210912/gaoqing/bk/642335274237235200.m3u8
+女团29,https://ts.48.cn/gnz/20210912/gaoqing/bk/642334899207737344.m3u8
+女团30,https://ts.48.cn/gnz/20210911/gaoqing/bk/642334603073097728.m3u8
+女团31,https://ts.48.cn/gnz/20210905/gaoqing/bk/639135028803866624.m3u8
+女团32,https://ts.48.cn/gnz/20210904/gaoqing/bk/639134825052966912.m3u8
+女团33,https://ts.48.cn/gnz/20210905/gaoqing/bk/639135248295989248.m3u8
+女团34,https://ts.48.cn/gnz/20210904/gaoqing/bk/639134597784604672.m3u8
+女团35,https://ts.48.cn/gnz/20210910/gaoqing/bk/642333965165596672.m3u8
+女团36,https://ts.48.cn/ckg/20210922/gaoqing/bk/644519674546819072.m3u8
+女团37,https://ts.48.cn/ckg/20210921/gaoqing/bk/644518849762103296.m3u8
+女团37,https://ts.48.cn/ckg/20210911/gaoqing/bk/642370864060108800.m3u8
+女团39,https://ts.48.cn/ckg/20210904/gaoqing/bk/640688874453798912.m3u8
+女团40,https://ts.48.cn/ckg/20210828/gaoqing/bk/637656624426455040.m3u8
+女团41,https://ts.48.cn/snh/20210130/gaoqing/bk/559023022952747008.m3u8
+女团42,https://ts.48.cn/ckg/20210824/gaoqing/bk/635506060125081600.m3u8
+女团43,https://ts.48.cn/ckg/20210801/gaoqing/bk/626786032848539648.m3u8
+女团44,https://ts.48.cn/ckg/20210801/gaoqing/bk/624626979523334144.m3u8
+女团45,https://ts.48.cn/ckg/20210718/gaoqing/bk/621713911814361088.m3u8
+女团46,https://ts.48.cn/ckg/20210711/gaoqing/bk/619138512039251968.m3u8
+女团47,https://ts.48.cn/ckg/20210710/gaoqing/bk/619134947715518464.m3u8
+女团48,https://ts.48.cn/ckg/20210707/gaoqing/bk/616641239585722368.m3u8
+女团49,https://ts.48.cn/bej/20210919/gaoqing/bk/641959903159455744.m3u8
+女团50,https://ts.48.cn/snh/20210130/gaoqing/bk/559022566704746496.m3u8
+女团51,https://ts.48.cn/bej/20210905/gaoqing/bk/639773666550026240.m3u8
+女团52,https://ts.48.cn/bej/20210829/gaoqing/bk/635428440679190528.m3u8
+女团53,https://ts.48.cn/bej/20210626/gaoqing/bk/611541965655052288.m3u8
+女团54,https://ts.48.cn/snh/20201119/gaoqing/bk/535486242349715456.m3u8
+女团55,https://ts.48.cn/bej/20210704/gaoqing/bk/614054605656756224.m3u8
+女团56,https://ts.48.cn/bej/20210724/gaoqing/bk/621679073258442752.m3u8
+女团57,https://ts.48.cn/bej/20210820/gaoqing/bk/635421508828467200.m3u8
+女团58,https://ts.48.cn/bej/20210619/gaoqing/bk/608978360766107648.m3u8
+女团59,https://ts.48.cn/bej/20210530/gaoqing/bk/601373924531179520.m3u8
+女团60,https://ts.48.cn/bej/20210503/gaoqing/bk/591239820691181568.m3u8
+女团61,https://ts.48.cn/bej/20210101/gaoqing/bk/550636543025156096.m3u8
+女团62,https://ts.48.cn/bej/20191228/gaoqing/bk/413722644909461504.m3u8
+女团63,https://ts.48.cn/snh/20210912/gaoqing/bk/642040604869332992.m3u8
+女团64,https://ts.48.cn/snh/20210911/gaoqing/bk/640564831746592768.m3u8
+女团65,https://ts.48.cn/snh/20210905/gaoqing/bk/638039046204755968.m3u8
+女团66,https://ts.48.cn/snh/20210109/gaoqing/bk/553268891591970816.m3u8
+女团67,https://ts.48.cn/snh/20201122/gaoqing/bk/535487065725145088.m3u86/gaoqing/bk/635516952057286656.m3u8
+女团68,https://ts.48.cn/snh/20210124/gaoqing/bk/556502795148922880.m3u8
+女团69,https://ts.48.cn/snh/20201121/gaoqing/bk/535486703257587712.m3u8
+女团70,https://ts.48.cn/snh/20210129/gaoqing/bk/559022255617413120.m3u8
+女团71,https://ts.48.cn/snh/20201114/gaoqing/bk/533242859170369536.m3u8
+女团72,https://ts.48.cn/snh/20201108/gaoqing/bk/530825960113377280.m3u8
+女团73,https://ts.48.cn/snh/20201107/gaoqing/bk/530825657611784192.m3u8
+女团74,https://ts.48.cn/snh/20210920/gaoqing/bk/644245227604611072.m3u8
+女团75,https://ts.48.cn/snh/20201030/gaoqing/bk/526031506798088192.m3u8
+女团76,https://ts.48.cn/snh/20210124/gaoqing/bk/556502626676314112.m3u8
+女团77,https://ts.48.cn/snh/20201105/gaoqing/bk/528586047649288192.m3u8
+女团78,https://ts.48.cn/snh/20210719/gaoqing/bk/621367896120823808.m3u8
+女团79,https://ts.48.cn/snh/20210704/gaoqing/bk/616348363177922560.m3u8
+女团80,https://ts.48.cn/snh/20200829/gaoqing/bk/502539268021620736.m3u8
 音乐MTV,#genre#
 V音乐HD,https://livecdn.fptplay.net/foxlive/channelvhd_hls.smil/chunklist_b2500000.m3u8
 外国舞蹈,http://hls.shansontv.cdnvideo.ru/shansontv/smil:shansontv.smil/chunklist_b1996000.m3u8?hls_proxy_host=pub1.rtmp.s01.l.shansontv
@@ -2994,3 +3344,134 @@ sheep张艺兴,https://vdse.bdstatic.com/971347deaddd6fdb5ada6e87e4722ece.mp4?au
 翁立友为爱相逢,http://vd2.bdstatic.com/mda-ijgq79ukweagj0v0/sc/mda-ijgq79ukweagj0v0.mp4
 翁立友今生今世,http://vd3.bdstatic.com/mda-ji4sadsbxes30b8h/mda-ji4sadsbxes30b8h.mp4
 翁立友探听,http://vd2.bdstatic.com/mda-igmf3i4hied5ar5u/hd/mda-igmf3i4hied5ar5u.mp4
+
+其它_10086,#genre#
+
+
+美国亚美卫视,https://dcunilive30-lh.akamaihd.net/i/dclive_1@535522/master.m3u8
+美国狗狗宠物,http://video.blivenyc.com/broadcast/prod/2061/22/file-3192k.m3u8
+翡翠台,http://116.199.5.51:8114/00000000/index.m3u8?Fsv_CMSID=&Fsv_SV_PARAM1=0&Fsv_ShiftEnable=0&Fsv_ShiftTsp=0&Fsv_chan_hls_se_idx=188&Fsv_cid=0&Fsv_ctype=LIVES&Fsv_ctype=LIVES&Fsv_filetype=1&Fsv_otype=1&Fsv_otype=1&Fsv_rate_id=0&FvSeid=5abd1660af1babb4&Pcontent_id=&Provider_id=
+耀才财经,http://202.69.67.66:443/webcast/bshdlive-mobile/playlist.m3u8
+耀才财经,http://202.69.67.66/webcast/bshdlive-pc/playlist.m3u8
+耀才财经,rtmp://202.69.69.180/webcast/bshdlive-pc
+
+精品体育,http://117.169.124.37:6610/ysten-businessmobile/live/jtiyu/yst.m3u8
+精品大剧,http://117.169.124.37:6610/ysten-businessmobile/live/jdaju/yst.m3u8
+精品电影,http://117.169.124.37:6610/ysten-businessmobile/live/jdianying/yst.m3u8
+精品电影,http://183.207.248.71/cntv/live1/jdianying/jdianying
+精品综艺,http://117.169.124.37:6610/ysten-businessmobile/live/jzongyi/yst.m3u8
+精品记录,http://117.169.124.37:6610/ysten-businessmobile/live/jingpinjl/yst.m3u8
+百事通体育,http://112.25.48.68/live/program/live/hdnba1/4000000/mnf.m3u8
+百事通体育2,http://112.25.48.68/live/program/live/hdnba2/4000000/mnf.m3u8
+百事通体育3,http://112.25.48.68/live/program/live/hdnba3/4000000/mnf.m3u8
+百事通体育5,http://112.25.48.68/live/program/live/hdnba5/4000000/mnf.m3u8
+百事通体育7,http://112.25.48.68/live/program/live/hdnba7/4000000/mnf.m3u8
+
+澳大利亚赛马,https://racingvic-i.akamaized.net/hls/live/598695/racingvic/268.m3u8
+澳视卫星,http://61.244.22.5/ch3/_definst_/ch3.live/playlist.m3u8
+澳视澳门,http://61.244.22.4/ch1/ch1.live/playelist.m3u8
+澳视葡文,http://61.244.22.4/ch2/ch2.live/chunklist_w1632175875.m3u8
+澳门1,http://61.244.22.4/ch3/ch3.live/playelist.m3u8
+澳门2,http://61.244.22.4/ch2/ch2.live/playelist.m3u8
+澳门体育,http://61.244.22.4/ch4/sport_ch4.live/playelist.m3u8
+灵台新闻综合,http://117.156.28.119/270000001111/1110000145/index.m3u8
+
+
+斗鱼电影2,http://tx2play1.douyucdn.cn/live/20415rnWbjg6Ex1K.xs
+斗鱼电影3,http://tx2play1.douyucdn.cn/live/3928r9p0BHMDG_8000p.flv
+斗鱼电影4,http://tx2play1.douyucdn.cn/live/122402rK7MO9bXSq_8000p.flv
+斗鱼车评,http://tx2play1.douyucdn.cn/live/321987r8e6tCsPR_4000.xs?uuid=
+新唐人-美西,http://live.ntdimg.com/uwlive520/playlist.m3u8
+新唐人亚太臺,https://live.ntdimg.com/aplive200/playlist.m3u8
+新唐人加东臺,https://live.ntdimg.com/mllive860/playlist.m3u8
+新唐人加西臺,https://live.ntdimg.com/cwlive220/playlist.m3u8
+新唐人旧金山臺,https://live.ntdimg.com/sflive990/playlist.m3u8
+新唐人美东臺,https://live.ntdimg.com/live400/playlist.m3u8
+新唐人美西臺,https://live.ntdimg.com/uwlive990/playlist.m3u8
+
+
+凤凰中文,http://117.169.124.43:6610/ysten-businessmobile/live/fhchinese/index.m3u8
+凤凰中文,http://223.110.245.139/ott.js.chinamobile.com/PLTV/3/224/3221226922/index.m3u8
+凤凰中文,http://223.110.245.139/PLTV/3/224/3221226922/index.m3u8
+凤凰中文,http://223.110.245.167/ott.js.chinamobile.com/PLTV/3/224/3221226922/index.m3u8
+凤凰中文,http://116.199.5.51:8114/00000000/index.m3u8?Fsv_CMSID=&Fsv_SV_PARAM1=0&Fsv_ShiftEnable=0&Fsv_ShiftTsp=0&Fsv_chan_hls_se_idx=190&Fsv_cid=0&Fsv_ctype=LIVES&Fsv_ctype=LIVES&Fsv_filetype=1&Fsv_otype=1&Fsv_otype=1&Fsv_rate_id=0&FvSeid=5abd1660af1babb4&Pcontent_id=&Provider_id=
+凤凰中文 (576p),http://116.199.5.52:8114/00000000/index.m3u8?Fsv_CMSID=&Fsv_SV_PARAM1=0&Fsv_ShiftEnable=0&Fsv_ShiftTsp=0&Fsv_chan_hls_se_idx=190&Fsv_cid=0&Fsv_ctype=LIVES&Fsv_ctype=LIVES&Fsv_filetype=1&Fsv_otype=1&Fsv_otype=1&Fsv_rate_id=0&FvSeid=5abd1660af1babb4&Pcontent_id=&Provider_id=
+凤凰中文 (576p),http://125.210.152.18:9090/live/FHZW_1200.m3u8
+凤凰中文,http://116.199.5.51:8114/index.m3u8?Fsv_chan_hls_se_idx=190&Fsv_ctype=LIVES&Fsv_otype=1&FvSeid=1&Pcontent_id=.m3u8&Provider_id=
+凤凰中文,http://117.169.124.37:6610/ysten-businessmobile/live/fhchinese/1.m3u8
+凤凰中文 (720p) [Offline],http://m-tvlmedia.public.bcs.ysten.com/live/fhchinese/1.m3u8
+凤凰中文 (720p) [Offline],http://m-tvlmedia.public.bcs.ysten.com/ysten-bussiness/live/fhchinese/1.m3u8
+凤凰电影 [Offline],https://www.fanmingming.cn/hls/fhdy.m3u8
+凤凰资讯 (720p),http://117.169.124.37:6610/ysten-businessmobile/live/fhzixun/1.m3u8
+凤凰资讯 (720p),http://117.169.124.43:6610/ysten-businessmobile/live/fhzixun/index.m3u8
+凤凰资讯 (720p),http://183.207.249.35/PLTV/3/224/3221226923/index.m3u8
+凤凰资讯 (720p),http://223.110.245.167/ott.js.chinamobile.com/PLTV/3/224/3221226923/index.m3u8
+凤凰资讯 (576p),http://125.210.152.18:9090/live/FHZX_1200.m3u8
+凤凰资讯 (720p) [Offline],http://m-tvlmedia.public.bcs.ysten.com/ysten-bussiness/live/fhzixun/1.m3u8
+凤凰香港 (720p),http://183.207.249.35/PLTV/3/224/3221226975/index.m3u8
+凤凰香港 (720p),http://223.110.245.136/PLTV/3/224/3221226975/index.m3u8
+CGTN纪录 (576p),http://39.134.66.66/PLTV/88888888/224/3221225509/index.m3u8
+CHC动作电影 (1080p),http://116.199.5.51:8114/00000000/index.m3u8?Fsv_CMSID=&Fsv_SV_PARAM1=0&Fsv_ShiftEnable=0&Fsv_ShiftTsp=0&Fsv_chan_hls_se_idx=119&Fsv_cid=0&Fsv_ctype=LIVES&Fsv_ctype=LIVES&Fsv_filetype=1&Fsv_otype=1&Fsv_otype=1&Fsv_rate_id=0&FvSeid=5abd1660af1babb4&Pcontent_id=&Provider_id=
+CHC高清电影 [Offline],http://ivi.bupt.edu.cn/hls/chchd.m3u8
+CNC中文 (720p) [Not 24/7],http://source07.v.news.cn/live/CNC_CN/playlist.m3u8
+CNC英语 (720p),http://source07.v.news.cn/live/CNC_EN/playlist.m3u8
+iHOT爱动漫 [Offline],http://101.71.255.229:6610/zjhs/2/10107/index.m3u8?virtualDomain=zjhs.live_hls.zte.com
+iHOT爱幼教 [Offline],http://101.71.255.229:6610/zjhs/2/10112/index.m3u8?virtualDomain=zjhs.live_hls.zte.com
+iQIYI爱奇艺 [Offline],http://198.16.106.58:8278/streams/d/Qiyi1511/playlist.m3u8
+NewTV中国功夫 (1080p),http://39.134.66.66/PLTV/88888888/224/3221225604/index.m3u8
+NewTV军事评论 (1080p),http://39.134.66.66/PLTV/88888888/224/3221225535/index.m3u8
+NewTV军旅剧场 (1080p),http://39.134.66.66/PLTV/88888888/224/3221225560/index.m3u8
+NewTV农业致富 (1080p),http://39.134.66.66/PLTV/88888888/224/3221225552/index.m3u8
+NewTV动画王国 (1080p),http://183.207.249.15/PLTV/3/224/3221225555/index.m3u8
+NewTV动画王国 (1080p),http://223.110.245.161/ott.js.chinamobile.com/PLTV/3/224/3221225555/index.m3u8
+NewTV古装剧场 (1080p),http://39.134.66.66/PLTV/88888888/224/3221225524/index.m3u8
+NewTV完美遊戲 (1080p),http://183.207.249.16/PLTV/3/224/3221225539/index.m3u8
+NewTV家庭剧场 (1080p),http://39.134.66.66/PLTV/88888888/224/3221225538/index.m3u8
+NewTV怡伴健康 (1080p),http://39.134.66.66/PLTV/88888888/224/3221225571/index.m3u8
+NewTV搏击 (720p),http://223.110.245.151/ott.js.chinamobile.com/PLTV/3/224/3221226803/index.m3u8
+NewTV明星大片 (1080p),http://39.134.66.66/PLTV/88888888/224/3221225550/index.m3u8
+NewTV明星大片 [Offline],http://117.148.187.37/PLTV/88888888/224/3221226751/index.m3u8
+NewTV武搏世界 (1080p),http://39.134.66.66/PLTV/88888888/224/3221225547/index.m3u8
+NewTV潮妈辣婆 (1080p),http://39.134.66.66/PLTV/88888888/224/3221225542/index.m3u8
+NewTV潮妈辣婆 [Offline],http://117.148.187.37/PLTV/88888888/224/3221226666/index.m3u8
+NewTV炫舞未来 (1080p),http://39.134.66.66/PLTV/88888888/224/3221225646/index.m3u8
+NewTV炫舞未来 [Offline],http://112.17.40.140/PLTV/88888888/224/3221226817/index.m3u8
+NewTV爱情喜剧 (1080p),http://39.134.66.66/PLTV/88888888/224/3221225533/index.m3u8
+NewTV精品体育 (1080p),http://39.134.66.66/PLTV/88888888/224/3221225526/index.m3u8
+NewTV精品大剧 (1080p),http://39.134.66.66/PLTV/88888888/224/3221225536/index.m3u8
+NewTV精品纪录 (1080p),http://39.134.66.66/PLTV/88888888/224/3221225545/index.m3u8
+NewTV精品记录 [Offline],http://117.148.187.37/PLTV/88888888/224/3221226763/index.m3u8
+NewTV精品電影 (1080p),http://183.207.249.14/PLTV/3/224/3221225567/index.m3u8
+NewTV精品電影 (1080p),http://223.110.245.153/ott.js.chinamobile.com/PLTV/3/224/3221225567/index.m3u8
+NewTV超级体育 (1080p),http://39.134.66.66/PLTV/88888888/224/3221225635/index.m3u8
+NewTV超级电影 (1080p),http://39.134.66.66/PLTV/88888888/224/3221225644/index.m3u8
+NewTV超级电影 (1080p),http://39.134.115.163:8080/PLTV/88888910/224/3221225623/index.m3u8
+NewTV超级电视剧 (1080p),http://39.134.66.66/PLTV/88888888/224/3221225637/index.m3u8
+NewTV超级综艺 (1080p),http://39.134.66.66/PLTV/88888888/224/3221225642/index.m3u8
+NewTV金牌综艺 (1080p),http://39.134.66.66/PLTV/88888888/224/3221225525/index.m3u8
+SDETV (576p),http://223.110.245.149/ott.js.chinamobile.com/PLTV/3/224/3221227019/index.m3u8
+SiTV七彩戏剧 (540p),http://112.25.48.68/live/program/live/qcxj/1300000/mnf.m3u8
+SiTV东方财经 (540p),http://112.25.48.68/live/program/live/dfcj/1300000/mnf.m3u8
+SiTV全纪实台 (1080p),http://112.25.48.68/live/program/live/qjshd/4000000/mnf.m3u8
+SiTV动漫秀场 (1080p),http://112.25.48.68/live/program/live/dmxchd/4000000/mnf.m3u8
+SiTV劲爆体育 (1080p),http://112.25.48.68/live/program/live/jbtyhd/4000000/mnf.m3u8
+SiTV劲爆体育 (1080p) [Not 24/7],http://116.199.5.51:8114/00000000/index.m3u8?Fsv_CMSID=&Fsv_SV_PARAM1=0&Fsv_ShiftEnable=0&Fsv_ShiftTsp=0&Fsv_chan_hls_se_idx=74&Fsv_cid=0&Fsv_ctype=LIVES&Fsv_ctype=LIVES&Fsv_filetype=1&Fsv_otype=1&Fsv_otype=1&Fsv_rate_id=0&FvSeid=5abd1660af1babb4&Pcontent_id=&Provider_id=
+SiTV幸福彩 (1080p) [Not 24/7],http://116.199.5.51:8114/00000000/index.m3u8?Fsv_CMSID=&Fsv_SV_PARAM1=0&Fsv_ShiftEnable=0&Fsv_ShiftTsp=0&Fsv_chan_hls_se_idx=73&Fsv_cid=0&Fsv_ctype=LIVES&Fsv_ctype=LIVES&Fsv_filetype=1&Fsv_otype=1&Fsv_otype=1&Fsv_rate_id=0&FvSeid=5abd1660af1babb4&Pcontent_id=&Provider_id=
+SiTV新视觉 (1080p) [Not 24/7],http://116.199.5.51:8114/00000000/index.m3u8?Fsv_CMSID=&Fsv_SV_PARAM1=0&Fsv_ShiftEnable=0&Fsv_ShiftTsp=0&Fsv_chan_hls_se_idx=75&Fsv_cid=0&Fsv_ctype=LIVES&Fsv_ctype=LIVES&Fsv_filetype=1&Fsv_otype=1&Fsv_otype=1&Fsv_rate_id=0&FvSeid=5abd1660af1babb4&Pcontent_id=&Provider_id=
+SiTV新视觉台 (1080p),http://112.25.48.68/live/program/live/xsjhd/4000000/mnf.m3u8
+SiTV极速汽车 (1080p),http://112.25.48.68/live/program/live/jsqchd/4000000/mnf.m3u8
+SiTV欢笑剧场 (1080p),http://112.25.48.68/live/program/live/hxjchd/4000000/mnf.m3u8
+SiTV法治天地 (540p),http://112.25.48.68/live/program/live/fztd/1300000/mnf.m3u8
+SiTV游戏风云 (1080p),http://112.25.48.68/live/program/live/yxfyhd/4000000/mnf.m3u8
+SiTV生活时尚 (1080p),http://112.25.48.68/live/program/live/shsshd/4000000/mnf.m3u8
+SiTV都市剧场 (1080p),http://112.25.48.68/live/program/live/dsjchd/4000000/mnf.m3u8
+SiTV魅力足球 (1080p),http://112.25.48.68/live/program/live/mlyyhd/4000000/mnf.m3u8
+SiTV魅力足球 (1080p) [Not 24/7],http://116.199.5.51:8114/00000000/index.m3u8?Fsv_CMSID=&Fsv_SV_PARAM1=0&Fsv_ShiftEnable=0&Fsv_ShiftTsp=0&Fsv_chan_hls_se_idx=76&Fsv_cid=0&Fsv_ctype=LIVES&Fsv_ctype=LIVES&Fsv_filetype=1&Fsv_otype=1&Fsv_otype=1&Fsv_rate_id=0&FvSeid=5abd1660af1babb4&Pcontent_id=&Provider_id=
+TVB 明珠台 (240p),http://116.199.5.51:8114/hls/Fsv_chan_hls_se_idx=12?Fsv_CMSID=&Fsv_SV_PARAM1=0&Fsv_ShiftEnable=0&Fsv_ShiftTsp=0&Fsv_chan_hls_se_idx=12&Fsv_cid=0&Fsv_ctype=LIVES&Fsv_filetype=1&Fsv_otype=1&Fsv_rate_id=2&FvSeid=1&Pcontent_id=8114.m3u8&Provider_id=0
+TVB明珠台 (576p),http://116.199.5.51:8114/00000000/hls/index.m3u8?Fsv_chan_hls_se_idx=12&Fsv_ctype=LIVES&Fsv_otype=1&FvSeid=1&Pcontent_id=.m3u8&Provider_id=
+TVB明珠台 (576p),http://116.199.5.51:8114/hls/Fsv_chan_hls_se_idx=12&FvSeid=1&Fsv_ctype=LIVES&Fsv_otype=1&Provider_id=0&Pcontent_id=8114.m3u8
+TVB明珠台 (576p),http://116.199.5.52:8114/00000000/index.m3u8?Fsv_CMSID=&Fsv_SV_PARAM1=0&Fsv_ShiftEnable=0&Fsv_ShiftTsp=0&Fsv_chan_hls_se_idx=12&Fsv_cid=0&Fsv_ctype=LIVES&Fsv_ctype=LIVES&Fsv_filetype=1&Fsv_otype=1&Fsv_otype=1&Fsv_rate_id=0&FvSeid=5abd1660af1babb4&Pcontent_id=&Provider_id=
+TVB翡翠台 (576p),http://116.199.5.52:8114/00000000/index.m3u8?Fsv_CMSID=&Fsv_SV_PARAM1=0&Fsv_ShiftEnable=0&Fsv_ShiftTsp=0&Fsv_chan_hls_se_idx=188&Fsv_cid=0&Fsv_ctype=LIVES&Fsv_ctype=LIVES&Fsv_filetype=1&Fsv_otype=1&Fsv_otype=1&Fsv_rate_id=0&FvSeid=5abd1660af1babb4&Pcontent_id=&Provider_id=
+TVB翡翠台,http://116.199.5.51:8114/index.m3u8?Fsv_chan_hls_se_idx=188&Fsv_ctype=LIVES&Fsv_otype=1&FvSeid=1&Pcontent_id=.m3u8&Provider_id=
+TVB翡翠台,http://116.199.5.52:8114/00000000/index.m3u8?Fsv=&Fsv_SV_PARAM1=0&Fsv_ShiftEnable=0&Fsv_ShiftTsp=0&Fsv_chan_hls_se_idx=188&Fsv_cid=0&Fsv_ctype=LIVES&Fsv_ctype=LIVES&Fsv_filetype=1&Fsv_otype=1&Fsv_rate_id=0&FvSeid=5abd1660af1babb4&Pcontent_id=&Provider_id=&_res_tag_=video
+TVB翡翠台 (576p) [Not 24/7],http://116.199.5.51:8114/00000000/hls/index.m3u8?Fsv_chan_hls_se_idx=188&Fsv_ctype=LIVES&Fsv_otype=1&FvSeid=1&Pcontent_id=.m3u8&Provider_id=

@@ -1,7 +1,7 @@
 ﻿
-·央视频道·,#genre#,https://epg.sec.st/epg.php
-中央1台,http://111.40.196.33/PLTV/88888888/224/3221225769/index.m3u8#rtsp://183.252.166.199/PLTV/88888888/224/3221226834/48356507.smil#http://coocaa-ynbit-ws.ifengli.com:2386/live/cctv-1hd/1.m3u8#http://117.148.179.155:80/PLTV/88888888/224/3221231468/1.m3u8#http://60.255.49.202:80/live/CCTV-1H265_4000.m3u8#http://223.110.245.154/ott.js.chinamobile.com/PLTV/3/224/3221227634/index.m3u8#http://111.63.77.77:80/gitv_live/G_CCTV-1-MD/G_CCTV-1-MD.m3u8#http://scgctvshow.sctv.com/scgc/cctv1/index.m3u8
-中央2台,http://39.135.32.28:6610/000000001000/1000000001000012442/1.m3u8?#http://coocaa-ynbit-ws.ifengli.com:2386/live/cctv-2hd/1.m3u8#rtsp://183.252.176.54:554/PLTV/88888888/224/3221226655/40417429.smil#http://dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226195/1.m3u8#http://111.63.77.77:80/gitv_live/G_CCTV-2-MD/G_CCTV-2-MD.m3u8#http://60.255.49.202:80/live/CCTV-2H265_4000.m3u8#http://117.148.179.147:80/PLTV/88888888/224/3221231678/1.m3u8
+·央视频道·,#genre#,http://124.223.212.38:83/
+中央1台,http://111.40.196.33/PLTV/88888888/224/3221225769/index.m3u8#http://117.148.179.155:80/PLTV/88888888/224/3221231468/1.m3u8#http://111.40.196.9/PLTV/88888888/224/3221225513/index.m3u8#http://39.135.138.60:18890/PLTV/88888910/224/3221225618/index.m3u8#http://39.134.68.169:6610/PLTV/88888888/224/3221226016/index.m3u8?#http://39.135.138.58:18890/PLTV/88888888/224/3221225630/index.m3u8#http://39.135.138.58:18890/PLTV/88888888/224/3221225618/index.m3u8#http://39.135.138.58:18890/PLTV/88888888/224/3221225642/index.m3u8#http://111.40.196.9/PLTV/88888888/224/3221225548/index.m3u8#http://39.135.138.58:18890/PLTV/88888888/224/3221225762/index.m3u8#http://111.40.196.9/PLTV/88888888/224/3221225769/index.m3u8#http://111.40.196.9/PLTV/88888888/224/3221225727/index.m3u8
+中央2台,rtsp://183.252.176.54:554/PLTV/88888888/224/3221226655/40417429.smil#http://dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226195/1.m3u8#http://111.63.77.77:80/gitv_live/G_CCTV-2-MD/G_CCTV-2-MD.m3u8#http://60.255.49.202:80/live/CCTV-2H265_4000.m3u8#http://117.148.179.147:80/PLTV/88888888/224/3221231678/1.m3u8
 中央3台,http://60.255.49.202:80/live/CCTV-3H265_4000.m3u8#http://111.40.196.29/PLTV/88888888/224/3221225588/index.m3u8#http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226021/index.m3u8#http://dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226397/1.m3u8#http://111.63.117.13:6060/030000001000/CCTV-3/CCTV-3.m3u8#https://jwplay.hebyun.com.cn:443/live/cctv3/1500k/tzwj_video.m3u8#http://223.110.242.133:6610/jsyd/live1/G_CCTV-3-MD/G_CCTV-3-MD/#http://coocaa-ynbit-ws.ifengli.com:2386/live/cctv-3hd/1.m3u8#http://117.148.179.183:80/PLTV/88888888/224/3221231682/index.m3u8
 中央4台,http://dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226191/1.m3u8#http://39.135.138.58:18890/PLTV/88888888/224/3221225621/index.m3u8#http://39.135.32.28:6610/000000001000/1000000002000031664/1.m3u8?#http://117.148.179.183/PLTV/88888888/224/3221231726/index.m3u8#rtsp://183.252.166.199/PLTV/88888888/224/3221226633/40417241.smil#http://183.207.248.15/PLTV/3/224/3221225534/index.m3u8#http://60.255.49.202:80/live/CCTV-4H265_4000.m3u8
 中央5台,http://coocaa-ynbit-ws.ifengli.com:2386/live/cctv-5hd/1.m3u8#http://39.135.138.58:18890/PLTV/88888888/224/3221225751/index.m3u8#http://60.255.49.202:80/live/CCTV-5H265_4000.m3u8#http://111.63.117.13:6060/030000001000/CCTV-5/CCTV-5.m3u8#http://180.97.123.180/4403-txt.otvstream.otvcloud.com/otv/skcc/live/channel5/index.m3u8#http://dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221225837/1.m3u8#rtmp://59.124.75.157/sat/cn021
@@ -61,7 +61,7 @@ CCTV17-农村频道,http://117.148.179.17/PLTV/88888888/224/3221229765/index.m3u
 CCTV-怀旧剧场,http://117.148.179.158/PLTV/88888888/224/3221231544/index.m3u8
 CCTV-第一剧场,http://117.148.179.172/PLTV/88888888/224/3221231540/index.m3u8
 CCTV-风云剧场,http://117.148.179.162/PLTV/88888888/224/3221231604/index.m3u8
-CCTV-风云足球,http://117.148.179.137/PLTV/88888888/224/3221231547/index.m3u8
+CCTV-风云足球,http://117.148.179.137/PLTV/88888888/224/3221231547/index.m3u8CCTV-风云音乐,http://39.136.12.4:6610/PLTV/88888888/224/3221225698/1/index.m3u8?fmt=ts2hls
 CCTV-世界地理,http://117.148.179.156/PLTV/88888888/224/3221231537/index.m3u8
 CCTV-女性时尚,http://117.148.179.167/PLTV/88888888/224/3221231598/index.m3u8
 CCTV-央视台球,http://117.148.179.167/PLTV/88888888/224/3221231616/index.m3u8
@@ -79,7 +79,7 @@ CETV4,http://117.148.179.155/PLTV/88888888/224/3221231613/index.m3u8
 CHC动作电影,http://117.148.179.138/PLTV/88888888/224/3221231580/index.m3u8
 CHC家庭影院,http://117.148.179.151/PLTV/88888888/224/3221231799/index.m3u8
 
-·卫视频道·,#genre#,https://epg.sec.st/epg.php
+·卫视频道·,#genre#,https://epg.112114.xyz
 北京卫视,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225728/index.m3u8#https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s1/index.m3u8#rtsp://183.252.166.199/PLTV/88888888/224/3221226092/10000100000000060000000002296930_0.smil#http://coocaa-ynbit-ws.ifengli.com:2386/live/bjws-hd/1.m3u8#http://117.148.179.168:80/PLTV/88888888/224/3221231732/index.m3u8#http://180.97.123.180/4403-txt.otvstream.otvcloud.com/otv/skcc/live/channel24/index.m3u8#http://223.110.242.133:6610/gitv/live1/G_BEIJING-CQ/G_BEIJING-CQ/
 上海卫视,http://coocaa-ynbit-ws.ifengli.com:2386/live/shdfws-hd/1.m3u8#http://111.40.196.35/PLTV/88888888/224/3221225509/index.m3u8#rtsp://183.252.166.199/PLTV/88888888/224/3221226041/10000100000000060000000002296882_0.smil#http://223.110.242.133:6610/gitv/live1/G_DONGFANG-CQ/G_DONGFANG-CQ/#http://dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226261/1.m3u8#http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225735/index.m3u8#http://117.148.179.160:80/PLTV/88888888/224/3221231738/index.m3u8
 重庆卫视,http://183.207.248.71/cntv/live1/HD-8000k-1080P-chongqingstv/HD-8000k-1080P-chongqingstv#http://qxlmlive.cbg.cn:1935/app_2/ls_67.stream/chunklist.m3u8#rtsp://183.252.166.199/PLTV/88888888/224/3221226753/45949735.smil#http://dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226202/1.m3u8#http://223.110.242.133:6610/gitv/live1/G_CHONGQING-CQ/G_CHONGQING-CQ/#http://60.255.49.202:80/live/cqwsH265_4000.m3u8#http://219.150.217.41:6610/PLTV1/1340/default.m3u8?ztecid=1340
@@ -116,26 +116,6 @@ CHC家庭影院,http://117.148.179.151/PLTV/88888888/224/3221231799/index.m3u8
 陕西卫视,http://129.226.107.32:80/zycfcdn.gdwlcloud.com/PLTV/88888888/224/3221225498/index.m3u8
 南方卫视,http://dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226218/1.m3u8#rtsp://183.252.166.199/PLTV/88888888/224/3221226788/48356344.smil#http://183.207.248.71/gitv/live1/G_NANFANG/G_NANFANG
 三沙卫视,http://pull2.ssws.tv/live/SswsTV20210803.m3u8#rtsp://183.252.166.199/PLTV/88888888/224/3221226819/57526516.smil
-凤凰资讯,http://ott.js.chinamobile.com/TVOD/3/224/3221228098/index.m3u8
-凤凰中文,http://ott.js.chinamobile.com/TVOD/3/224/3221228057/index.m3u8
-凤凰香港,http://ott.js.chinamobile.com/TVOD/3/224/3221228060/index.m3u8
-河北卫视,http://ott.js.chinamobile.com/TVOD/3/224/3221228106/index.m3u8
-东方卫视,http://ott.js.chinamobile.com/TVOD/3/224/3221228150/index.m3u8
-上海纪实,http://ott.js.chinamobile.com/TVOD/3/224/3221227674/index.m3u8
-东南卫视,http://ott.js.chinamobile.com/TVOD/3/224/3221227553/index.m3u8
-河南卫视,http://ott.js.chinamobile.com/TVOD/3/224/3221228221/index.m3u8
-广东卫视,http://ott.js.chinamobile.com/TVOD/3/224/3221228230/index.m3u8
-深圳卫视,http://ott.js.chinamobile.com/TVOD/3/224/3221228236/index.m3u8
-重庆卫视,http://ott.js.chinamobile.com/TVOD/3/224/3221227729/index.m3u8
-天津卫视,http://ott.js.chinamobile.com/TVOD/3/224/3221228239/index.m3u8
-湖北卫视,http://ott.js.chinamobile.com/TVOD/3/224/3221228159/index.m3u8
-辽宁卫视,http://ott.js.chinamobile.com/TVOD/3/224/3221228162/index.m3u8
-安徽卫视,http://ott.js.chinamobile.com/TVOD/3/224/3221228153/index.m3u8
-浙江卫视,http://ott.js.chinamobile.com/TVOD/3/224/3221228147/index.m3u8
-北京卫视,http://ott.js.chinamobile.com/TVOD/3/224/3221228115/index.m3u8
-北京纪实,http://ott.js.chinamobile.com/TVOD/3/224/3221227711/index.m3u8
-江西卫视,http://ott.js.chinamobile.com/TVOD/3/224/3221228109/index.m3u8
-江苏卫视,http://ott.js.chinamobile.com/TVOD/3/224/3221228097/index.m3u8
 黑龙江卫视,http://ott.js.chinamobile.com/TVOD/3/224/3221228233/index.m3u8
 甘肃卫视,http://39.134.39.39/PLTV/88888888/224/3221226240/index.m3u8
 吉林卫视,http://111.40.196.36/PLTV/88888888/224/3221225589/index.m3u8
@@ -188,7 +168,7 @@ BTV科教-高清,http://v.mp.haue.edu.cn/hls/btv3hd.m3u8
 BTV影视-高清,http://v.mp.haue.edu.cn/hls/btv4hd.m3u8
 BTV财经-高清,http://v.mp.haue.edu.cn/hls/btv5hd.m3u8
 
-·影视轮播·,#genre#
+·影视轮播·,#genre#,http://124.223.212.38:83
 相声专场,http://bp-caster.bestv.com.cn/512/1/video.m3u8
 CHC高清电影,http://dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226463/1.m3u8#http://39.135.89.3:6610/yinhe/2/ch00000090990000002065/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
 CHC动作电影,http://111.20.33.93/TVOD/88888893/224/3221226465/index.m3u8#http://dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226465/1.m3u8#http://39.135.89.3:6610/yinhe/2/ch00000090990000002055/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
@@ -313,7 +293,7 @@ TVB版济公·周星驰济公电视剧版,http://121.51.14.14/tx.hls.huya.com/sr
 慈善超人合集 演技进阶史,http://121.51.14.14/tx.hls.huya.com/src/1081939992-1081939992-4646896881874501632-2164003440-10057-A-0-1.m3u8
 【周星星】霹雳风火轮！,http://121.51.14.14/tx.hls.huya.com/src/1199563493375-1199563493375-5444376956172763136-2399127110206-10057-A-0-1.m3u8
 老白涮肉坊·葵花点穴手,http://121.51.14.14/tx.hls.huya.com/src/1423782087-1423782087-6115097500295626752-2847687630-10057-A-0-1-imgplus.m3u8
-【周星星】星爷经典不间断,http://121.51.14.14/tx.hls.huya.com/src/1394575534-1394575534-5989656310331736064-2789274524-10057-A-0-1.m3u8
+【周星星】星爷经典不间断,http://121.51.14.14/tx.hls.huya.com/src/1394575534-1394575534-5989656310331736064-2789274524-10057-A-0-1.m3u8#http://epg.112114.xyz/huya/11342412#http://bd.flv.huya.com/src/1394575534-1394575534-5989656310331736064-2789274524-10057-A-0-1-imgplus.flv?wsSecret=078cb4968f5ffc1cdc5436058b3de58d&wsTime=62592266&u=0&seqid=16499222786074080&ctype=tars_mp&txyp=o%3An4%3B&fs=bgct&&sphdcdn=al_7-tx_3-js_3-ws_7-bd_2-hw_2&sphdDC=huya&sphd=264_*-265_*&t=102
 大家好 我曾小咸又回来啦,http://121.51.14.14/tx.hls.huya.com/src/1388474069-1388474069-5963450717699047424-2777071594-10057-A-0-1.m3u8
 上海皇帝2-看陆月生最终结局,http://121.51.14.14/tx.hls.huya.com/src/1524439855-1524439855-6547419321943982080-3049003166-10057-A-0-1.m3u8
 极限挑战踏浪前行05,http://121.51.14.14/tx.hls.huya.com/src/1423782086-1423782086-6115097496000659456-2847687628-10057-A-0-1.m3u8
@@ -1375,7 +1355,7 @@ v_huya_1199515057776,http://121.51.14.14/tx.hls.huya.com/src/1199515057776-11995
 
 我是一颗小虎牙,http://121.51.14.14/tx.hls.huya.com/src/1199579381226-1199579381226-5512614756621484032-2399158885908-10057-A-0-1.m3u8
 
-1,http://121.51.14.14/tx.hls.huya.com/src/1199511957710-1199511957710-5223032960420151296-2399024038876-10057-A-0-1.m3u8
+说电影2,http://121.51.14.14/tx.hls.huya.com/src/1199511957710-1199511957710-5223032960420151296-2399024038876-10057-A-0-1.m3u8
 
 楚汉骄雄-我恨做皇后 但我做刘邦的皇后,http://121.51.14.14/tx.hls.huya.com/src/1199561177177-1199561177177-5434428961511702528-2399122477810-10057-A-0-1.m3u8
 
@@ -1403,7 +1383,7 @@ RGB彩灯提升手机性能实锤了！10G内存的黑鲨Helo手机,http://121.5
 
 人类濒临消失，地球会自我重生，地球不需要人类拯救《苏美尔》,http://121.51.14.14/tx.hls.huya.com/src/1730230272-1730230272-7431282432789184512-3460584000-10057-A-0-1.m3u8
 
-1,http://121.51.14.14/tx.hls.huya.com/src/1199514472692-1199514472692-5233834725860179968-2399029068840-10057-A-0-1.m3u8
+卡芒电影1,http://121.51.14.14/tx.hls.huya.com/src/1199514472692-1199514472692-5233834725860179968-2399029068840-10057-A-0-1.m3u8
 
 欢迎来到我的直播间,http://121.51.14.14/tx.hls.huya.com/src/1199573080977-1199573080977-5485555393209827328-2399146285410-10057-A-0-1.m3u8
 
@@ -1413,15 +1393,13 @@ RGB彩灯提升手机性能实锤了！10G内存的黑鲨Helo手机,http://121.5
 
 经典喜剧港片不容错过,http://121.51.14.14/tx.hls.huya.com/src/1199583305794-1199583305794-5529470647832412160-2399166735044-10057-A-0-1.m3u8
 
-1,http://121.51.14.14/tx.hls.huya.com/src/94525224-2711954902-11647757612316884992-4635579152-10057-A-0-1.m3u8
+顾九撩电影1,http://121.51.14.14/tx.hls.huya.com/src/94525224-2711954902-11647757612316884992-4635579152-10057-A-0-1.m3u8
 
 硬汉的直播间,http://121.51.14.14/tx.hls.huya.com/src/1199575902118-1199575902118-5497672101542232064-2399151927692-10057-A-0-1.m3u8
 
-1,http://121.51.14.14/tx.hls.huya.com/src/1199519795094-1199519795094-5256694268386344960-2399039713644-10057-A-0-1.m3u8
+说DY1,http://121.51.14.14/tx.hls.huya.com/src/1199519795094-1199519795094-5256694268386344960-2399039713644-10057-A-0-1.m3u8
 
-v_huya_2290275172,http://121.51.14.14/tx.hls.huya.com/src/94525224-2702006072-11605027712833421312-4580673800-10057-A-0-1.m3u8
-
-我是一颗小虎牙,http://121.51.14.14/tx.hls.huya.com/src/1199524398220-1199524398220-5276464544015712256-2399048919896-10057-A-0-1.m3u8
+huya2290275172,http://121.51.14.14/tx.hls.huya.com/src/94525224-2702006072-11605027712833421312-4580673800-10057-A-0-1.m3u8
 
 花开正元 孙俪民国上位记,http://121.51.14.14/tx.hls.huya.com/src/1423782098-1423782098-6115097547540267008-2847687652-10057-A-0-1.m3u8
 
@@ -1467,21 +1445,16 @@ v_huya_2290275172,http://121.51.14.14/tx.hls.huya.com/src/94525224-2702006072-11
 
 冲啊！四驱兄弟 嘴控大战,http://121.51.14.14/tx.hls.huya.com/src/1423782104-1423782104-6115097573310070784-2847687664-10057-A-0-1.m3u8
 
-我是一颗小虎牙,http://121.51.14.14/tx.hls.huya.com/src/1259515146931-1259515146931-4680351288381145088-2519030417318-10057-A-0-1.m3u8
-
 我是一颗小虎牙,http://121.51.14.14/tx.hls.huya.com/src/1348951819-1348951819-5793703946484711424-3697487504-10057-A-0-1.m3u8
 
-我是一颗小虎牙,http://121.51.14.14/tx.hls.huya.com/src/1199514887344-1199514887344-5235615642639400960-2399029898144-10057-A-0-1.m3u8
+一颗小虎牙,http://121.51.14.14/tx.hls.huya.com/src/1199514887344-1199514887344-5235615642639400960-2399029898144-10057-A-0-1.m3u8
 
 【经典】这才是最美妲己,http://121.51.14.14/tx.hls.huya.com/src/1250011-1250011-5368756364640256-2789253886-10057-A-0-1.m3u8
 
 欢迎来到我的直播间,http://121.51.14.14/tx.hls.huya.com/src/1199575844699-1199575844699-5497425488815063040-2399151812854-10057-A-0-1.m3u8
-
-1,http://121.51.14.14/tx.hls.huya.com/src/1199525415984-1199525415984-5280835807110758400-2399050955424-10057-A-0-1.m3u8
+一颗小虎牙,http://121.51.14.14/tx.hls.huya.com/src/1199525415984-1199525415984-5280835807110758400-2399050955424-10057-A-0-1.m3u8
 
 男孩遭遇海难，他被一匹黑马救了起来，从此与它相依为命！,http://121.51.14.14/tx.hls.huya.com/src/1444498658-1444498658-6204074495225888768-4665669106-10057-A-0-1.m3u8
-
-我是一颗小虎牙,http://121.51.14.14/tx.hls.huya.com/src/1199573055331-1199573055331-5485445244478554112-2399146234118-10057-A-0-1.m3u8
 
 沫漾电影,http://121.51.14.14/tx.hls.huya.com/src/94525224-2713073196-11652560648474198016-3664575176-10057-A-0-1.m3u8
 
@@ -1498,8 +1471,6 @@ v_huya_2290275172,http://121.51.14.14/tx.hls.huya.com/src/94525224-2702006072-11
 彤颜童语,http://121.51.14.14/tx.hls.huya.com/src/1199518994166-1199518994166-5253254308819894272-2399038111788-10057-A-0-1.m3u8
 
 萧峰、虚竹、段誉的江湖生涯,http://121.51.14.14/tx.hls.huya.com/src/1524434083-1524434083-6547394531392749568-3048991622-10057-A-0-1.m3u8
-
-我是一颗小虎牙,http://121.51.14.14/tx.hls.huya.com/src/1199577734802-1199577734802-5505543419386134528-2399155593060-10057-A-0-1.m3u8
 
 花花与三猫CatLive,http://121.51.14.14/tx.hls.huya.com/src/94525224-2700873164-11600161910024044544-4575941946-10057-A-0-1.m3u8
 
@@ -1795,7 +1766,7 @@ R1SE-赵磊,http://121.51.14.14/tx.hls.huya.com/src/1099531742287-1099531742287-
 
 古今大战僵尸情,http://121.51.14.14/tx.hls.huya.com/src/1099531752788-1099531752788-86436268371607552-2199063629032-10057-A-0-1.m3u8
 
-【Replay】【回放】【เล่นใหม่】段宜恩与你在一起--虎牙超级偶像联赛,http://121.51.14.14/tx.hls.huya.com/src/1099531742284-1099531742284-86391154035130368-2199063608024-10057-A-0-1.m3u8
+虎牙超级偶像联赛,http://121.51.14.14/tx.hls.huya.com/src/1099531742284-1099531742284-86391154035130368-2199063608024-10057-A-0-1.m3u8
 
 蒲松龄-马浚伟还是那个奶油小生的样,http://121.51.14.14/tx.hls.huya.com/src/1199561217760-1199561217760-5434603264169476096-2399122558976-10057-A-0-1.m3u8
 
@@ -1814,8 +1785,6 @@ R1SE-赵磊,http://121.51.14.14/tx.hls.huya.com/src/1099531742287-1099531742287-
 陈键锋竟然在澡堂对马德钟......,http://121.51.14.14/tx.hls.huya.com/src/1199561179151-1199561179151-5434437439777144832-2399122481758-10057-A-0-1.m3u8
 
 离婚男子的爆笑生活,http://121.51.14.14/tx.hls.huya.com/src/1199578396559-1199578396559-5508385644059033600-2399156916574-10057-A-0-1.m3u8
-
-我是一颗小虎牙,http://121.51.14.14/tx.hls.huya.com/src/1199518316872-1199518316872-5250345353240117248-2399036757200-10057-A-0-1.m3u8
 
 【TVB】野百合？夜百合！,http://121.51.14.14/tx.hls.huya.com/src/1199563481280-1199563481280-5444325008543318016-2399127086016-10057-A-0-1.m3u8
 
@@ -2035,7 +2004,7 @@ SNH48剧场公演,http://117.148.179.139/PLTV/88888888/224/3221231622/index.m3u8
 安徽影视,http://zbbf2.ahtv.cn/live/756.m3u8
 西安影视,http://stream2.xiancity.cn/xatv4/sd/live.m3u8
 海西影视,http://stream.haixitv.cn/1/sd/live.m3u8
-国外影院,http://111.6.242.36/txpcdn.liveplay.egame.qq.com/live/3954_382971876.m3u8
+国外影院,http://183.201.112.40/txpcdn.liveplay.egame.qq.com/live/3954_382971876.m3u8
 TVB功夫台(粤语),http://iptv.tvfix.org/hls/tvbkf.m3u8
 TVB功夫(普通话),http://iptv.tvfix.org/hls/tvbkf2.m3u8
 龙祥电影,http://27.47.68.110:808/hls/38/index.m3u8
@@ -2306,6 +2275,18 @@ douyu61.国外电影,http://epg.112114.xyz/douyu/9683979
 话修仙科幻怪兽,http://hpull.kktv8.com/livekktv/143960119/playlist.m3u8
 女神影院,http://hpull.kktv8.com/livekktv/99350550/playlist.m3u8
 超级电影,http://39.134.65.208/PLTV/88888888/224/3221225644/index.m3u8
+经典剧场,http://183.201.112.40/txpcdn.liveplay.egame.qq.com/live/3954_616645877_4000.flv
+国外影院,http://183.201.112.40/txpcdn.liveplay.egame.qq.com/live/3954_382971876_4000.flv
+国内影院,http://183.201.112.40/txpcdn.liveplay.egame.qq.com/live/3954_199681168_4000.flv
+恐怖影院,http://183.201.112.40/txpcdn.liveplay.egame.qq.com/live/3954_363783415_4000.flv
+德云剧场,http://183.201.112.40/txpcdn.liveplay.egame.qq.com/live/3954_616289265_4000.flv
+德云专场,http://183.201.112.40/txpcdn.liveplay.egame.qq.com/live/3954_157898140_4000.flv
+德云相声,http://183.201.112.40/txpcdn.liveplay.egame.qq.com/live/3954_468780224_4000.flv
+德云社团,http://183.201.112.40/txpcdn.liveplay.egame.qq.com/live/3954_421447299_4000.flv
+德刚单口,http://183.201.112.40/txpcdn.liveplay.egame.qq.com/live/3954_620346223_4000.flv
+庆余年1,http://183.201.112.40/txpcdn.liveplay.egame.qq.com/live/3954_504209819_4000.flv
+庆余年2,http://183.201.112.40/txpcdn.liveplay.egame.qq.com/live/3954_288169520_4000.flv
+
 ·数字网络·,#genre#
 CGTN国际频道,http://live.cgtn.com/1000/prog_index.m3u8#http://39.130.202.80:6610/gitv_live/G_CGTN-HD/G_CGTN-HD.m3u8
 CGTN记录频道,https://livedoc.cgtn.com/1000d/prog_index.m3u8#http://39.130.202.77:6610/gitv_live/G_CGTVJL-HD/G_CGTVJL-HD.m3u8
@@ -2322,7 +2303,7 @@ DOX音像世界,http://stream.slave.jxtvnet.tv:14311/playurl?playtype=live&proto
 CBN每日影院,http://stream.slave.jxtvnet.tv:14311/playurl?playtype=live&protocol=http&accesstoken=R61974758U30927004K7735947FI9BE73ABPBM356FAF3V0Z57EA5W16B8DF73913B73EF&programid=4200000565&playtoken=ABCDEFGH&auth=noC
 环球奇观,http://httpdvb.slave.yqdtv.com:13164/playurl?playtype=live&protocol=http&playtoken=31603YEQXREOPEG10&auth=no&verifycode=14183&accesstoken=G79E6023V21307D1TD05FABJB53102ABM786710FEI3282697DK98BDA6&programid=4200000088
 红牛运动,http://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_1660.m3u8
-·港台杂类·,#genre#
+·港台杂类·,#genre#,http://124.223.212.38:83
 凤凰中文台,http://playtv-live.ifeng.com/live/06OLEGEGM4G.m3u8#http://dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226547/1.m3u8#http://iptv.tvfix.org/hls/fhzw.m3u8#http://live.scuec.edu.cn:8080/hls/fhzw.m3u8
 凤凰资讯台,http://playtv-live.ifeng.com/live/06OLEEWQKN4.m3u8#http://dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226546/1.m3u8#http://iptv.tvfix.org/hls/fhzx.m3u8#http://ott.js.chinamobile.com/TVOD/3/224/3221228098/index.m3u8
 凤凰香港台,http://223.110.245.136/PLTV/3/224/3221226975/index.m3u8#http://223.110.236.2/ott.js.chinamobile.com/PLTV/3/224/3221228060/index.m3u8
@@ -2500,7 +2481,51 @@ CN卡通,mitv://ns2.hellotvvod.com:9906/51e593fae95f48968c181b6a47179526
 民视http://59.125.101.187:8521/http/192.168.77.24:8081/hls/73/815/ch49.m3u8?token=
 卫视西片台,http://220.134.196.147:8583/http/116.50.42.18:8081/hls/62/804/ch08.m3u8?token=
 卫视电影台,http://220.134.196.147:8578/http/116.50.42.18:8081/hls/62/804/ch07.m3u8?token=
- 
+·NewTV·,#genre#
+NewTV中国功夫,http://39.134.66.66/PLTV/88888888/224/3221225604/index.m3u8
+NewTV明星大片,http://39.134.66.66/PLTV/88888888/224/3221225550/index.m3u8
+NewTV潮妈辣婆,http://39.134.66.66/PLTV/88888888/224/3221225542/index.m3u8
+NewTV爱情喜剧,http://39.134.66.66/PLTV/88888888/224/3221225533/index.m3u8
+NewTV精品体育,http://39.134.66.66/PLTV/88888888/224/3221225526/index.m3u8
+NewTV超级体育,http://39.134.66.66/PLTV/88888888/224/3221225635/index.m3u8
+NewTV超级电影,http://39.134.66.66/PLTV/88888888/224/3221225644/index.m3u8
+NewTV超级电视剧,http://39.134.66.66/PLTV/88888888/224/3221225637/index.m3u8
+NewTV军事评论,http://39.134.66.66/PLTV/88888888/224/3221225535/index.m3u8
+NewTV军旅剧场,http://39.134.66.66/PLTV/88888888/224/3221225560/index.m3u8
+NewTV农业致富,http://39.134.66.66/PLTV/88888888/224/3221225552/index.m3u8
+NewTV古装剧场,http://39.134.66.66/PLTV/88888888/224/3221225524/index.m3u8
+NewTV家庭剧场,http://39.134.66.66/PLTV/88888888/224/3221225538/index.m3u8
+NewTV怡伴健康,http://39.134.66.66/PLTV/88888888/224/3221225571/index.m3u8
+NewTV武搏世界,http://39.134.66.66/PLTV/88888888/224/3221225547/index.m3u8
+NewTV炫舞未来,http://39.134.66.66/PLTV/88888888/224/3221225646/index.m3u8
+NewTV精品大剧,http://39.134.66.66/PLTV/88888888/224/3221225536/index.m3u8
+NewTV精品纪录,http://39.134.66.66/PLTV/88888888/224/3221225545/index.m3u8
+NewTV超级综艺,http://39.134.66.66/PLTV/88888888/224/3221225642/index.m3u8
+NewTV金牌综艺,http://39.134.66.66/PLTV/88888888/224/3221225525/index.m3u8
+·Bilibili·,#genre#
+哆啦A梦新番 24小时连播 蓝胖子24小时播放,http://106.53.212.251/daili/bili.php?id=482946"
+哆啦A梦旧版全集,http://106.53.212.251/daili/bili.php?id=1717236"
+中华小当家中华一番 FHD-233,http://106.53.212.251/daili/bili.php?id=655291"
+樱桃小丸子 蜡笔小新 蓝光特别版,http://106.53.212.251/daili/bili.php?id=21614203"
+樱桃小丸子国语台配,http://106.53.212.251/daili/bili.php?id=11765640"
+蜡笔小新24h睡觉背景音,http://106.53.212.251/daili/bili.php?id=11579951"
+经典动漫（推理、童年、灵异）,http://106.53.212.251/daili/bili.php?id=4089143"
+【国语】新版旧版我们这一家24H高清陪伴,http://106.53.212.251/daili/bili.php?id=14901318"
+哆啦A梦新版高清【国语】,http://106.53.212.251/daili/bili.php?id=12811814"
+台配樱桃小丸子,http://106.53.212.251/daili/bili.php?id=5827128"
+开心汉堡店 怪诞小镇24h轮播,http://106.53.212.251/daili/bili.php?id=2308015"
+猫和老鼠大电影（24循环播放）,http://106.53.212.251/daili/bili.php?id=22905626"
+童年回忆杀!国语犬夜叉!24h不间断直播,http://106.53.212.251/daili/bili.php?id=23089518"
+【1080】终极一家 终极三国,http://106.53.212.251/daili/bili.php?id=22587179"
+狄仁杰神探系列轮播,http://106.53.212.251/daili/bili.php?id=8331905"
+【周星驰】喜剧 动作 僵尸 24H,http://106.53.212.251/daili/bili.php?id=47917"
+康熙微服私访记1—4,http://106.53.212.251/daili/bili.php?id=4153440"
+铁齿铜牙纪晓岚 有片头片尾勿喷,http://106.53.212.251/daili/bili.php?id=22665698"
+新白娘子传奇。24小时经典轮播,http://106.53.212.251/daili/bili.php?id=5960549"
+雍正王朝九子夺嫡,http://106.53.212.251/daili/bili.php?id=21205932"
+封神演义等怀旧影视轮播,http://106.53.212.251/daili/bili.php?id=23644724"
+铁齿铜牙纪晓岚,http://106.53.212.251/daili/bili.php?id=23553622"
+【松鼠精选】动作片专场丨全明星阵容,http://106.53.212.251/daili/bili.php?id=6827037"
 
 ·歌曲频道·,#genre#
 毛宁-晚秋,http://vodcdn.video.taobao.com/oss/ali-video/95751adaad64e6ca860b18f4855cd94d/video.m3u8
@@ -2742,88 +2767,6 @@ CN卡通,mitv://ns2.hellotvvod.com:9906/51e593fae95f48968c181b6a47179526
 陈瑞-别思,http://antiserver.kuwo.cn/anti.s?rid=MUSIC_3429064&response=res&format=mp4&type=convert_url
 陈瑞-天长地久,http://antiserver.kuwo.cn/anti.s?rid=MUSIC_1583220&response=res&format=mp4&type=convert_url
 陈瑞-心中的牵挂,http://antiserver.kuwo.cn/anti.s?rid=MUSIC_1583211&response=res&format=mp4&type=convert_url
-卡路里,http://qukufile2.qianqian.com/data2/video/02cca8d7303f608a2ea1621a6ebd8ad4/607962657/607962657.mp4
-荣誉星球,http://qukufile2.qianqian.com/data2/video/c6dfcb0a40674ea89d95f90f648e24b0/614309868/614309868.mp4
-毒液前来,http://qukufile2.qianqian.com/data2/video/be217297601b7cb006f95f5f871d4053/608669409/608669409.mp4
-LIGHT,http://qukufile2.qianqian.com/data2/video/691cd7852e98754882da7827879cc8dd/607968455/607968455.mp4
-风,http://qukufile2.qianqian.com/data2/video/9d33b90ed60cb46fe84cf7a9f2229c4f/662193557/662193557.mp4
-撞,http://qukufile2.qianqian.com/data2/video/a1a7f95a2b3d048962f48e94de90c3de/608006750/608006750.mp4
-生而为赢,http://qukufile2.qianqian.com/data2/video/7f83719afd4e7d7aaf4e89d6c6126c9d/608004030/608004030.mp4
-一点点光,http://qukufile2.qianqian.com/data2/video/02e92b7652c07ec12561a9f296b8d4cc/672130571/672130571.mp4
-飒小姐,http://qukufile2.qianqian.com/data2/video/e26c1397166117168ce31d3addcddacf/664365873/664365873.mp4
-生而赢,http://qukufile2.qianqian.com/data2/video/c39e94b05cce0de51658b42c67b8e6b4/608004637/608004637.mp4
-冰之翼,http://qukufile2.qianqian.com/data2/video/bfd0a38c552b77dcc987212612144aff/672529378/672529378.mp4
-房东的猫,http://qukufile2.qianqian.com/data2/video/60835606354044303197296d437efcf0/672552936/672552936.mp4
-后来,http://qukufile2.qianqian.com/data2/video/589525916/f29cab06b7c24de4847a93ba5ab8b9b2/589525916.mp4
-告白地球,http://qukufile2.qianqian.com/data2/video/d61b9168c43fb08dd7cbb3ed57a724e3/608011767/608011767.mp4
-夜曲,http://qukufile2.qianqian.com/data2/video/1663526feaf6ce3356eb738fcf349d7f/607942796/607942796.mp4
-菊花台,http://qukufile2.qianqian.com/data2/video/90ab2e44f8895c921e8461dd55775efc/608012143/608012143.mp4
-给自己的歌,http://qukufile2.qianqian.com/data2/video/ca8471252f256e2c9db0d852ceb0b580/607961777/607961777.mp4
-简单爱,http://qukufile2.qianqian.com/data2/video/40cee634ec969e68d80d476121535d3a/608011913/608011913.mp4
-时间都去哪了,http://qukufile2.qianqian.com/data2/video/531235d6ab5bf55fe9be898b5273bd10/607996223/607996223.mp4
-可爱女人,http://qukufile2.qianqian.com/data2/video/5e97989acb030ab600c5c7ea91883975/607942506/607942506.mp4
-My Love,http://qukufile2.qianqian.com/data2/video/6208d1700e2053f0310cc42c1bc3fe20/608010056/608010056.mp4
-黄金甲,http://qukufile2.qianqian.com/data2/video/89d00859990ab00850e0e26ad71f427c/608011829/608011829.mp4
-星晴,http://qukufile2.qianqian.com/data2/video/7bd0e2ed49683239f9ad64ff68bfe3cb/607942670/607942670.mp4
-后来的我们,http://qukufile2.qianqian.com/data2/video/d475d2d5a1c5f6589538de5f36d7c5b6/608004684/608004684.mp4
-月弯弯,http://qukufile2.qianqian.com/data2/video/3b34ae7939b0647b26015b93628ffbac/608073532/608073532.mp4
-屋顶,http://qukufile2.qianqian.com/data2/video/eed63c18b7f66b48f87acb8927b5b684/607942636/607942636.mp4
-眉飞色舞,http://qukufile2.qianqian.com/data2/video/dec57caeef467aad1c5f41b29c855a50/608008049/608008049.mp4
-愿得一心人,http://qukufile2.qianqian.com/data2/video/a5bbea6f4f31e4065ffaf13f24bc2c0b/672308925/672308925.mp4
-惊喜派对,http://qukufile2.qianqian.com/data2/video/24cc806ad5dcdb70d015bb6f5898b091/672346671/672346671.mp4
-唱风,http://qukufile2.qianqian.com/data2/video/40941cbd789adf0e0c4588ec51156b2b/672271759/672271759.mp4
-伤心太平洋,http://qukufile2.qianqian.com/data2/video/f18b3a081de3533877b96a994b143b14/607997830/607997830.mp4
-我们很好,http://qukufile2.qianqian.com/data2/video/537cedf86a32fd37eb1a611f8ee41e92/659934930/659934930.mp4
-爱江山更爱美人,http://qukufile2.qianqian.com/data2/video/798c3432e408167f679806375174955b/607975664/607975664.mp4
-勇气,http://qukufile2.qianqian.com/data2/video/db2cce71cff186d028cebe4a510f45df/608005010/608005010.mp4
-醉赤壁,http://qukufile2.qianqian.com/data2/video/668883da298fe426a86afa99246240fc/608008349/608008349.mp4
-为爱痴狂,http://qukufile2.qianqian.com/data2/video/c93df601e8ad21da893c5b0fc997be4a/607984636/607984636.mp4
-心太软,http://qukufile2.qianqian.com/data2/video/207788b1b2f51e680ab978f8d73b0eea/608008160/608008160.mp4
-曹操,http://qukufile2.qianqian.com/data2/video/e41c8320b7d2aa3941bcf6959b2d8491/608012111/608012111.mp4
-素颜,http://qukufile2.qianqian.com/data2/video/34fb96a4dd56fac942391c22b394c638/608002797/608002797.mp4
-天下有情人,http://qukufile2.qianqian.com/data2/video/b5cd0d4e3a56db1cc7d9a7f28a8fafe0/607962224/607962224.mp4
-真心英雄,http://qukufile2.qianqian.com/data2/video/3caff6afcd5b78320f72540f3ba3fd86/607962689/607962689.mp4
-江南,http://qukufile2.qianqian.com/data2/video/91cbbb73820d09b44c5109b22a39a0c8/608124437/608124437.mp4
-病态,http://qukufile2.qianqian.com/data2/video/7ad854b08e94967d6fed7cd32063c61f/668286050/668286050.mp4
-一千年以后,http://qukufile2.qianqian.com/data2/video/0a70b39b51a858252b7cef53cb680afc/608011368/608011368.mp4
-小酒窝,http://qukufile2.qianqian.com/data2/video/54ac6bacba09ecf7b90b3050d579f671/608008291/608008291.mp4
-明明白白我的心,http://qukufile2.qianqian.com/data2/video/6e2a9470d6bf14f3b8f3165290983867/607972391/607972391.mp4
-奔跑,http://qukufile2.qianqian.com/data2/video/8b6887f35bec76556077f806c8e58570/607945807/607945807.mp4
-当爱在靠近,http://qukufile2.qianqian.com/data2/video/3e6cffefabb669b1dae52e9aa47a73b5/607990892/607990892.mp4
-我是一只鱼,http://qukufile2.qianqian.com/data2/video/54019b7a51a3b0fb3788d1579758d5c6/608009080/608009080.mp4
-浪花一朵朵,http://qukufile2.qianqian.com/data2/video/d4f4cdf0ea19cd3763cfff481e5df60c/608007126/608007126.mp4
-壮志在我胸,http://qukufile2.qianqian.com/data2/video/16563f6610f2477ddc27c9df19c1360a/607964563/607964563.mp4
-亲亲我的宝贝,http://qukufile2.qianqian.com/data2/video/92c4ccb7768fde14adaa53b309b7518a/607981030/607981030.mp4
-盛夏的果实,http://qukufile2.qianqian.com/data2/video/540467677/24f9b31a35dbfc91fd67e72b42fcafbf/540467677.mp4
-世界第一等,http://qukufile2.qianqian.com/data2/video/42fb57e477f5bd48f0e4be295bd1d218/607996216/607996216.mp4
-依靠,http://qukufile2.qianqian.com/data2/video/83717587aa92d09828b8164147cb8dc0/608007235/608007235.mp4
-青城山下白素贞,http://qukufile2.qianqian.com/data2/video/53ca26b954dc1243818fe3bfa8b73131/613760010/613760010.mp4
-浪人情歌,http://qukufile2.qianqian.com/data2/video/f562e3ba4d6ec779c1fb2def8336b2b9/607998066/607998066.mp4
-有没有一首歌会让你想起我,http://qukufile2.qianqian.com/data2/video/8684865ae0ea2d4cf89789e328670995/607964606/607964606.mp4
-庐州月,http://qukufile2.qianqian.com/data2/video/0f31d5f1b6d617308c134126698e91b5/608002464/608002464.mp4
-不潮不用花钱,http://qukufile2.qianqian.com/data2/video/31851e82bc5afc8961de79a79786a3b2/608007970/608007970.mp4
-月亮代表我的心,http://qukufile2.qianqian.com/data2/video/771554c6dc5e2433b0d37ad3ffdd7252/608011328/608011328.mp4
-断桥残雪,http://qukufile2.qianqian.com/data2/video/3a376b3a94470a2f505a57a0ab5d506a/608000999/608000999.mp4
-海浪,http://qukufile2.qianqian.com/data2/video/ff9888a76ff82080886fd1c2e24782c6/608003698/608003698.mp4
-渡情,http://qukufile2.qianqian.com/data2/video/e8016d9909a1a4702b0dd70a3a88be83/613405966/613405966.mp4
-爱我别走,http://qukufile2.qianqian.com/data2/video/2081e13791e1f0ffe0047eb8b2de77a0/608006875/608006875.mp4
-本来就是这样,http://qukufile2.qianqian.com/data2/video/ad784b66d6af4448e841ff7fa0e218a1/607989992/607989992.mp4
-半城烟沙,http://qukufile2.qianqian.com/data2/video/8e0d6b801ec291c609773d9f1a9f817f/608002721/608002721.mp4
-慢半拍,http://qukufile2.qianqian.com/data2/video/06f603f11697e6dc11db6293d84c5c0a/663785520/663785520.mp4
-哭个痛快,http://qukufile2.qianqian.com/data2/video/49db66dcfc6ab4b1849666040ed3a006/608011778/608011778.mp4
-一生有你,http://qukufile2.qianqian.com/data2/video/980359fccab67a26a0b1f80b548373c7/672527525/672527525.mp4
-好运来,http://qukufile2.qianqian.com/data2/video/5c415dc872e0b75e312e182b366913d3/608003958/608003958.mp4
-爱丫爱丫,http://qukufile2.qianqian.com/data2/video/724f2115dd10d419203a85cac39244e1/608007130/608007130.mp4
-痛哭的人,http://qukufile2.qianqian.com/data2/video/81684292e477e1832ec2e981a59c74af/607994748/607994748.mp4
-最近比较烦,http://qukufile2.qianqian.com/data2/video/baf1205de68913e24c855318fc5fe041/607963930/607963930.mp4
-爱拼才会赢,http://qukufile2.qianqian.com/data2/video/12f115ddbd464adc57a3eec857567ad3/607990177/607990177.mp4
-春天花会开,http://qukufile2.qianqian.com/data2/video/17cbb90e1ef2e2cd5a5d208afc9ed39e/607943815/607943815.mp4
-Ba Ba Ba,http://qukufile2.qianqian.com/data2/video/2e3747f8eae298e80f98a9f9a57d95c2/607989659/607989659.mp4
-那年夏天的梦,http://qukufile2.qianqian.com/data2/video/523726dc4b3531407aced4440ac2472d/658951025/658951025.mp4
-把你信仰,http://qukufile2.qianqian.com/data2/video/d1f3740bff3b9d4397b82da539e5d0ae/608075049/608075049.mp4
-无解呦,http://qukufile2.qianqian.com/data2/video/1cbc1ed5376549a3f13c0768d4394ae4/608006889/608006889.mp4
-reol-サイサキ,http://qukufile2.qianqian.com/data2/video/d9ef17b3d5ccaa335a85509c774ca58a/672562391/672562391.mp4
-爱的初体验,http://qukufile2.qianqian.com/data2/video/4b0fc396f3f414ecdfa055793367c60b/608008007/608008007.mp4
 吕方-朋友别哭,http://bizcommon.alicdn.com/l2nDqpMmn6DGHnWzZQA/qgljCDKewD8vEgOMrrt%40%40sd.m3u8
 吕方-多爱你一天,http://vodcdn.video.taobao.com/oss/ali-video/dcd97358c3e72377932aa883727320f9/video.m3u8
 王菲-容易受伤的女人-粤语,http://vodcdn.video.taobao.com/oss/ali-video/ed5aed790e002b229c9a8870e900f985/video.m3u8
@@ -3028,7 +2971,6 @@ reol-サイサキ,http://qukufile2.qianqian.com/data2/video/d9ef17b3d5ccaa335a85
 张惠妹-趁早,http://cloud.video.taobao.com/play/u/1748679248/p/2/e/3/t/1/d/sd/79162948.m3u8
 李翊君-诺言,http://vodcdn.video.taobao.com/oss/ali-video/b8096cd4762369bbcb4ceb52cc25a938/video.m3u8
 李翊君-多情人都把灵魂给了谁,http://bizcommon.alicdn.com/l2nDqpMmn6DGHnWzZQA/o1koj80kDcERprb8epC%40%40hd.m3u8
-小星星,http://qukufile2.qianqian.com/data2/video/3054e045a10960b86c50dfc4bc57e0a4/608003776/608003776.mp4
 毛不易 Ⅰ 像我这样的人,https://vd3.bdstatic.com/mda-ka8qm8710ymkqdry/hd/mda-ka8qm8710ymkqdry.mp4?pd=20&vt=1
 毛不易 Ⅰ 不染,https://vd3.bdstatic.com/mda-jmceuahfwxarnh7v/hd/mda-jmceuahfwxarnh7v.mp4?pd=20&playlist=%5B%22hd%22%2C%22sc%22%5D
 毛不易 Ⅰ 消愁,https://vd3.bdstatic.com/mda-ifkj2zwdscwthsfj/logo/hd/mda-ifkj2zwdscwthsfj.mp4?pd=20
@@ -3094,56 +3036,58 @@ IZONE女团 Ⅰ LaVieenRose,http://220.194.238.104/14/d/q/l/j/dqljhajwvvnenqkzlg
 陈慧娴 Ⅰ 玻璃窗的爱,http://hc.yinyuetai.com/uploads/videos/common/735D0141130FBD578A853DD2AD39091C.mp4?sc=d73348128f5236e8&br=780&vid=764270&aid=1027&area=HT&vst=2Y
 陈慧娴 Ⅰ 孤单背影,http://vodcdn.video.taobao.com/oss/ali-video/092bc3fac8ea013544a1dda61de41e58/video.m3u8
 陈慧娴 Ⅰ 人生何处不相逢,http://vodcdn.video.taobao.com/oss/ali-video/e45ed62546d055938577994f0c16d2e0/video.m3u8
-陈佳 Ⅰ 伊人何处,http://hd.yinyuetai.com/uploads/videos/common/EB690154F5E683B3AAE6BB3D540CA9B3.mp4
-陈佳 Ⅰ 又见炊烟,http://he.yinyuetai.com/uploads/videos/common/A4CD0157B794E0FCB65D0E95CDFD625F.mp4
-陈佳 Ⅰ 在水一方,http://he.yinyuetai.com/uploads/videos/common/7A220154CCDF67270EE2DB883387D2A2.mp4
 陈倩倩 Ⅰ 陈倩倩,http://vodcdn.video.taobao.com/oss/ali-video/4fc8d043456c092c392483bd293d0ee3/video.m3u8
-孙露·光辉岁月·PO,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2FYWXkhEqJ_%E5%AD%99%E9%9C%B2_%E5%85%89%E8%BE%89%E5%B2%81%E6%9C%88.mp4
-崔萍·南屏晚钟·PO,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2FLOUtF00L_%E5%B4%94%E8%90%8D%20-%20%E5%8D%97%E5%B1%8F%E6%99%9A%E9%92%9F%28%201080%20X%201920%20%29.mp4
-王杰·冰冷长街·PO,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2FptCU2xsd_%E7%8E%8B%E6%9D%B0_%E5%86%B0%E5%86%B7%E9%95%BF%E8%A1%97.mp4
-周璇·天涯歌女·PO,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2Fyiv1PzPy_%E5%91%A8%E7%92%87%20-%20%E5%A4%A9%E6%B6%AF%E6%AD%8C%E5%A5%B3.mp4
-合唱·千千阙歌·PO,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2FoSjN0vBy_%E8%B6%8A%E5%8D%97%E8%AF%AD_%E5%8D%83%E5%8D%83%E9%98%99%E6%AD%8C.mp4
-王杰·伤心1999·PO,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2FCLoOoaYF_%E7%8E%8B%E6%9D%B0%20-%20%E4%BC%A4%E5%BF%831999.mp4
-从书·不变的情缘·PO,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2FTV0KNIxw_%E4%B8%9B%E4%B9%A6_%E4%B8%8D%E5%8F%98%E7%9A%84%E6%83%85%E7%BC%98.mp4
-黄龄·走过咖啡屋·PO,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2Fp9gEHuXQ_%E9%BB%84%E9%BE%84_%E8%B5%B0%E8%BF%87%E5%92%96%E5%95%A1%E5%B1%8B.mp4
-张依微·我不说你不知道·PO,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2FYXRRNG0g_%E5%BC%A0%E4%BE%9D%E5%BE%AE%20-%20%E6%88%91%E4%B8%8D%E8%AF%B4%E4%BD%A0%E4%B8%8D%E7%9F%A5%E9%81%93.mp4
-刘广艺·几分伤心几分痴·PO,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2FdkkHc2SZ_%E5%88%98%E5%B9%BF%E8%89%BA%20-%20%20%E5%87%A0%E5%88%86%E4%BC%A4%E5%BF%83%E5%87%A0%E5%88%86%E7%97%B4%28%201080%20X%201920%20%29.mp4
-小曼·别让我一个人醉·OP,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2F5QuaD2cN_%E5%B0%8F%E6%9B%BC_%E5%88%AB%E8%AE%A9%E6%88%91%E4%B8%80%E4%B8%AA%E4%BA%BA%E9%86%89.mp4
-门丽·死心塌地去爱你·PO,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2FgZTzxJan_%E9%97%A8%E4%B8%BD_%E6%AD%BB%E5%BF%83%E5%A1%8C%E5%9C%B0%E5%8E%BB%E7%88%B1%E4%BD%A0.mp4
-杨梓·被情伤过的女人·PO,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2FFOkAGpmQ_%E6%9D%A8%E6%A2%93_%E8%A2%AB%E6%83%85%E4%BC%A4%E8%BF%87%E7%9A%84%E5%A5%B3%E4%BA%BA.mp4
-冷漠·看透爱情看透你·PO,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2FRSVSZ2lM_%E5%86%B7%E6%BC%A0%20-%20%E7%9C%8B%E9%80%8F%E7%88%B1%E6%83%85%E7%9C%8B%E9%80%8F%E4%BD%A0.mp4
-王杰·忘了你忘了我·PO,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2F14LVZLak_%E7%8E%8B%E6%9D%B0_%E5%BF%98%E4%BA%86%E4%BD%A0%E5%BF%98%E4%BA%86%E6%88%91.mkv
-陈瑞·一个人的时候好好爱自己·PO,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2FZHWy4LDr_%E9%99%88%E7%91%9E_%E4%B8%80%E4%B8%AA%E4%BA%BA%E7%9A%84%E6%97%B6%E5%80%99%E5%A5%BD%E5%A5%BD%E7%88%B1%E8%87%AA%E5%B7%B1.mp4
-杭娇·忘了我的爱·PO,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2FVYzdQmb6_%E6%9D%AD%E5%A8%87_%E5%BF%98%E4%BA%86%E6%88%91%E7%9A%84%E7%88%B1.mp4
-杭娇·离别两依依·PO,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2FNklJbBHU_%E6%9D%AD%E5%A8%87_%E7%A6%BB%E5%88%AB%E4%B8%A4%E4%BE%9D%E4%BE%9D.mp4
-王杰·谁明浪子心·PO,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2FSE6hw2Xr_%E7%8E%8B%E6%9D%B0%20-%20%E8%B0%81%E6%98%8E%E6%B5%AA%E5%AD%90%E5%BF%83.mp4
-王杰·故事的角色·PO,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2FoP1sHK6f_%E7%8E%8B%E6%9D%B0-%20%E6%95%85%E4%BA%8B%E7%9A%84%E8%A7%92%E8%89%B2%28%E7%B2%B5%29.mp4
-王杰·不浪漫罪名·PO,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2FvI4NTJOl_%E7%8E%8B%E6%9D%B0%20-%20%E4%B8%8D%E6%B5%AA%E6%BC%AB%E7%BD%AA%E5%90%8D.mp4
-孙露·下辈子也要找到你·PO,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2Fawpc8y3L_%E5%AD%99%E9%9C%B2_%E4%B8%8B%E8%BE%88%E5%AD%90%E4%B9%9F%E8%A6%81%E6%89%BE%E5%88%B0%E4%BD%A0.mp4
-刘晓·天在下雨我在恨你·PO,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2F8yRlo6Ia_%E5%88%98%E6%99%93_%E5%A4%A9%E5%9C%A8%E4%B8%8B%E9%9B%A8%E6%88%91%E5%9C%A8%E6%81%A8%E4%BD%A0.mp4
-大哲·闯码头·PO,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2Ffeq9mPXc_%E5%A4%A7%E5%93%B2%20-%20%E9%97%AF%E7%A0%81%E5%A4%B4.mp4
-杭娇·一剪梅·PO,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2FW508Cs78_%E6%9D%AD%E5%A8%87_%E4%B8%80%E5%89%AA%E6%A2%85.mp4
-金学峰·心爱·PO,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2F5HRSquR1_%E9%87%91%E5%AD%A6%E5%B3%B0%20-%20%E5%BF%83%E7%88%B1.mp4
-孟庭苇·风中有朵雨做的云·PO,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2FSqzwCdp6_%E5%AD%9F%E5%BA%AD%E8%8B%87%20-%20%E9%A3%8E%E4%B8%AD%E6%9C%89%E6%9C%B5%E9%9B%A8%E5%81%9A%E7%9A%84%E4%BA%91.mp4
-雨宗林·没有理想何必远方·PO,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2FTfx41FQH_%E9%9B%A8%E5%AE%97%E6%9E%97%20-%20%E6%B2%92%E6%9C%89%E7%90%86%E6%83%B3%E4%BD%95%E5%BF%85%E8%BF%9C%E6%96%B9.mp4
-张依微·世界这么大还是遇见你·PO,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2FQJR2jxvU_%E5%BC%A0%E4%BE%9D%E5%BE%AE%20-%20%E4%B8%96%E7%95%8C%E8%BF%99%E4%B9%88%E5%A4%A7%E8%BF%98%E6%98%AF%E9%81%87%E8%A7%81%E4%BD%A0.mp4
-陈俐绢·下定决心忘记你·PO,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2Fn4RDTsZ4_%E9%99%88%E4%BF%90%E7%BB%A2_%E4%B8%8B%E5%AE%9A%E5%86%B3%E5%BF%83%E5%BF%98%E8%AE%B0%E4%BD%A0.mp4
-程慧雯·惦记这一些·PO,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2FnJKPGeX5_%E7%A8%8B%E6%85%A7%E9%9B%AF_%E6%83%A6%E8%AE%B0%E8%BF%99%E4%B8%80%E4%BA%9B.mp4
-张明敏·我的中国心·PO,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2FB2iwzY8r_%E5%BC%A0%E6%98%8E%E6%95%8F%20-%20%E6%88%91%E7%9A%84%E4%B8%AD%E5%9B%BD%E5%BF%83.mp4
-罗翎允·茫茫到深更·PO,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2FryYVzbzG_%E7%BD%97%E7%BF%8E%E5%85%81%20-%20%E8%8C%AB%E8%8C%AB%E5%88%B0%E6%B7%B1%E6%9B%B4.mp4
-杨莹莹·香水有毒·PO,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2FEIWGaU3J_%E6%A1%82%E8%8E%B9%E8%8E%B9_%E9%A6%99%E6%B0%B4%E6%9C%89%E6%AF%92.mp4
-苏家玉·微风细雨·PO,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2FC41LP5sg_%E8%8B%8F%E5%AE%B6%E7%8E%89%20-%20%E5%BE%AE%E9%A3%8E%E7%BB%86%E9%9B%A8.mp4
-张国荣·倩女幽魂·PO,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2FtTpeJ6qZ_%E5%BC%A0%E5%9B%BD%E8%8D%A3_%E5%80%A9%E5%A5%B3%E5%B9%BD%E9%AD%82.mp4
-张玮伽·假情真爱·PO,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2FDAb6kDF3_%E5%BC%A0%E7%8E%AE%E4%BC%BD_%E5%81%87%E6%83%85%E7%9C%9F%E7%88%B1.mp4
-黄嘉雯·爱很简单·PO,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2FKsUTb71C_%E9%BB%84%E5%98%89%E9%9B%AF_%E7%88%B1%E5%BE%88%E7%AE%80%E5%8D%95.mp4
-罗翎允·欢喜就好·PO,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2FWxohyduB_%E7%BD%97%E7%BF%8E%E5%85%81_%E6%AC%A2%E5%96%9C%E5%B0%B1%E5%A5%BD.mp4
-大哲·下定决心忘记你·PO,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2FdeKfI92D_%E5%A4%A7%E5%93%B2%20-%20%E4%B8%8B%E5%AE%9A%E5%86%B3%E5%BF%83%E5%BF%98%E8%AE%B0%E4%BD%A0.mp4
-翠卿·千千阙歌·PO,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2FIgSvL6sF_%E7%BF%A0%E5%8D%BF_%E5%8D%83%E5%8D%83%E9%98%99%E6%AD%8C.mp4
-黄嘉雯·凡人歌·PO,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2FOqxqRot6_%E9%BB%84%E5%98%89%E9%9B%AF_%E5%87%A1%E4%BA%BA%E6%AD%8C.mp4
-王杰&王韵婵·祈祷·PO,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2FgAgodLbY_%E7%8E%8B%E6%9D%B0&%E7%8E%8B%E9%9F%B5%E5%A9%B5%20-%20%E7%A5%88%E7%A5%B7.mp4
-冷漠&云菲菲·这条街·PO,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2FXvOLyeaH_%E5%86%B7%E6%BC%A0&%E4%BA%91%E8%8F%B2%E8%8F%B2%20-%20%E8%BF%99%E6%9D%A1%E8%A1%97.mp4
-乌兰图雅·站在草原望北京·PO,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2FZzz8hKLn_%E4%B9%8C%E5%85%B0%E5%9B%BE%E9%9B%85%20-%20%E7%AB%99%E5%9C%A8%E8%8D%89%E5%8E%9F%E6%9C%9B%E5%8C%97%E4%BA%AC.mp4
-庄心妍·不爱在我的伤口撒盐·PO,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2FPKSssz14_%E5%BA%84%E5%BF%83%E5%A6%8D%20-%20%E4%B8%8D%E8%A6%81%E5%9C%A8%E6%88%91%E7%9A%84%E4%BC%A4%E5%8F%A3%E6%92%92%E7%9B%90.mp4
+·一起慢摇·,#genre#
+今日热歌DJ《如果爱还在》,https://vd2.bdstatic.com/mda-mhhf5mr00yyhpfjs/1080p/cae_h264/1629284581057661229/mda-mhhf5mr00yyhpfjs.mp4
+推荐9首DJ舞曲,https://vd2.bdstatic.com/mda-mhig1c3sw223mx8p/1080p/cae_h264/1629380139191731149/mda-mhig1c3sw223mx8p.mp4
+动感DJ《苦了累了听听歌》,https://vd4.bdstatic.com/mda-mhqekuf2r91v08dt/1080p/cae_h264/1629888246186602728/mda-mhqekuf2r91v08dt.mp4
+车载必备DJ《殇雪》,https://vd3.bdstatic.com/mda-mhve4gb9hi8cstzk/1080p/cae_h264/1630319514896018158/mda-mhve4gb9hi8cstzk.mp4
+DJ《心在跳情在烧》,https://vd4.bdstatic.com/mda-mhwf07t27w3gi1y7/1080p/cae_h264/1630406994590156367/mda-mhwf07t27w3gi1y7.mp4
+孙艺琪《寂寞的人别听伤感情歌》,https://vd2.bdstatic.com/mda-mdscsws7443npwa8/1080p/cae_h264/1619516504/mda-mdscsws7443npwa8.mp4
+郭镐鸣《野摩托》,https://vd3.bdstatic.com/mda-mekfm7wu6f4rtt99/1080p/cae_h264/1621595318412084671/mda-mekfm7wu6f4rtt99.mp4
+赵蕾蕾《寂寞的城伤心的人》,https://vd2.bdstatic.com/mda-mesdm11tdp69a9ye/1080p/cae_h264/1622115758783335310/mda-mesdm11tdp69a9ye.mp4
+DJ版《真的为你哭了》,https://vd2.bdstatic.com/mda-me5chwexudvzcayg/fhd/cae_h264_nowatermark/1620297137821103617/mda-me5chwexudvzcayg.mp4
+海来阿木《浪子心》DJ沈念版,https://vd3.bdstatic.com/mda-mgr9s5pv0jeqbcm8/1080p/cae_h264/1627298307874491239/mda-mgr9s5pv0jeqbcm8.mp4
+《人间惊鸿客》,https://vd3.bdstatic.com/mda-mh2bbyjcqjxjhzkd/1080p/cae_h264/1627978577559447916/mda-mh2bbyjcqjxjhzkd.mp4
+DJ版《三月里的小雨》,https://vd2.bdstatic.com/mda-mgwegh0bzv4cy6cb/1080p/cae_h264/1627727251470197083/mda-mgwegh0bzv4cy6cb.mp4
+DJ版《望爱却步》,https://vd4.bdstatic.com/mda-mh3ei4sg2jypty79/1080p/cae_h264/1628072927342489970/mda-mh3ei4sg2jypty79.mp4
+《唱着情歌流着泪》,https://vd3.bdstatic.com/mda-mhwaejanf0ie6b8j/1080p/cae_h264/1630409563129833732/mda-mhwaejanf0ie6b8j.mp4
+DJ版《一个人挺好》,https://vd3.bdstatic.com/mda-mh6gqq4b59z26cjx/1080p/cae_h264/1628504623473300938/mda-mh6gqq4b59z26cjx.mp4
+《爱你到最后一刻》,https://vd3.bdstatic.com/mda-mhr9c7q9xzgy1812/1080p/cae_h264/1630062648077583523/mda-mhr9c7q9xzgy1812.mp4
+伤感DJ《等》,https://vd2.bdstatic.com/mda-mhq92a7nafrh8dma/1080p/cae_h264/1629977686796490849/mda-mhq92a7nafrh8dma.mp4
+DJ《我们不再是从前》,https://vd2.bdstatic.com/mda-mhne550wq5m66zvj/1080p/cae_h264/1629803514331462220/mda-mhne550wq5m66zvj.mp4
+DJ舞曲《让我做你的眼睛》,https://vd2.bdstatic.com/mda-mhaargrart2qrkdz/1080p/cae_h264/1629630942996744682/mda-mhaargrart2qrkdz.mp4
+DJ版《时间会知道你好不好》,https://vd3.bdstatic.com/mda-mhairve7gvye1192/1080p/cae_h264/1629457148988604256/mda-mhairve7gvye1192.mp4
+DJ版《爱不得忘不舍》,https://vd3.bdstatic.com/mda-mh8j8egnj8idbvd8/1080p/cae_h264/1629367979662473678/mda-mh8j8egnj8idbvd8.mp4
+DJ版《蜜雪冰城》,https://vd3.bdstatic.com/mda-mhbae2pwwxhyxjcz/1080p/cae_h264/1628767594518574030/mda-mhbae2pwwxhyxjcz.mp4
+DJ版《夜难眠》,https://vd3.bdstatic.com/mda-mh5hwg99vtp777bj/1080p/cae_h264/1628420576290088489/mda-mh5hwg99vtp777bj.mp4
+《无味》 DJ版,https://vd3.bdstatic.com/mda-mgqiagirsmmpuarm/1080p/cae_h264/1627218846577884242/mda-mgqiagirsmmpuarm.mp4
+DJ版《原谅你的谎》,https://vd4.bdstatic.com/mda-mhacxx5vhr2we882/1080p/cae_h264/1628673933350116053/mda-mhacxx5vhr2we882.mp4
+DJ《等爱》,https://vd2.bdstatic.com/mda-mfhh1e0hwq212rrt/sc/h264/1623988905898256147/mda-mfhh1e0hwq212rrt.mp4
+DJ《醉过多少回》,https://vd4.bdstatic.com/mda-megp46e98a4f2b9g/sc/h264/1621239560364992817/mda-megp46e98a4f2b9g.mp4
+DJ小鱼儿 - 如果你真的要离开 (DJ加快版),https://vd4.bdstatic.com/mda-mfh4rq9drsza8gf9/1080p/cae_h264/1623987066817324460/mda-mfh4rq9drsza8gf9.mp4
+DJ情歌《爱情迷了路》,https://vd4.bdstatic.com/mda-mdbrb7fns70avrmt/1080p/cae_h264/1618222287/mda-mdbrb7fns70avrmt.mp4
+《忘川彼岸DJ》,https://vd2.bdstatic.com/mda-md2eyfntemujuft5/1080p/cae_h264/1617446472/mda-md2eyfntemujuft5.mp4
+DJ音乐舞曲《一千个轮回》,https://vd4.bdstatic.com/mda-mdu1939m1muvhme3/1080p/cae_h264/1619662287022848524/mda-mdu1939m1muvhme3.mp4
+DJ 最美不过你的微笑,https://vd4.bdstatic.com/mda-mhs2qjdmkjz2rb7g/sc/cae_h264/1630029534870787600/mda-mhs2qjdmkjz2rb7g.mp4
+DJ 流浪兄弟,https://vd2.bdstatic.com/mda-mhrdtax1km0idkc5/1080p/cae_h264/1629972852606533219/mda-mhrdtax1km0idkc5.mp4
+车载DJ《多年以后》,https://vd3.bdstatic.com/mda-mhqekuegbh6112js/1080p/cae_h264/1629891559415737083/mda-mhqekuegbh6112js.mp4
+红尘只是个过客,https://vd2.bdstatic.com/mda-mhq68s6g444n437t/hd/cae_h264/1629865742325435508/mda-mhq68s6g444n437t.mp4
+百花香(抖音DJ版),https://vd4.bdstatic.com/mda-mdsd1z3wbqeeyumq/fhd/cae_h264_nowatermark/1620021906658368673/mda-mdsd1z3wbqeeyumq.mp4
+经典老歌DJ舞曲七首,https://vd2.bdstatic.com/mda-mhwbtsnrmm6v6x5r/sc/cae_h264/1630403250895754314/mda-mhwbtsnrmm6v6x5r.mp4
+精选五首DJ男声串烧,https://vd2.bdstatic.com/mda-maqfk730tsig88wr/v2-hknm/1080p/mda-maqfk730tsig88wr.mp4
+韩可可《错位时空》DJ版,https://vd3.bdstatic.com/mda-mgciytzb45z6z8yj/1080p/cae_h264/1626183756603775947/mda-mgciytzb45z6z8yj.mp4
+忘记你需要多久(DJ小鱼儿版),https://vd2.bdstatic.com/mda-mc1sm1r5s9azchjv/v1-cae/1080p/mda-mc1sm1r5s9azchjv.mp4
+抖音热歌《大风吹+夜夜夜漫长》,https://vdse.bdstatic.com//13da18e12728e9d7849f6589a3070b4c.mp4
+一夜火爆i网络DJ舞曲,https://vdse.bdstatic.com//692b9306c06b72d223c9d714f8ebe579.mp4
+2021年最火伤感音乐,https://vdse.bdstatic.com//6d39df48360bdb12f73800397c4a6c02.mp4
+2021年网络火爆伤感情歌6首,https://vdse.bdstatic.com//80e0473f97055cec1c9c76c1c7e5498a.mp4
+2021热门伤感DJ,https://vdse.bdstatic.com//06b4e9b185b843e694e4d20e9b0a0aac.mp4
+6首DJ情歌,https://vdse.bdstatic.com//e0ad4d203cd7d7ffa943544c8d2ddbd3.mp4
+几首比较火的DJ情歌,https://vdse.bdstatic.com//4d7e8fe409b2ba9e08b179de8e146fa3.mp4
+精选6首DJ情歌,https://vdse.bdstatic.com//2ead9cf04f5e9e3a99eea79534c3c104.mp4
+酒吧DJ舞曲,https://vdse.bdstatic.com//5208fb24e1d76b0e81f992e91537f086.mp4
+花都开了你来不来DJ,https://vd3.bdstatic.com/mda-mdee523swbezmsin/480p/h264/1618480997/mda-mdee523swbezmsin.mp4
 ·来看女团·,#genre#
 女团10月7,https://ts.48.cn/snh/20211007/gaoqing/bk/648919343238549504.m3u8
 女团10.6,https://ts.48.cn/snh/20211006/gaoqing/bk/648919196559544320.m3u8
@@ -3232,80 +3176,186 @@ IZONE女团 Ⅰ LaVieenRose,http://220.194.238.104/14/d/q/l/j/dqljhajwvvnenqkzlg
 女团78,https://ts.48.cn/snh/20210719/gaoqing/bk/621367896120823808.m3u8
 女团79,https://ts.48.cn/snh/20210704/gaoqing/bk/616348363177922560.m3u8
 女团80,https://ts.48.cn/snh/20200829/gaoqing/bk/502539268021620736.m3u8
-·来慢摇吧·,#genre#
-花姐·狂狼·DJ,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2FUDmNsLXn_%E8%8A%B1%E5%A7%90_%E7%8B%82%E6%B5%AADJ%E4%B8%80%E7%89%88.mp4
-暴林·殇雪·DJ,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2F4ZOjjrs8_%E6%9A%B4%E6%9E%97_%E6%AE%87%E9%9B%AADJ.mp4
-曹锦·坦荡·DJ,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2FUU01iOac_%E6%9B%B9%E9%94%A6_%E5%9D%A6%E8%8D%A1DJ.mp4
-香子·鬼迷心窍·DJ,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2Fpz6oyyMu_%E9%A6%99%E5%AD%90%20-%20%E9%AC%BC%E8%BF%B7%E5%BF%83%E7%AB%85DJ.mp4
-安琪·曾经被爱·DJ,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2FPEdFkHk9_%E5%AE%89%E7%90%AA_%E6%9B%BE%E7%BB%8F%E8%A2%AB%E7%88%B1DJ.mp4
-艾萨·不再犯傻·DJ,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2FYo7xm3PD_%E8%89%BE%E8%90%A8_%E4%B8%8D%E5%86%8D%E7%8A%AF%E5%82%BBDJ.mp4
-菲儿·自由飞翔·DJ,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2FpSOpHfBv_%E8%8F%B2%E5%84%BF_%E8%87%AA%E7%94%B1%E9%A3%9E%E7%BF%94DJ.mp4
-寂悸·潮湿的心·DJ,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2F5N8uPB3v_%E5%AF%82%E6%82%B8_%E6%BD%AE%E6%B9%BF%E7%9A%84%E5%BF%83DJ.mp4
-粤语·因为爱你·DJ,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2FkXDSuSQZ_%E7%B2%A4%E8%AF%AD_%E5%9B%A0%E4%B8%BA%E7%88%B1%E4%BD%A0DJ.mp4
-郑伊涵·公虾米·DJ,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2Fj3rG53oe_%E9%83%91%E4%BC%8A%E6%B6%B5_%E5%85%AC%E8%99%BE%E7%B1%B3DJ.mp4
-杨小曼·你不懂·DJ,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2F6qgPeb7J_%E6%9D%A8%E5%B0%8F%E6%9B%BC_%E4%BB%96%E5%BC%9F%E5%BC%9F%E6%89%93%E7%9A%84%E6%B4%9EDJ.mp4
-程响·新娘不是我·DJ,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2FUq7FxoDw_%E7%A8%8B%E5%93%8D_%E6%96%B0%E5%A8%98%E4%B8%8D%E6%98%AF%E6%88%91DJ.mp4
-大壮·我们不一样·DJ,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2FwykOq6vJ_%E5%A4%A7%E5%A3%AE_%E6%88%91%E4%BB%AC%E4%B8%8D%E4%B8%80%E6%A0%B7DJ.mp4
-徐倩·今夜我一个人醉·DJ,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2FAQoxEmSx_%E5%BE%90%E5%80%A9_%E4%BB%8A%E5%A4%9C%E6%88%91%E4%B8%80%E4%B8%AA%E4%BA%BA%E9%86%89DJ.mp4
-小娟·爱的路上千万里·DJ,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2F2aN34uqU_%E5%B0%8F%E5%A8%9F_%E7%88%B1%E7%9A%84%E8%B7%AF%E4%B8%8A%E5%8D%83%E4%B8%87%E9%87%8CDJ.mp4
-张欣·最爱的那个人·DJ,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2FqIEeVq3g_%E5%BC%A0%E6%AC%A3_%E6%9C%80%E7%88%B1%E7%9A%84%E9%82%A3%E4%B8%AA%E4%BA%BADJ.mp4
-陈瑞·恋旧的人最容易掉眼泪·DJ,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2FaZ4TH6Zw_%E9%99%88%E7%91%9E_%E5%BF%B5%E6%97%A7%E7%9A%84%E4%BA%BA%E6%9C%80%E5%AE%B9%E6%98%93%E6%8E%89%E7%9C%BC%E6%B3%AADJ.mp4
-杭娇·忘了我的爱·DJ,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2F0Nl5mjgb_%E6%9D%AD%E5%A8%87_%E5%BF%98%E4%BA%86%E6%88%91%E7%9A%84%E7%88%B1DJ.mp4
-唐古·突然好想念·DJ,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2FQmhMsMGw_%E5%94%90%E5%8F%A4_%E7%AA%81%E7%84%B6%E5%A5%BD%E6%83%B3%E5%BF%B5DJ.mp4
-唐古·我又想你了·DJ,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2FexnfZ6Vi_%E5%94%90%E5%8F%A4_%E6%88%91%E5%8F%88%E6%83%B3%E4%BD%A0%E4%BA%86DJ.mp4
-天翔·一晃就老了·DJ,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2FjphLKXZp_%E5%A4%A9%E7%BF%94_%E4%B8%80%E6%99%83%E5%B0%B1%E8%80%81%E4%BA%86DJ.mp4
-马博·菊花爆满山·DJ,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2FsrMVF58T_%E9%A9%AC%E5%8D%9A_%E8%8F%8A%E8%8A%B1%E7%88%86%E6%BB%A1%E5%B1%B1DJ.mp4
-郭玲·拥抱你离去·DJ,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2FyVHeUZG5_%E9%83%AD%E7%8E%B2_%E6%8B%A5%E6%8A%B1%E4%BD%A0%E7%A6%BB%E5%8E%BBDJ.mp4
-郭玲·痴情的只有我一个·DJ,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2FLgekYXH5_%E9%83%AD%E7%8E%B2_%E7%97%B4%E6%83%85%E7%9A%84%E5%8F%AA%E6%9C%89%E6%88%91%E4%B8%80%E4%B8%AADJ.mp4
-郭玲·踢了他·DJ,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2FQOdyBO1E_%E9%83%AD%E7%8E%B2_%E8%B8%A2%E4%BA%86%E4%BB%96DJ.mp4
-于文文·体面·DJ,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2FwB2O8JIF_%E4%BA%8E%E6%96%87%E6%96%87_%E4%BD%93%E9%9D%A2DJ.mp4
-菲儿·嘀嗒嘀·DJ,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2FzxJRMoBC_%E8%8F%B2%E5%84%BF_%E5%97%92%E5%98%80%E5%97%92DJ.mp4
-花姐·夜之光·DJ,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2F6u0IHxlP_%E8%8A%B1%E5%A7%90_%E5%A4%9C%E4%B9%8B%E5%85%89DJ.mp4
-天蝎丹·你的世界到底有了谁·DJ,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2FP2EtwiRo_%E5%A4%A9%E8%A0%8D%E4%B8%B9_%E4%BD%A0%E7%9A%84%E4%B8%96%E7%95%8C%E5%88%B0%E5%BA%95%E6%9C%89%E4%BA%86%E8%B0%81DJ.mp4
-王奕心·我的唇吻不到我爱的人·DJ,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2F9RRIvJBZ_%E7%8E%8B%E5%A5%95%E5%BF%83_%E6%88%91%E7%9A%84%E5%94%87%E5%90%BB%E4%B8%8D%E5%88%B0%E6%88%91%E7%88%B1%E7%9A%84%E4%BA%BADJ.mp4
-蓝琪儿·寂寞爱上了眼泪·DJ,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2FM0xZsDrJ_%E8%93%9D%E7%90%AA%E5%84%BF_%E5%AF%82%E5%AF%9E%E7%88%B1%E4%B8%8A%E4%BA%86%E7%9C%BC%E6%B3%AADJ.mp4
-蓝琪儿·不浪漫的罪·DJ,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2Fb9TQKR8o_%E8%93%9D%E7%90%AA%E5%84%BF_%E4%B8%8D%E6%B5%AA%E6%BC%AB%E7%9A%84%E7%BD%AADJ.mp4
-孙艺琪·酒醉的蝴蝶·DJ,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2FRnruXCX1_%E5%AD%99%E8%89%BA%E7%90%AA_%E9%85%92%E9%86%89%E7%9A%84%E8%9D%B4%E8%9D%B6DJ.mp4
-黄嘉雯·情歌里的你·DJ,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2FlsqYYB6Q_%E9%BB%84%E5%98%89%E9%9B%AF_%E6%83%85%E6%AD%8C%E9%87%8C%E7%9A%84%E4%BD%A0DJ.mp4
-黄嘉雯·伤心的人醉茫茫·DJ,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2FdxA0ZiS1_%E9%BB%84%E5%98%89%E9%9B%AF_%E4%BC%A4%E5%BF%83%E7%9A%84%E4%BA%BA%E9%86%89%E8%8C%AB%E8%8C%ABDJ.mp4
-王玉萌·浪子回头·DJ,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2FRMEM6qdX_%E7%8E%8B%E7%8E%89%E8%90%8C_%E6%B5%AA%E5%AD%90%E5%9B%9E%E5%A4%B4DJ.mp4
-李晓杰·把酒倒满·DJ,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2FRKGQVL2s_%E6%9D%8E%E6%99%93%E6%9D%B0_%E6%8A%8A%E9%85%92%E5%80%92%E6%BB%A1DJ.mp4
-魏新雨·为你祈祷·DJ,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2FhFJmgL9I_%E9%AD%8F%E6%96%B0%E9%9B%A8_%E4%B8%BA%E4%BD%A0%E7%A5%88%E7%A5%B7DJ.mp4
-孙耀威·爱的故事上集·DJ,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2Fk4NKsAkX_%E5%AD%99%E8%80%80%E5%A8%81_%E7%88%B1%E7%9A%84%E6%95%85%E4%BA%8B%E4%B8%8A%E9%9B%86DJ.mp4
-韩宝仪·往事只能回味·DJ,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2F8YtT39no_%E9%9F%A9%E5%AE%9D%E4%BB%AA_%E5%BE%80%E4%BA%8B%E5%8F%AA%E8%83%BD%E5%9B%9E%E5%91%B3DJ.mp4
-郑茜文·爱一回伤一回·DJ,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2FkY7hFnb5_%E9%83%91%E8%8C%9C%E5%8C%80_%E7%88%B1%E4%B8%80%E5%9B%9E%E4%BC%A4%E4%B8%80%E5%9B%9EDJ.mp4
-黎明前的欢乐,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2FOQBhvm7o_%E5%97%A8%E8%88%9E_%E9%BB%8E%E6%98%8E%E5%89%8D%E7%9A%84%E6%B3%B0%E5%9B%BD%E7%BE%8E%E7%9C%89.mp4
-兔宝派对,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2F53mnYqJ3_%E5%A4%9C%E5%BA%97_%E5%85%94%E5%AE%9D%E6%B4%BE%E5%AF%B9.mp4
-晃动派对,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2F1pvbOThP_%E5%A4%9C%E5%BA%97_%E6%99%83%E5%8A%A8%E6%B4%BE%E5%AF%B9.mp4
-潮流派对,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2F0w4r9uTU_%E5%A4%9C%E5%BA%97_%E6%BD%AE%E6%B5%81%E5%A4%9C%E5%BA%97%E6%B4%BE%E5%AF%B9.mp4
-狗仔派对,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2F6eswwDPa_%E5%A4%9C%E5%BA%97_%E7%8B%97%E5%B4%BD%E5%AD%90%E6%B4%BE%E5%AF%B9.mp4
-波动身体,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2FCbaSFvwC_%E8%BD%A6%E8%88%9E_%E6%B3%B0%E5%9B%BD%E6%B3%A2%E5%8A%A8%E6%AF%94%E5%9F%BA%E5%B0%BC%E7%BE%8E%E5%A5%B3.mp4
-想跳舞吗,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2FGe0uO7nA_%E5%A4%9C%E5%BA%97_%E4%BD%A0%E6%83%B3%E8%B7%B3%E8%88%9E%E5%90%97.mp4
-俱乐部的一天,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2FM44cskhz_%E5%A4%9C%E5%BA%97_%E4%BF%B1%E4%B9%90%E9%83%A8%E7%9A%84%E4%B8%80%E5%A4%A9.mp4
-王玉萌·浪子回头·DJ,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2FRMEM6qdX_%E7%8E%8B%E7%8E%89%E8%90%8C_%E6%B5%AA%E5%AD%90%E5%9B%9E%E5%A4%B4DJ.mp4
-李晓杰·把酒倒满·DJ,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2FRKGQVL2s_%E6%9D%8E%E6%99%93%E6%9D%B0_%E6%8A%8A%E9%85%92%E5%80%92%E6%BB%A1DJ.mp4
-魏新雨·为你祈祷·DJ,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2FhFJmgL9I_%E9%AD%8F%E6%96%B0%E9%9B%A8_%E4%B8%BA%E4%BD%A0%E7%A5%88%E7%A5%B7DJ.mp4
-孙耀威·爱的故事上集·DJ,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2Fk4NKsAkX_%E5%AD%99%E8%80%80%E5%A8%81_%E7%88%B1%E7%9A%84%E6%95%85%E4%BA%8B%E4%B8%8A%E9%9B%86DJ.mp4
-韩宝仪·往事只能回味·DJ,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2F8YtT39no_%E9%9F%A9%E5%AE%9D%E4%BB%AA_%E5%BE%80%E4%BA%8B%E5%8F%AA%E8%83%BD%E5%9B%9E%E5%91%B3DJ.mp4
-郑茜文·爱一回伤一回·DJ,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2FkY7hFnb5_%E9%83%91%E8%8C%9C%E5%8C%80_%E7%88%B1%E4%B8%80%E5%9B%9E%E4%BC%A4%E4%B8%80%E5%9B%9EDJ.mp4
-兔宝派对,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2F53mnYqJ3_%E5%A4%9C%E5%BA%97_%E5%85%94%E5%AE%9D%E6%B4%BE%E5%AF%B9.mp4
-晃动派对,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2F1pvbOThP_%E5%A4%9C%E5%BA%97_%E6%99%83%E5%8A%A8%E6%B4%BE%E5%AF%B9.mp4
-潮流派对,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2F0w4r9uTU_%E5%A4%9C%E5%BA%97_%E6%BD%AE%E6%B5%81%E5%A4%9C%E5%BA%97%E6%B4%BE%E5%AF%B9.mp4
-狗仔派对,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2F6eswwDPa_%E5%A4%9C%E5%BA%97_%E7%8B%97%E5%B4%BD%E5%AD%90%E6%B4%BE%E5%AF%B9.mp4
-波动身体,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2FCbaSFvwC_%E8%BD%A6%E8%88%9E_%E6%B3%B0%E5%9B%BD%E6%B3%A2%E5%8A%A8%E6%AF%94%E5%9F%BA%E5%B0%BC%E7%BE%8E%E5%A5%B3.mp4
-想跳舞吗,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2FGe0uO7nA_%E5%A4%9C%E5%BA%97_%E4%BD%A0%E6%83%B3%E8%B7%B3%E8%88%9E%E5%90%97.mp4
-黎明前的欢乐,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2FOQBhvm7o_%E5%97%A8%E8%88%9E_%E9%BB%8E%E6%98%8E%E5%89%8D%E7%9A%84%E6%B3%B0%E5%9B%BD%E7%BE%8E%E7%9C%89.mp4
-俱乐部的一天,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2FM44cskhz_%E5%A4%9C%E5%BA%97_%E4%BF%B1%E4%B9%90%E9%83%A8%E7%9A%84%E4%B8%80%E5%A4%A9.mp4
-合唱·情火·DJ,https://ffsup.oduuu.com/uploads%2F724%2F2021%2F12%2FD0z62pdk_%E5%B4%94%E4%BC%9F%E7%AB%8BVS%E5%AD%99%E8%89%BA%E7%90%AA_%E6%83%85%E7%81%ABDJ.mp4
-·测试二线·_268,#genre#
-日韩无码1,https://m3u8.46cdn.com/videos/akex/1905/7vjtDwwP/7vjtDwwP.m3u8
-日韩无码2,https://m3u8.46cdn.com/videos/akex/1905/N8UFEDcj/N8UFEDcj.m3u8
-日韩无码3,https://m3u8.41cdn.com/videos/201910/0y7WTW0v/hls/0y7WTW0v.m3u8
-日韩无码4,https://m3u8.34cdn.com/videos/201908/8v33bdqt/hls/8v33bdqt.m3u8
-日韩无码5,https://m3u8.48cdn.com/videos/201908/sb6ksmxx/hls/sb6ksmxx.m3u8
-日韩无码6,https://m3u8.47cdn.com/video-hls/109/2020/09/p5Mvh05q/hls/p5Mvh05q.m3u8
+MTV,#genre#
 
-上海,#genre#
+①我和草原有亇约定,http://wu.5yi.fun:99/api/public/dl/25cT5juA
+
+②呼伦贝尔大草原,http://wu.5yi.fun:99/api/public/dl/QGdX3NXf
+
+③苍天般的阿拉善,http://wu.5yi.fun:99/api/public/dl/PBivOfFu
+
+④鸿雁,http://wu.5yi.fun:99/api/public/dl/HVgYGLJa
+
+⑤卓玛,http://wu.5yi.fun:99/api/public/dl/DtDSdcnu
+
+⑥天边,http://wu.5yi.fun:99/api/public/dl/pkFLeiY7
+
+⑦天路,http://wu.5yi.fun:99/api/public/dl/v8jveKDR
+
+⑧离别草原,http://wu.5yi.fun:99/api/public/dl/3WTFNcvX
+
+⑨梦中的妈妈,http://wu.5yi.fun:99/api/public/dl/IlimZmUB
+
+⑩做你的雪莲,http://wu.5yi.fun:99/api/public/dl/TkV2zKWe
+
+小提琴视频,#genre#
+
+门德尔松(贝尔),http://wu.5yi.fun:99/api/public/dl/_rXTFfQX
+
+西贝柳斯(贝尔),http://wu.5yi.fun:99/api/public/dl/KbNaMran
+
+德沃夏克(贝尔),http://wu.5yi.fun:99/api/public/dl/-CqWreTQ
+
+苏格兰幻想曲(贝尔),http://wu.5yi.fun:99/api/public/dl/lRgxGi8k
+
+引子与回旋随想曲(贝尔),http://wu.5yi.fun:99/api/public/dl/Hbe84OZz
+
+匈牙利舞曲(贝尔),http://wu.5yi.fun:99/api/public/dl/NT70X2dF
+
+肖邦夜曲(贝尔),http://wu.5yi.fun:99/api/public/dl/NqXCQx7D
+
+夏日(贝尔),http://wu.5yi.fun:99/api/public/dl/xQYKKog_
+
+柴可夫斯基(沙汉姆),http://wu.5yi.fun:99/api/public/dl/G-ZFoZWe
+
+西贝柳斯(哈恩),http://wu.5yi.fun:99/api/public/dl/NCQSbp7n
+
+卡门幻想曲(哈恩),http://wu.5yi.fun:99/api/public/dl/CJuRcWCm
+
+巴赫-萨拉班德(哈恩),http://wu.5yi.fun:99/api/public/dl/g5QkOmv6
+
+巴赫g小调奏鸣曲(哈恩),http://wu.5yi.fun:99/api/public/dl/kTLrN16A
+
+柴可夫斯基(扬森),http://wu.5yi.fun:99/api/public/dl/2LPZwePN
+
+勃拉姆斯(扬森),http://wu.5yi.fun:99/api/public/dl/tZPMNnXZ
+
+布鲁赫(扬森),http://wu.5yi.fun:99/api/public/dl/cepALUU-
+
+贝多芬D大调(穆特),http://wu.5yi.fun:99/api/public/dl/MG7mGmMg
+
+貝多芬D大調,http://wu.5yi.fun:99/api/public/dl/81eyP8Zm
+
+贝多芬F大调浪漫曲(茱莉亚),http://wu.5yi.fun:99/api/public/dl/Q8bm0Ai1
+
+莫扎特第五,http://wu.5yi.fun:99/api/public/dl/TFeXqVVi
+
+勃拉姆斯D大调4k,http://wu.5yi.fun:99/api/public/dl/8jNu48iQ
+
+德沃夏克(安东宁),http://wu.5yi.fun:99/api/public/dl/GkV2i2Pk
+
+莫扎特第三(韩淑真),http://wu.5yi.fun:99/api/public/dl/wP6xUalR
+
+流浪者之歌(韩淑真),http://wu.5yi.fun:99/api/public/dl/7YLRSDrL
+
+莫扎特弦乐小夜曲,http://wu.5yi.fun:99/api/public/dl/8hYTPCZ-
+
+圣桑第三,http://wu.5yi.fun:99/api/public/dl/w6KBLmUz
+
+中国花鼓(陈锐),http://wu.5yi.fun:99/api/public/dl/1nos1gWH
+
+维尼亚夫斯基第一(陈锐),http://wu.5yi.fun:99/api/public/dl/kfhTZzj2
+
+维尼亚夫斯基第二(菲莉科),http://wu.5yi.fun:99/api/public/dl/bBO7-UrO
+
+维尼亚夫斯基第二(金本索里),http://wu.5yi.fun:99/api/public/dl/xdZh6R_O
+
+波兰舞曲(金本索里),http://wu.5yi.fun:99/api/public/dl/cZfNosS2
+
+柴可夫斯基(宁峰),http://wu.5yi.fun:99/api/public/dl/tIVoDiOJ
+
+贝多芬奏鸣曲(宁峰),http://wu.5yi.fun:99/api/public/dl/_TwixgdS
+
+帕格尼尼(宁峰),http://wu.5yi.fun:99/api/public/dl/nOo6X-MI
+
+帕格尼尼无穷动,http://wu.5yi.fun:99/api/public/dl/k3kdSQ__
+
+帕格尼尼第五首(塔西亚),http://wu.5yi.fun:99/api/public/dl/C_l8F5wP
+
+拉罗•西班牙交响曲,http://wu.5yi.fun:99/api/public/dl/CHtde2y2
+
+拉罗-西班牙交响曲,http://wu.5yi.fun:99/api/public/dl/7zMCp9tK
+
+四季,http://wu.5yi.fun:99/api/public/dl/Dceebl6R
+
+肖松•音诗,http://wu.5yi.fun:99/api/public/dl/9aX37sYg
+
+柴可夫斯基•谐谑曲(哈德里奇),http://wu.5yi.fun:99/api/public/dl/l2ybF4kL
+
+梁祝(黄蒙拉),http://wu.5yi.fun:99/api/public/dl/SnRsnS52
+
+波兰舞曲(卡皮桑),http://wu.5yi.fun:99/api/public/dl/0WMCQDxb
+
+天堂电影院(卡皮桑),http://wu.5yi.fun:99/api/public/dl/kToLP6Uf
+
+沉思(卡皮桑),http://wu.5yi.fun:99/api/public/dl/ttv8fS0q
+
+卡门幻想曲(申淑娴),http://wu.5yi.fun:99/api/public/dl/9hJyb5Bl
+
+落叶(石川绫子),http://wu.5yi.fun:99/api/public/dl/NQDl0pMZ
+
+爱的力量(坎贝尔),http://wu.5yi.fun:99/api/public/dl/5YolFfHT
+
+魔笛(坎贝尔),http://wu.5yi.fun:99/api/public/dl/7LKAJQqL
+
+母亲教我的歌,http://wu.5yi.fun:99/api/public/dl/rDPL0ES2
+
+圣桑•哈伐奈拉,http://wu.5yi.fun:99/api/public/dl/PPdxFUFX
+
+风流寡妇(列宾),http://wu.5yi.fun:99/api/public/dl/mRKSTFMa
+
+小星星(列宾),http://wu.5yi.fun:99/api/public/dl/VUEG1Bbq
+
+天鹅(列宾),http://wu.5yi.fun:99/api/public/dl/Gf9_e8dR
+
+天鹅(马友友),http://wu.5yi.fun:99/api/public/dl/34dy2Kkg
+C
+大调三重奏,http://wu.5yi.fun:99/api/public/dl/TTGJ4-Dw
+
+辛德勒名单,http://wu.5yi.fun:99/api/public/dl/uaVHvkCf
+
+精灵之舞(李映衡),http://wu.5yi.fun:99/api/public/dl/FXdWYFP5
+
+引子与回旋随想曲(李映衡),http://wu.5yi.fun:99/api/public/dl/YjL6xO7n
+
+春天(伊雷妮),http://wu.5yi.fun:99/api/public/dl/OyCdkcnW
+
+旋律,http://wu.5yi.fun:99/api/public/dl/n9-_WLEB
+
+肖邦夜曲,http://wu.5yi.fun:99/api/public/dl/1kSlBwuh
+
+爱的礼赞(霍普),http://wu.5yi.fun:99/api/public/dl/uR7q7YDU
+
+我的真爱(申淑娴),http://wu.5yi.fun:99/api/public/dl/dYS1zJBr
+
+幽默曲(申娴淑),http://wu.5yi.fun:99/api/public/dl/QWTMNsZh
+
+练声曲(康诛美),http://wu.5yi.fun:99/api/public/dl/MD9ETyxy
+
+随想圆舞曲(薛伟),http://wu.5yi.fun:99/api/public/dl/3czHE5jB
+
+爱只是一场梦,http://wu.5yi.fun:99/api/public/dl/ZgJVzNDu
+
+雅尼-世界舞蹈,http://wu.5yi.fun:99/api/public/dl/txSYR4om
+
+卡门序曲,http://wu.5yi.fun:99/api/public/dl/0XkakUAI
+
+梦醒时分(福雷),http://wu.5yi.fun:99/api/public/dl/ZRfLYbh-
+
+鸿雁(张少愽),http://wu.5yi.fun:99/api/public/dl/gJncZos8
+
+思乡曲(于翔),http://wu.5yi.fun:99/api/public/dl/YSV3P9nb
+
+打虎上山(潘寅林),http://wu.5yi.fun:99/api/public/dl/I3sEoF6A
+
+阳光照耀着塔什库尔干,http://wu.5yi.fun:99/api/public/dl/MbO1k2tY
+
+伟大的北京(宁峰),http://wu.5yi.fun:99/api/public/dl/kyM2e0Ml
+
+新疆之春(任泳翔),http://wu.5yi.fun:99/api/public/dl/2ZFXGAF-
+
+满怀深情望北京,http://wu.5yi.fun:99/api/public/dl/CgRZOH4S
+上海,#genre#,http://124.223.212.38:83
 上海新闻综合,http://183.207.255.188/live/program/live/xwzhhd/4000000/mnf.m3u8
 上海新闻综合,http://39.135.248.135/huaweicdn.hb.chinamobile.com/PLTV/2510088/224/3221225973/3.m3u8
 上海新闻综合,http://111.26.225.22/PLTV/2/224/3221225487/index.m3u8
@@ -3367,7 +3417,7 @@ SiTV新视觉蓝光,http://shbu.live.bestvcdn.com.cn:8080/live/program/live/xsjh
 都市剧场,http://39.134.39.37/PLTV/88888888/224/3221226176/index.m3u8
 哈尔滨新闻综合,http://39.134.67.226/PLTV/88888888/224/3221225684/index.m3u8
 第一财经,http://39.134.39.37/PLTV/88888888/224/3221226172/index.m3u8
-北京,#genre#
+北京,#genre#,http://124.223.212.38:83
 北京卫视,http://223.110.245.145/ott.js.chinamobile.com/PLTV/3/224/3221227652/index.m3u8
 北京影视,https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s4/index.m3u8#http://live.scuec.edu.cn:8080/hls/btv4hd.m3u8
 北京文艺,https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s2/index.m3u8#http://live.scuec.edu.cn:8080/hls/btv2hd.m3u8#http://117.148.179.160:80/PLTV/88888888/224/3221231570/index.m3u8
@@ -3410,7 +3460,7 @@ SiTV新视觉蓝光,http://shbu.live.bestvcdn.com.cn:8080/live/program/live/xsjh
 大兴区电视台,https://pull-c1.videocc.net/record/717295415820200204113332659.m3u8?auth_key=1632316095-0-0-a58fcf9d89596c9ee8fc524919c0a447&ran=531648252&client=MobileLiveHTML5-20210922&playerid=1632316094645X1624277&pid=1632316094654X1202452¶m1=&pd=0&cts=0
 爱家购物频道,http://tvlive.siqiangame.com/ugotvlive/aijiatv.m3u8?auth_key=1860547259-0-0-77940e9d27746d1ae88f7d31e81191d0
 弈坛春秋频道,http://223.110.245.139/PLTV/4/224/3221227031/index.m3u8
-江西,#genre#
+江西,#genre#,http://124.223.212.38:83
 江西都市,http://39.135.139.214:6610/PLTV/88888888/224/3221225584/2/index.m3u8
 江西经济,http://39.135.139.214:6610/PLTV/88888888/224/3221225580/2/index.m3u8
 江西影视,http://39.135.139.214:6610/PLTV/88888888/224/3221225579/2/index.m3u8
@@ -3438,7 +3488,7 @@ SiTV新视觉蓝光,http://shbu.live.bestvcdn.com.cn:8080/live/program/live/xsjh
 萍乡公共频道,http://www.pxitv.com:8099/hls-live/livepkgr/_definst_/pxitvevent/pxtv3stream.m3u8
 萍乡教育频道,http://www.pxitv.com:8099/hls-live/livepkgr/_definst_/pxitvevent/pxtv2stream.m3u8
 萍乡新闻综合,http://www.pxitv.com:8099/hls-live/livepkgr/_definst_/pxitvevent/pxtv1stream.m3u8
-浙江,#genre#
+浙江,#genre#,http://124.223.212.38:83
 1中国蓝,http://hw-m-l.cztv.com/channels/lantian/channel01/1080p.m3u8
 3中国蓝,http://hw-m-l.cztv.com/channels/lantian/channel03/1080p.m3u8
 2中国蓝,http://hw-m-l.cztv.com/channels/lantian/channel02/1080p.m3u8
@@ -3589,7 +3639,7 @@ SiTV新视觉蓝光,http://shbu.live.bestvcdn.com.cn:8080/live/program/live/xsjh
 淳安,https://wtmtylive.yunshicloud.com/tbziu1/ad592j.m3u8
 浙江湖州文化娱乐,http://live2.hzitv.cn/tslslive/rk8Z088/hls/live_sd.m3u8
 浙江湖州新闻综合,http://live2.hzitv.cn/tslslive/zyys888/hls/live_sd.m3u8
-湖北,#genre#
+湖北,#genre#,http://124.223.212.38:83
 湖北卫视,http://enshi-live21.cjyun.org/hbtv/hbtv-hbws.m3u8?auth_key=1640966399-0-0-a54c5f832e288631ccd01e08a6d0dac3
 湖北综合,http://enshi-live21.cjyun.org/hbtv/hbtv-hbzh.m3u8?auth_key=1640966399-0-0-2ecc091d3ee5ef3094151b78c1132701
 湖北综合,http://cg01.hrtn.net:9090/live/hbzhhd_4000.m3u8
@@ -3673,7 +3723,7 @@ SiTV新视觉蓝光,http://shbu.live.bestvcdn.com.cn:8080/live/program/live/xsjh
 仙桃新闻综合,http://221.233.242.239:280/live/71/playlist.m3u8
 石首影视,http://sstvplay.ssgdlive.com/live/sszh2.m3u8
 石首综合,http://sstvplay.ssgdlive.com/live/sszh.m3u8
-湖南,#genre#
+湖南,#genre#,http://124.223.212.38:83
 湖南卫视,http://c3drm.cdn.hunancatv.com:80/live/HuNanWeiShi.m3u8?token=dceddadfe6b764329e38f4b95002e54d&auth_key=1638430969-f93f0f4984bc4650ba01ed4f4783eb2d-00DB55E074BD-7f7c1e7e4a10554f6e500904b49e74fe
 湖南卫视,http://c3drm.cdn.hunancatv.com:80/live/HuNanWeiShi.m3u8?token=dceddadfe6b764329e38f4b95002e54d&auth_key=1638431014-948b17c23a4648f6b66ef57a790b533f-00DB55E074BD-fd3ce714e9403342f8df42e13acbdaee
 湖南都市,http://111.40.196.26:80/wh7f454c46tw104512676_258820666/PLTV/88888888/224/3221225656/index.m3u8
@@ -4276,7 +4326,7 @@ QJTV巧家,http://livebroadcast.ccwb.cn/live/w1593303918254963.m3u8
 蚌埠新闻综合,http://live.wifizs.cn/xwzh/sd/live.m3u8
 蚌埠公共频道,http://live.wifizs.cn/ggsh/sd/live.m3u8
 蚌埠生活频道,http://stream.wifizs.cn/xwzh/sd/live.m3u8
-福建,#genre#
+福建,#genre#,http://124.223.212.38:83
 福建乡村振兴公共 8M1080,rtsp://183.252.166.199/PLTV/88888888/224/3221226113/10000100000000060000000002358064_0.smil
 福建体育 8M1080,rtsp://183.252.166.199/PLTV/88888888/224/3221226127/10000100000000060000000002434540_0.smil
 福建少儿 8M1080,rtsp://183.252.166.199/PLTV/88888888/224/3221226120/10000100000000060000000002358082_0.smil
@@ -4299,7 +4349,7 @@ QJTV巧家,http://livebroadcast.ccwb.cn/live/w1593303918254963.m3u8
 厦门二台,https://xiamenalic.v.myalicdn.com/xiamen/xiamen2_1/index.m3u8
 厦门一台,https://xiamenalic.v.myalicdn.com/xiamen/xiamen1_1/index.m3u8
 厦门卫视,https://xiamenalic.v.myalicdn.com/xiamen/xiamen_1/index.m3u8
-山东,#genre#
+山东,#genre#,http://124.223.212.38:83
 山东生活,http://119.164.216.162:9901/tsfile/live/1006_1.m3u8
 山东体育,http://119.164.216.162:9901/tsfile/live/1003_1.m3u8
 山东新闻,http://119.164.216.162:9901/tsfile/live/1004_1.m3u8
@@ -4900,7 +4950,7 @@ QJTV巧家,http://livebroadcast.ccwb.cn/live/w1593303918254963.m3u8
 鹤岗新闻综合,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226001/index.m3u8
 江东丰综合,http://stream5.jlntv.cn/df/sd/live.m3u8
 漠河综合,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226097/index.m3u8
-吉林辽宁,#genre#
+吉林辽宁,#genre#,http://124.223.212.38:83
 辽宁都市,http://39.135.129.165/hwottcdn.ln.chinamobile.com/PLTV/-/224/3221226760/index.m3u8
 辽宁生活,http://39.135.129.163/hwottcdn.ln.chinamobile.com/PLTV/-/224/3221226761/index.m3u8
 辽宁教育,http://39.135.129.165/hwottcdn.ln.chinamobile.com/PLTV/-/224/3221226763/index.m3u8

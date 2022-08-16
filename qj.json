@@ -1,5 +1,5 @@
 {
-	"spider": "hhttps://gitea.com/qiaoji/jar/raw/branch/main/custom_spider.jpg;md5;06ed1a662fc19e4ea22f60f02770f4b6,
+"spider": "https://gitea.com/qiaoji/jar/raw/branch/main/custom_spider.jpg;md5;06ed1a662fc19e4ea22f60f02770f4b6",
 	"wallpaper": "http://www.kf666888.cn/api/tvbox/img",
 	"lives": [{
 		"group": "redirect",

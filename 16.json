@@ -2,9 +2,11 @@
 
 //0814
 //"spider":"https://gitea.com/alive/tv/raw/branch/main/0814.jar",
-//gg.jar
-"spider":"https://gitea.com/alive/tv/raw/branch/main/index.jar",
-	
+
+//0826
+"spider":"http://52bsj.vip:81/api/v3/file/get/42820/0826.jar?sign=WQrLG36YYYaEDkPHwqXe93q1oMSkEYx41GToU4k_yJQ%3D%3A0;md5;3550969fb9a34fa1136d98c3e33f03a1",
+
+
 //0723
 //"spider":"https://gitea.com/alive/tv/raw/branch/main/0723.jar",
 

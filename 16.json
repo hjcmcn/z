@@ -2,8 +2,12 @@
 
 //0814
 //"spider":"https://gitea.com/alive/tv/raw/branch/main/0814.jar",
-"spider":"https://gitea.com/qixiubaike163/m/raw/branch/main/0902.jar;md5;D2DED0D4B8B12B325BFCD3B7D1ECD3EA",
 
+//"spider":"https://gitea.com/qixiubaike163/m/raw/branch/main/0902.jar;md5;D2DED0D4B8B12B325BFCD3B7D1ECD3EA",
+
+	
+"spider":"https://gitcode.net/qq_26898231/TVBox/-/raw/main/jar/888.png;md5;7BF81EB29F54645E289066EF7071A76C",	
+	
 //0723
 //"spider":"https://gitea.com/alive/tv/raw/branch/main/0723.jar",
 
@@ -190,6 +194,7 @@
 {"key":"csp_biubiu_荣耀Glory","name":"荣耀Glory(XB)","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://gitea.com/qixiubaike163/m/raw/branch/main/MeowXB/荣耀Glory.json"},
 {"key":"csp_biubiu_OmoFun动漫","name":"OmoFun动漫(XB)","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://gitea.com/qixiubaike163/m/raw/branch/main/MeowXB/OmoFun动漫.json"},
 {"key":"csp_biubiu_去看吧","name":"去看吧(XB)","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://gitea.com/qixiubaike163/m/raw/branch/main/MeowXB/去看吧.json"},
+{"key":"MBO 影视","name":"🍹MBO 影视","type":0,"api":"https://www.mbomovie.com/api.php/provide/vod/at/xml/","searchable":0,"quickSearch":0}],
 {"key":"csp_biubiu_次元城","name":"次元城(XB)","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://gitea.com/qixiubaike163/m/raw/branch/main/MeowXB/次元城.json"},
 {"key":"csp_biubiu_风车动漫","name":"风车动漫(XB)","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://gitea.com/qixiubaike163/m/raw/branch/main/MeowXB/风车动漫.json"},
 {"key":"csp_biubiu_森屋新番","name":"森屋新番(XB)","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://gitea.com/qixiubaike163/m/raw/branch/main/MeowXB/森屋新番.json"},

@@ -1,13 +1,10 @@
 {
 
 //0814
-//"spider":"https://gitea.com/alive/tv/raw/branch/main/0814.jar",
-
-//"spider":"https://gitea.com/qixiubaike163/m/raw/branch/main/0902.jar;md5;D2DED0D4B8B12B325BFCD3B7D1ECD3EA",
-
+//"spider":"https://gitea.com/alive/tv/raw/branch/main/0814.jar","spider":"./vod;md5;5a3074d3bc43d2eb36424e32fe3286cb",
+"wallpaper":"https://壁纸.神器每日推送.tk",	
 	
-"spider":"https://gitcode.net/qq_26898231/TVBox/-/raw/main/jar/888.png;md5;7BF81EB29F54645E289066EF7071A76C",	
-	
+"spider":"https://fastly.jsdelivr.net/gh/hjcmcn/z/vod.jar;md5;5a3074d3bc43d2eb36424e32fe3286cb",	
 //0723
 //"spider":"https://gitea.com/alive/tv/raw/branch/main/0723.jar",
 
@@ -190,8 +187,6 @@
 
 {"key": "戏曲自定义","name": " 💖戏曲","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext": "https://notabug.org/fssyxs/bak/raw/master/xq.json","spider":"http://52bsj.vip:81/api/v3/file/get/786/%E5%85%AC%E4%BC%97%E5%8F%B7%E5%90%BE%E7%88%B1%E6%9C%89%E4%B8%89%E6%97%A5%E6%9C%88%E4%B8%8E%E5%8D%BF0723.jar?sign=K2U3FqRBh-kFNgDJFpxZjZYwxV6EeTlf4QWZ9dPjc8o%3D%3A0"},
 
-{"key": "csp_Blixs","name":"相声小品","type": 3,"api": "csp_Blixs","searchable": 1,"quickSearch": 1,"filterable": 1},
-{"key": "csp_Blixq","name":"戏曲","type": 3,"api": "csp_Blixq","searchable": 1,"quickSearch": 1,"filterable": 1},
 {"key":"push_agent","name":"推送","type":3,"api":"csp_PushAgent","searchable":0,"quickSearch":0,"filterable":0},
 {"key": "zhaozy","name": "找资源(仅搜索)","type": 3,"api": "csp_FindZY","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "4acb3ad2f2254ba1b566279f7cd98ba3","jar": "https://gitea.com/qixiubaike163/m/raw/branch/main/0830.jar;md5;EAE98CE31FB02CEDE605344C3B942668"},
 {"key": "AliPS","name": "盘搜(仅搜索)","type":3,"api":"csp_AliPS","searchable":1,"quickSearch":1,"filterable":1,"ext": "4acb3ad2f2254ba1b566279f7cd98ba3","jar": "https://gitea.com/qixiubaike163/m/raw/branch/main/0830.jar;md5;EAE98CE31FB02CEDE605344C3B942668"},

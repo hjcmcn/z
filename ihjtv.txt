@@ -2039,14 +2039,24 @@ B+音乐厅,http://bp-caster.bestv.com.cn/469/1/video.m3u8
 神探狄仁杰,http://112.74.200.9:88/tv000000/m3u8.php?/migu/625574493
 红色谍战剧场,http://112.74.200.9:88/tv000000/m3u8.php?/migu/634274665
 经典贺岁片,http://112.74.200.9:88/tv000000/m3u8.php?/migu/625774662
-经典剧场,http://111.6.242.36/txpcdn.liveplay.egame.qq.com/live/3954_616645877_4000.flv
-国外影院,http://111.6.242.36/txpcdn.liveplay.egame.qq.com/live/3954_382971876_4000.flv
-国内影院,http://111.6.242.36/txpcdn.liveplay.egame.qq.com/live/3954_199681168_4000.flv
-恐怖影院,http://111.6.242.36/txpcdn.liveplay.egame.qq.com/live/3954_363783415_4000.flv
+IPTV高清院线,http://119.39.128.18:88/hls/34/index.m3u8
+IPTV抗战剧场,http://119.39.128.18:88/hls/35/index.m3u8
+IPTV古装剧场,http://119.39.128.18:88/hls/36/index.m3u8
+IPTV经典剧场,http://119.39.128.18:88/hls/37/index.m3u8
+金马影院HD,http://hpull.kktv8.com/livekktv/128600025/playlist.m3u8
+午夜影院HD,https://pull.kktv8.com/livekktv/99592190/playlist.m3u8
+女神影院HD,https://pull.kktv8.com/livekktv/99350550/playlist.m3u8
+金马影院,http://hpull.kktv8.com/livekktv/128600025/playlist.m3u8
 金马影院,http://hpull.kktv8.com/livekktv/128600025/playlist.m3u8
 乐视_动作电影,http://api.idianshijia.com/gslb/live?stream_id=lsloop_dongwu&type=.m3u8
 乐视_经典电影,http://api.idianshijia.com/gslb/live?stream_id=lsloop_dianying&type=.m3u8
-乐视_喜剧电影,http://api.idianshijia.com/gslb/live?stream_id=lsloop_xiju&type=.m3u8
+乐视_喜剧电影,http://api.idianshijia.com/gslb/live?stream_id=lsloop_xiju&type=.
+经典功夫台,https://cn-hbyc2-dx-live-01.bilivideo.com/live-bvc/545768/live_179302204_68184269.m3u8
+CHC动作电影,http://125.40.191.58:9901/tsfile/live/1002_1.m3u8#http://59.49.41.44/live.aishang.ctlcdn.com/00000110240324_1/playlist.m3u8?CONTENTID=00000110240324_1#http://117.148.179.157/PLTV/88888888/224/3221231580/index.m3u8#http://117.148.179.157/PLTV/88888888/224/3221232945/index.m3u8#http://111.20.33.93/PLTV/88888893/224/3221226465/index.m3u8#http://117.148.179.138/PLTV/88888888/224/3221231580/index.m3u8#http://111.20.33.93/TVOD/88888893/224/3221226465/index.m3u8#http://59.49.41.41/live.aishang.ctlcdn.com/00000110240324_1/playlist.m3u8?CONTENTID=00000110240324_1
+
+澳门澳亚卫视,https://live.mastvnet.com/lsdream/lY44pmm/2000/live.m3u8?WithCaption
+CHC家庭影院,http://125.40.191.58:9901/tsfile/live/1001_1.m3u8#http://111.20.33.93/TVOD/88888893/224/3221226462/index.m3u8#http://117.148.179.157/PLTV/88888888/224/3221232942/index.m3u8#http://111.20.33.93/TVOD/88888893/224/3221226462/index.m3u8#http://gxfrg007.8800.org:8282/tsfile/live/1096_1.m3u8#http://59.49.41.41/live.aishang.ctlcdn.com/00000110240323_1/playlist.m3u8?CONTENTID=00000110240323_1#http://117.148.179.151/PLTV/88888888/224/3221231799/index.m3u8
+CHC高清電影,http://gxfrg007.8800.org:8282/tsfile/live/1097_1.m3u8#http://59.49.41.44/live.aishang.ctlcdn.com/00000110240325_1/playlist.m3u8?CONTENTID=00000110240325_1#http://59.49.41.41/live.aishang.ctlcdn.com/00000110240325_1/playlist.m3u8?CONTENTID=00000110240325
 CHC 动作电影 HD,http://39.134.18.68/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226465/1.m3u8
 CHC 动作电影 HD,http://39.134.19.68:80/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226465/index.m3u8
 CHC 家庭影院 HD,http://39.134.18.68/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226462/1.m3u8

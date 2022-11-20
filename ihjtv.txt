@@ -2643,21 +2643,9 @@ SNH女团,#genre#
 女团79,https://ts.48.cn/snh/20210704/gaoqing/bk/616348363177922560.m3u8
 女团80,https://ts.48.cn/snh/20200829/gaoqing/bk/502539268021620736.m3u8
 音乐MTV,#genre#
-V音乐HD,https://livecdn.fptplay.net/foxlive/channelvhd_hls.smil/chunklist_b2500000.m3u8
-外国舞蹈,http://hls.shansontv.cdnvideo.ru/shansontv/smil:shansontv.smil/chunklist_b1996000.m3u8?hls_proxy_host=pub1.rtmp.s01.l.shansontv
-风尚音乐,http://125.210.152.21:9120/live/FSYY.m3u8
-高清娱乐,http://125.210.152.21:9120/live/GQYL.m3u8
-让一切走吧,http://qukufile2.qianqian.com/data2/video/9b8c211240f116e311a931aeb20ffc2c/607960246/607960246.mp4
-好运来,http://qukufile2.qianqian.com/data2/video/eec89851fbf3dea5c04cde1b3d792871/607947555/607947555.mp4
-生僻字,http://qukufile2.qianqian.com/data2/video/cd26bddcc2a26e164a465c9f900198b9/611737959/611737959.mp4
 吴莫愁+_+就現在,https://bj.bcebos.com/v1/baidu-little-video/vod-gechgi84v43uhfhp/mda-kkm1btpwqm25suzw.mp4
 By2_没理由,https://bj.bcebos.com/v1/baidu-little-video/vod-gechgi84v43uhfhp/mda-kmbyf4x2aeqt8cds.mp4
 萧全+_+社会摇,https://bj.bcebos.com/v1/baidu-little-video/vod-gechgi84v43uhfhp/mda-kkmxairac93q0vyu.mp4
-撞+火箭少女101,http://qukufile2.qianqian.com/data2/video/a1a7f95a2b3d048962f48e94de90c3de/608006750/608006750.mp4
-LIGHT+火箭少女101,http://qukufile2.qianqian.com/data2/video/691cd7852e98754882da7827879cc8dd/607968455/607968455.mp4
-卡路里+火箭少女101,http://qukufile2.qianqian.com/data2/video/02cca8d7303f608a2ea1621a6ebd8ad4/607962657/607962657.mp4
-荣誉星球+火箭少女101,http://qukufile2.qianqian.com/data2/video/c6dfcb0a40674ea89d95f90f648e24b0/614309868/614309868.mp4
-毒液前来火+箭少女101,http://qukufile2.qianqian.com/data2/video/be217297601b7cb006f95f5f871d4053/608669409/608669409.mp4
 陈小云爱人跟人走,http://vd4.bdstatic.com/mda-jgvqig36bu4rc0ej/sc/mda-jgvqig36bu4rc0ej.mp4
 李玲玉女儿情,http://vd4.bdstatic.com/mda-jiqh0kcd7kgpwnmb/sc/mda-jiqh0kcd7kgpwnmb.mp4
 二小姐酒梦,http://vd4.bdstatic.com/mda-jisq7k1t5n821tjt/sc/mda-jisq7k1t5n821tjt.mp4
@@ -3416,17 +3404,6 @@ Ice Paper Ⅰ 心如止水,https://vd3.bdstatic.com/mda-jmqy5wv8ffvj2z5j/hd/mda-
 陈慧娴 Ⅰ 人生何处不相逢,http://vodcdn.video.taobao.com/oss/ali-video/e45ed62546d055938577994f0c16d2e0/video.m3u8
 
 陈倩倩 Ⅰ 陈倩倩,http://vodcdn.video.taobao.com/oss/ali-video/4fc8d043456c092c392483bd293d0ee3/video.m3u8
-广岛之恋,http://qukufile2.qianqian.com/data2/video/540468019/a956adb4f028ba21bbe5a3b25cb4a792/540468019.mp4
-
-浪人情歌,http://qukufile2.qianqian.com/data2/video/f562e3ba4d6ec779c1fb2def8336b2b9/607998066/607998066.mp4
-
-纷飞,http://qukufile2.qianqian.com/data2/video/3e059c3138279752c96df979bd140619/607980979/607980979.mp4
-
-我是不是你最疼爱的人,http://qukufile2.qianqian.com/data2/video/7600f12b9f579908d0da1250ec0fb198/607962297/607962297.mp4
-
-哭个痛快,http://qukufile2.qianqian.com/data2/video/49db66dcfc6ab4b1849666040ed3a006/608011778/608011778.mp4
-
-得意的笑,http://qukufile2.qianqian.com/data2/video/2dafdf92616b6c8ccd1f28c40ce7b5c2/607973321/607973321.mp4
 
 站着等你三千年,http://cdn12.mudu.tv/uploads/106151/640_480/9f30b41065d660242797a95abaf5bff7.m3u8#https://vdse.bdstatic.com//967f216dea39a6f3ccb44884a219f8ff.mp4?authorization=bce-auth-v1%2F40f207e648424f47b2e3dfbb1014b1a5%2F2019-12-14T02%3A12%3A33Z%2F-1%2Fhost%2F35aa2c099605e74a562ca0358f457186636ef317d486aa3ed6f60fc45c2c6c9a
 张惠妹-我可以抱你吗,http://vodcdn.video.taobao.com/oss/taobao-ugc/f4428d3e798c4d279f90ba68a5b06dfa/1520326486/video.m3u8.m3u8

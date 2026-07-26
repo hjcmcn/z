@@ -1,5 +1,5 @@
 {
-  "spider": "./jh.jar",
+  "spider": "https://fastly.jsdelivr.net/gh/hjcmcn/z/jh.jar",
   "wallpaper": "自用测试，禁止传播",
   "lives": [
     {

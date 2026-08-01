@@ -99,6 +99,13 @@
             "changeable": 1
 
         },
+            {
+            "key": "js_可可",
+            "name": "📱可可ʲˢ｜APP",
+            "type": 3,
+            "api": "./js/drpy2.min.js",
+            "ext": "./js/可可影视.js"
+        },
     {
       "key": "热播影视",
       "name": "星星🌟┃秒播源",
@@ -111,6 +118,28 @@
         "url": "http://v.rbotv.cn"
       }
     },
+            {
+            "key": "cat_高工电影网",
+            "name": "📱电影网ᶜᵃᵗ｜APP",
+            "type": 3,
+            "api": "./js/cat_高工电影网.js",
+            "style": {
+                "type": "rect",
+                "ratio": 1
+            },
+            "changeable": 1
+        },
+        {
+            "key": "cat_永乐网",
+            "name": "📱永乐网ᶜᵃᵗ｜APP",
+            "type": 3,
+            "api": "./js/永乐视频.js",
+            "style": {
+                "type": "rect",
+                "ratio": 1
+            },
+            "changeable": 1
+        },
     {
       "key": "哔哩视频",
       "name": "星星🌟┃秒播⒈",

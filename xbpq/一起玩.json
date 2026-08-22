@@ -1,0 +1,30 @@
+{
+    "作者": "h",
+    "站名": "一起草自动挡",
+    "请求头": "User-Agent@Mozilla/5.0 (Linux；； Android 16；； 2510DRK44C Build/BP2A.250605.031.A3) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/143.0.7499.192 Mobile Safari/537.36",
+    "发布页": "https://91fby.cc/91a/",
+    "域名-c": "{{发布页}}[工具:源码#<a href=\"截取\"]",
+    "主页url": "{{域名-c}}[替换:/vod>>/]",
+	"数组": "<div class=\"video-item\">&&<div class=\"video-preview w-full h-full left-0 top-0\">[不包含:_type=\"data-src\">]||黑料--<ul class=\"grid grid-cols-1 gap-2.5 md:gap-4\">&&<div class=\"flex justify-center w-full overflow-hidden mt-3 md:mt-5\">分割(后:</article>)||📌女优--<li class=\"group\">&&<div class=\"truncate\">||📌热门词条--<li class=\"flex mr-2.5 md:mr-5 last:mr-0 mb-2.5 md:mb-5\">&&</li>",
+	"标题": "alt=\"&&\"||黑料--<h2 class=\"text-xl mb-1 md:mb-2.5 post-item-title\">&&</h2>||📌女优--alt=\"&&\"||📌热门词条--href=\"*\">&&</a>",
+	"副标题": "<div class=\"text-sm opacity-50 py-0.5 px-1.5 bg-black rounded-large text-white\">&&</div>||黑料--<span>&&</span>",
+	"图片": "data-src=\"&&\"||黑料--style=\"background-image:*url(\"&&\")||📌女优--data-src=\"&&\"",
+	"链接": "href=\"&&\"||黑料--<a href=\"&&\"||📌女优--href=\"&&\"+?page={catePg}||📌热门词条--https://haijiaod.life/search/keyword/page/{catePg}/+href=\"/search/keyword/&&\"",
+	"简介": "",
+	"嗅探词": ".m3u8",
+    "跳转播放链接": "const source*=*'&&'",
+	"直接播放": "1",
+	"搜索模式": "1",
+    "二级目录": "📌女优,📌热门词条|folder-0-0-H",
+    "二级ID": "",
+    "特殊分类链接": "国产,日本,欧美,三级,动漫,另类${{主页url}}video/filtering/{cateId}-{catePg}/by{by}.html#黑料${{主页url}}{cateId}/page/{catePg}.html#📌女优${{主页url}}actorshow/{area}--{顺序}----{catePg}--/id/40.html#📌热门词条${{主页url}}label/hotsearch.html#自定义词条${{主页url}}search/keyword/page/{catePg}/wd/{cateId}.html",
+	"搜索url": "{{主页url}}search/keyword/page/{pg}/wd/{wd}.html",
+    "分类url": "{cateId}?page={catePg}",
+    "分类": "国产$11#日本$12#欧美$13#三级$14#动漫$15#另类$34#黑料$art/index/by/time#📌女优$40#📌热门词条#自定义词条$春药",
+    "类型": "全部$11#国产自拍$16#国产偷拍$17#国产探花$18#真实乱伦$19#成人主播$20#黑料吃瓜$21#福利姬$22#国产传媒$23#性侵侵犯$24#抖音短视频$39||全部$12#中文字幕$25#岛国自拍$26#无码AV$27#AV解说$28||全部$13#欧美成人$29#黑人系列$43||全部$14#国产三级$30#日韩三级$31||全部$15#成人动漫$32#3D动漫$33||全部$34#猎奇重口味$35#男同女同$36#人妖变性$37#明星淫梦$38||全部黑料$art/index/by/time#网友爆料$artshow-41#反差婊$artshow-42#明星网红$artshow-44||空||空||春药&人妻&精油&男同",
+    "排序": "最近更新$/#当前最热$/hits_day#本周最热$/hits_week#本月最热$/hits_month",
+    "地区": "大陆地区$%E5%A4%A7%E9%99%86#台湾地区$%E5%8F%B0%E6%B9%BE#香港地区$%E9%A6%99%E6%B8%AF#美国地区$%E7%BE%8E%E5%9B%BD#日本地区$%E6%97%A5%E6%9C%AC#越南地区$%E8%B6%8A%E5%8D%97",
+    "顺序": "最新更新$time#当下最热$hits_day#周最热$hits_week#月最热$hits_month"
+}
+
+

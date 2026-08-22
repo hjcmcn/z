@@ -1,0 +1,31 @@
+{
+    "作者": "h",
+    "站名": "91吃瓜自动挡",
+    "请求头": "User-Agent@Mozilla/5.0 (Linux；； Android 16；； 2510DRK44C Build/BP2A.250605.031.A3) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/143.0.7499.192 Mobile Safari/537.36",
+    "固定直链": "https://d2rilpswaarmyk.cloudfront.net/",//自动挡失效请切换此域名
+    "回家的路": "{{域名-c}}homeway.html",//备用勿动
+    "发布页": "{{回家的路}}[工具:源码#91吃瓜最新网址(免翻墙)*<a href=\"截取\"]",//备用勿动
+    "固定直链自动挡": "{{回家的路}}[工具:源码#91吃瓜web固定直连:*<a href=\"截取\"]",//备用勿动
+    "后缀解码": "https://www.aitymdyk.cc/[工具:源码#document.write(Base64.decode('截取'))#解b64#words.random()*'.截取',]",
+    "域名-c": "https://cnmlgb.{{后缀解码}}/",
+	"数组": "<meta itemprop=\"dateModified\"&&</article>[不包含:data-ad_slot_name=]||往期内容--<div class=\"brick\">&&</div>||标签云--<a class=\"tags-grid-item\"&&</a>",
+	"标题": "itemprop=\"headline\">&&</h2>||往期内容--</span>&&</a>||标签云--data-name=\"&&\"",
+	"副标题": "<span itemprop=\"datePublished\"*content=\"*\">&&</span>||往期内容--<span class=\"time\">&&</span>||标签云--data-count=\"&&\"",
+	"简介": "</blockquote>*<p>&&</p>[不包含:请截图保存下图]",
+	"图片": "{{前缀}}+loadBannerDirect('&&'[工具:源码转b64#解密aes-f5d965df75336270-97b60394abc2fbe1-AES/CBC/PKCS7Padding]",
+  "前缀": "data:image/jpeg;base64,",
+	"链接": "<a href=\"&&\"||标签云--href=\"&&\"+{catePg}/",
+    "播放数组": "<div class=\"dpla&&<table>",//覆盖全部播放内容
+    "播放列表": "yer\"&&</div>",//覆盖单集内容
+    "播放标题": "data-video_id=\"&&\"",//标题
+    "播放链接": "\"ads_jump_time\"*\"video\":{\"url\":\"&&\"",//可以是链接，也可以是跳转播放链接
+	"嗅探词": ".m3u8",
+	"直接播放": "",
+	"搜索模式": "1",
+    "二级目录": "标签云|folder-0-0-H",
+    "二级ID": "",
+    "特殊分类链接": "往期内容${{域名-c}}archives/page/{catePg}#标签云${{域名-c}}tags/{catePg}",
+	"搜索url": "{{域名-c}}search/{wd}/{pg}/",
+    "分类url": "{{域名-c}}category/{cateId}/{catePg}/",
+    "分类": "今日吃瓜$zxcghl#最高点击$rsdg#必吃大瓜$bcdg#每日大赛$mrds#师生专栏$xsjlb#自拍偷拍$zptp#深夜撸片$lpsd#海角乱伦$hjll#网红黑料$whhl#反差靓女$fclv#91探花$91th#网黄合集$gcwh#明星AI$aikj#明星黑料$mxhl#成人动漫$crdm#擦边短剧$dydj#猎奇重口$lqzk#社会奇闻$qwys#往期内容#标签云"
+}

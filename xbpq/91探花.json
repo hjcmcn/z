@@ -1,0 +1,32 @@
+{
+    "作者": "hxc[工具:随机字符-3-唯一]",
+    "站名": "91探花自动挡",
+    "请求头":"User-Agent@Mozilla/5.0 (Linux；； Android 16；； 2510DRK44C Build/BP2A.250605.031.A3) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/143.0.7499.192 Mobile Safari/537.36",
+    "境外永久": "https://gitlab.com/91thw/91,https://91thw.com/,https://gitlab.com/91thw,https://91tanhua2.com/",
+    "发布页": "https://91tanhua2.com/",
+    "key截取": "{{发布页}}[工具:源码#key:*\"截取\"]",
+    "key": "{{key截取}}[工具:SHA]",
+    "iv": "{{key}}[工具:1截取16]",
+    "后缀": "{{发布页}}[工具:源码#data:*\"截取\"#解aes-{{key}}-{{iv}}-AES/CBC/PKCS7Padding#\"zz_line\":*\"截取\"]",
+    "域名-c": "https://{{作者}}.{{后缀}}/",
+	"数组": "<div class=\"xqbj-list-rows-image\">&&<div class=\"xqbj-list-rows-bottom-tags-text is-mobile\">||📌探花标签--<div class=\"tags-group\">&&<nav role=\"navigation\"分割(前:<a hr)||📌原创主,📌UP主,📌入驻创作者--v-drag-scroll=&&<div class=\"bottom||探花热搜--<div class=\"content\">&&</a>||探花往期--<div class=\"da&&</li>",
+	"标题": "title=\"&&\"||📌探花标签--<h3>&&</h3>||探花热搜,📌原创主,📌UP主,📌入驻创作者--<h2>&&</h2>||探花往期--<h3>&&</h3>",
+	"副标题": "<div class=\"xqbj-list-rows-bottom-tags-text is-desktop\">&&</div>||📌探花标签--</h3>(&&)</a>||📌原创主,📌UP主,📌入驻创作者--<div class=\"item\"><span>&&</span>粉丝+粉丝||探花热搜--<div class=\"xqbj-icon-fire2 icon-small\"></div>*<span>&&</span>||探花往期--te\">&&</div>",
+	"简介": "<meta name=\"description\"*content=\"&&\"",
+	"图片": "{{前缀}}+z-image-loader-url=\"`&&`\"[工具:源码转b64#解密aes-f5d965df75336270-97b60394abc2fbe1-AES/CBC/PKCS7Padding]",
+    "前缀": "data:image/jpeg;base64,",
+	"链接": "<a href=\"&&\"||📌探花标签--ef=\"&&\"+{catePg}/||📌原创主,📌UP主,📌入驻创作者--<a href=\"&&\"+page/{catePg}/",
+    "播放数组": "<div class=\"text text-content\">&&<blockquote>",//覆盖全部播放内容
+    "播放列表": "<div class=\"dplayer\"&&</div>",//覆盖单集内容
+    "播放标题": "data-video_id=\"&&\"",//标题
+    "播放链接": "\"video\":{\"url\":\"&&\"",//可以是链接，也可以是跳转播放链接
+	"嗅探词": ".m3u8",
+	"直接播放": "",
+	"搜索模式": "1",
+    "二级目录": "📌探花标签,📌原创主,📌UP主,📌入驻创作者|folder-0-0-H",
+    "二级ID": "",
+    "特殊分类链接": "",
+	"搜索url": "{{域名-c}}search_contents/{wd}/{pg}/",
+    "分类url": "{{域名-c}}{cateId}/{catePg}/",
+    "分类": "探花首页$page#探花热门$order/hot#今日更新$order/today#探花精选$category/thjx#学生援交$category/xsyj#探花女神$category/thns#监控破解$category/jkpj#厕所偷拍$category/cstp#探花乱伦$category/thll#街射抄底$category/jscd#老外探花$category/lwth#原创招募$category/yczm#探花热搜$authors_hot#探花往期$date#📌探花标签$tags#📌原创主$authors/blog#📌UP主$authors/up#📌入驻创作者$authors/creator"
+}

@@ -8,7 +8,7 @@ from base.spider import Spider as BaseSpider
 
 class Spider(BaseSpider):
     def init(self, extend=""):
-        self.host = "https://maihaolian.com"
+        self.host = "https://maihaolian.com/"
         self.headers = {
             "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 16_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Mobile/15E148 Safari/604.1",
             "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
@@ -23,11 +23,12 @@ class Spider(BaseSpider):
             {'type_id': "/label/qq", 'type_name': "腾讯VIP精选"},
             {'type_id': "/label/bli", 'type_name': "B站VIP精选"},
             {'type_id': "/label/youku", 'type_name': "优酷VIP精选"},
-            {"type_id": "5", "type_name": "红果短剧"},
             {"type_id": "2", "type_name": "电视剧"},
             {"type_id": "1", "type_name": "电影"},
             {"type_id": "4", "type_name": "动漫"},
             {"type_id": "3", "type_name": "综艺"},
+            {"type_id": "5", "type_name": "热门短剧"},
+            {"type_id": "/label/duanju", "type_name": "红果短剧"},
         ], "filters": self._build_filters()}
 
     def _build_filters(self):
@@ -141,15 +142,17 @@ class Spider(BaseSpider):
         return {"list": self._parse_video_list(html)}
 
     def categoryContent(self, tid, pg, filter, extend):
-        # 构建筛选参数：参照歪比巴卜，直接取extend里的值，fallback到filter
-        if tid.startswith('/label'):
-            url = f'{tid}/page/{pg}.html'
+        try:
+            page = int(pg)
+        except:
+            page = 1
+        if str(tid).startswith('/label'):
+            base = str(tid).replace('.html', '').rstrip('/')
+            url = f'{base}.html' if page == 1 else f'{base}/page/{page}.html'
             html = self._fetch(url)
             items = self._parse_video_list(html)
-            page = int(pg)
-            page_count = page if len(items) < 24 else page + 2
-            return {"list": items, "page": page, "pagecount": page_count, "limit": 24, "total": page_count * 24}
-
+            pagecount = self._page_count(html, page)
+            return {"list": items, "page": page, "pagecount": pagecount, "limit": 24, "total": pagecount * 24}
         args = {}
         if extend and isinstance(extend, dict):
             for k, v in extend.items():
@@ -166,29 +169,27 @@ class Spider(BaseSpider):
         lang = args.get('lang', '')
         letter = args.get('letter', '')
         sort = args.get('sort', '')
-        # 无筛选走正常分页
-        if not area and not genre and not year and not lang and not letter and not sort:
-            url = f'/cupfox-list/{route_tid}--------{pg}---.html'
-            html = self._fetch(url)
-            items = self._parse_video_list(html)
-            page = int(pg)
-            soup = BeautifulSoup(html, 'html.parser')
-            pagecount = page
-            for a in soup.select('a.page-link'):
-                if a.text == '尾页':
-                    m = re.search(r'---(\d+)---', a.get('href', ''))
-                    if m:
-                        pagecount = int(m.group(1))
-                    break
-            if not items:
-                pagecount = 0
-            return {"list": items, "page": page, "pagecount": pagecount, "limit": 36, "total": 9999}
-        # 有筛选：{tid}-{area}-{sort}-{genre}-{lang}-{letter}------{year}.html
-        segs = [route_tid, area, sort, genre, lang, letter, '', '', year]
-        url = '/cupfox-list/' + '-'.join(segs) + '.html'
-        html = self._fetch(url)
-        items = self._parse_video_list(html)
-        return {"list": items, "page": 1, "pagecount": 1, "limit": 36, "total": 9999}
+        params = {"mid": "1", "tid": route_tid, "page": str(page)}
+        if area: params["area"] = area
+        if genre: params["class"] = genre
+        if year: params["year"] = year
+        if lang: params["lang"] = lang
+        if letter: params["letter"] = letter
+        if sort:
+            params["by"] = sort
+            params["order"] = sort
+        data = self._fetch_json('/ajax/data?' + urllib.parse.urlencode(params))
+        items = self._parse_ajax_list(data)
+        if items:
+            pagecount = int(data.get('pagecount') or page)
+            total = int(data.get('total') or len(items))
+            limit = int(data.get('limit') or len(items) or 10)
+            return {"list": items, "page": page, "pagecount": pagecount, "limit": limit, "total": total}
+        path = f'/cupfox-list/{route_tid}-----------.html' if page == 1 else f'/cupfox-list/{route_tid}--------{page}---.html'
+        html = self._fetch(path)
+        items = [] if '系统安全验证' in html else self._parse_video_list(html)
+        pagecount = self._page_count(html, page) if items else 0
+        return {"list": items, "page": page, "pagecount": pagecount, "limit": 36, "total": pagecount * 36}
 
     def detailContent(self, ids):
         result = {"list": []}
@@ -324,7 +325,7 @@ class Spider(BaseSpider):
     def _fetch(self, url):
         try:
             if not url.startswith('http'):
-                url = self.host + url
+                url = self.host.rstrip('/') + '/' + url.lstrip('/')
             rsp = self.fetch(url, headers=self.headers)
             return rsp.text if rsp else ''
         except:
@@ -333,7 +334,68 @@ class Spider(BaseSpider):
     def _fix_pic(self, u):
         if not u: return ''
         if u.startswith('//'): return 'https:' + u
+        if u.startswith('/'):
+            return self.host.rstrip('/') + u
         return u.replace('&amp;', '&')
+
+    def _fix_url(self, u):
+        if not u: return ''
+        if u.startswith('//'): return 'https:' + u
+        if u.startswith('/'):
+            return self.host.rstrip('/') + u
+        return u
+
+    def _fetch_json(self, url):
+        try:
+            if not url.startswith('http'):
+                url = self.host.rstrip('/') + '/' + url.lstrip('/')
+            headers = dict(self.headers)
+            headers.update({'Accept': 'application/json,text/plain,*/*', 'Referer': self.host})
+            try:
+                rsp = self.fetch(url, headers=headers)
+                text = rsp.text if rsp else ''
+            except:
+                rsp = requests.get(url, headers=headers, timeout=15)
+                rsp.encoding = rsp.apparent_encoding or 'utf-8'
+                text = rsp.text
+            return json.loads(text) if text else {}
+        except Exception as e:
+            print(f'[枫叶影院] ajax数据获取失败: {e}')
+            return {}
+
+    def _parse_ajax_list(self, data):
+        videos, seen = [], set()
+        for v in (data.get('list') or []):
+            try:
+                vod_id = str(v.get('vod_id') or '').strip()
+                if not vod_id or vod_id in seen: continue
+                seen.add(vod_id)
+                vod_name = str(v.get('vod_name') or '').strip()
+                vod_pic = self._fix_pic(str(v.get('vod_pic') or v.get('vod_pic_thumb') or '').strip())
+                vod_remarks = str(v.get('vod_remarks') or v.get('vod_serial') or v.get('vod_score') or '').strip()
+                vod_year = ','.join([str(x).strip() for x in [v.get('vod_year'), v.get('vod_area'), v.get('type_name')] if x])
+                videos.append({"vod_id": vod_id, "vod_name": vod_name, "vod_pic": vod_pic, "vod_remarks": vod_remarks, "vod_year": vod_year})
+            except Exception as e:
+                print(f'[枫叶影院] 单条分类数据解析失败: {e}')
+                continue
+        return videos
+
+    def _page_count(self, html, page=1):
+        try:
+            soup = BeautifulSoup(html or '', 'html.parser')
+            pagecount = int(page)
+            for a in soup.select('a.page-link'):
+                text = a.get_text('', strip=True)
+                href = a.get('href', '')
+                if text in ('尾页', '末页'):
+                    m = re.search(r'/page/(\d+)\.html|---(\d+)---', href)
+                    if m:
+                        return int(m.group(1) or m.group(2))
+                if text.isdigit():
+                    pagecount = max(pagecount, int(text))
+            return pagecount
+        except:
+            return int(page)
 
     def _parse_video_list(self, html):
         videos, seen = [], set()
@@ -381,12 +443,3 @@ class Spider(BaseSpider):
                 {"vod_id": vod_id, "vod_name": vod_name.strip(), "vod_pic": vod_pic, "vod_remarks": vod_remarks})
         return videos
 
-
-if __name__ == '__main__':
-    sp = Spider()
-    sp.init()
-    # 20067-5-189
-    print(sp.categoryContent('/label/qq','1',True, {}))
-    # print(sp.playerContent('', '20067-6-189', []))
-    # print(sp.playerContent('', '20067-5-189', []))
-    pass

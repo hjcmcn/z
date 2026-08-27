@@ -1543,6 +1543,17 @@
             "playerType": 2
         },
         {
+            "key": "py_百年网",
+            "name": "📱百年网ᵖʸ｜夜晚",
+            "type": 3,
+            "api": "./py/百年直播.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
+        {
             "key": "py_新土豆",
             "name": "📱新豆🪜ᵖʸ｜夜晚",
             "type": 3,

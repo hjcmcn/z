@@ -205,7 +205,7 @@ class Spider(BaseSpider):
             vod_director = ''
             vod_actor = ''
             for el in soup.select('.slide-info'):
-                text = el.get_text(' ').strip()
+                text = el.get_text(' ', strip=True)
                 if text.startswith('导演：'):
                     vod_director = text.replace('导演：', '').strip()
                 elif text.startswith('演员：'):
@@ -229,6 +229,21 @@ class Spider(BaseSpider):
                 if ep_list and i < len(play_from):
                     play_url.append('#'.join(ep_list))
             valid_from = [pf for i, pf in enumerate(play_from) if i < len(play_url)]
+            
+            # 将至臻4K线路置顶
+            def sort_4k_first(names, urls):
+                combined = list(zip(names, urls))
+                idx = -1
+                for i, (name, _) in enumerate(combined):
+                    if '至臻4k' in name.lower():
+                        idx = i
+                        break
+                if idx > 0:
+                    combined.insert(0, combined.pop(idx))
+                return [n for n, _ in combined], [u for _, u in combined]
+            
+            valid_from, play_url = sort_4k_first(valid_from, play_url)
+            
             result["list"].append({
                 "vod_id": vid, "vod_name": vod_name, "vod_pic": vod_pic,
                 "vod_director": vod_director, "vod_actor": vod_actor,
@@ -267,48 +282,49 @@ class Spider(BaseSpider):
                     play_url = pd.get('url')
                     play_id = pd.get('from')
 
-                    api_map = {
-                        'YYNB': 'https://zzrs.mfdyvip.com/player/mplayer.php',
-                        'JD4K': 'https://fgsrg.hzqingshan.com/player/mplayer.php',
-                    }
                     if not play_url:
                         return {"parse": 0, "url": 'https://php.doube.eu.org/error.m3u8',
                                 "header": {'User-Agent': 'Mozilla/5.0'}}
-                    if play_url.startswith('http') and (play_url.endswith('.m3u8') or play_url.endswith('.mp4')):
-                        return {"parse": 0, "url": play_url, "header": {'User-Agent': 'Mozilla/5.0'}}
+                    # 直接链接检测（支持带参数）
+                    if play_url.startswith('http'):
+                        lower_url = play_url.lower()
+                        if any(ext in lower_url for ext in ['.m3u8', '.mp4', '.flv', '.ts']):
+                            return {"parse": 0, "url": play_url, "header": {'User-Agent': 'Mozilla/5.0'}}
 
-                    else:
-                        headers = {
-                            'User-Agent': "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
-                            'Accept': "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
-                            'accept-language': "zh-CN,zh;q=0.9",
-                            'cache-control': "no-cache",
-                            'pragma': "no-cache",
-                            'priority': "u=0, i",
-                            'referer': "https://www.ht10010.com/",
-                            'Content-Type': 'application/x-www-form-urlencoded',
+                    # 参考 JS 版：根据 flag（线路名）选择解析接口
+                    is_2k = '2k' in flag.lower()
+                    parse_api = 'https://zzrs.mfdyvip.com' if is_2k else 'https://fgsrg.hzqingshan.com'
+
+                    headers = {
+                        'User-Agent': "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+                        'Accept': "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+                        'accept-language': "zh-CN,zh;q=0.9",
+                        'cache-control': "no-cache",
+                        'pragma': "no-cache",
+                        'priority': "u=0, i",
+                        'referer': "https://www.ht10010.com/",
+                        'Content-Type': 'application/x-www-form-urlencoded',
+                    }
+                    # 第一步 GET 获取 token
+                    response = requests.get(f"{parse_api}/player/?url={play_url}", headers=headers)
+                    token = re.search(r'data-te="(.*?)"', response.text)
+                    if token:
+                        token = token.group(1)
+                        payload = {
+                            'url': play_url,
+                            'token': token
                         }
-                        response = requests.get(f"https://fgsrg.hzqingshan.com/player/?url={play_url}", headers=headers)
-                        token = re.search(r'data-te="(.*?)"', response.text)
-                        if token:
-                            token = token.group(1)
-                            payload = {
-                                'url': play_url,
-                                'token': token
-                            }
-                            # print('payload', payload)
-                            try:
-                                response = self.post(api_map[play_id], data=payload, headers=headers)
-
-                                response.raise_for_status()
-                                result = response.json()
-                                # print('result:', result)
-                                if result['code'] == 200 and 'url' in result:
-                                    play_url = result['url']
-                                    return {"parse": 0, "url": play_url, "header": {
-                                        'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 16_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Mobile/15E148 Safari/604.1'}}
-                            except Exception as e:
-                                print(e)
+                        try:
+                            # 第二步 POST 获取真实播放地址
+                            response = self.post(f"{parse_api}/player/mplayer.php", data=payload, headers=headers)
+                            response.raise_for_status()
+                            result = response.json()
+                            if result.get('code') == 200 and 'url' in result:
+                                play_url = result['url']
+                                return {"parse": 0, "url": play_url, "header": {
+                                    'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 16_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Mobile/15E148 Safari/604.1'}}
+                        except Exception as e:
+                            print(e)
         except Exception as e:
             print(e)
         return {"parse": 1, "url": url}
@@ -442,4 +458,3 @@ class Spider(BaseSpider):
             videos.append(
                 {"vod_id": vod_id, "vod_name": vod_name.strip(), "vod_pic": vod_pic, "vod_remarks": vod_remarks})
         return videos
-

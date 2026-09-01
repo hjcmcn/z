@@ -2,7 +2,7 @@
 import cheerio from 'assets://js/lib/cheerio.min.js';
 
 const TAG = "枫叶4K";
-let baseUrl = 'https://maihaolian.com';
+let baseUrl = 'https://www.cd-zj.com';
 
 
 const mylog = (...args) => console.log(TAG, ...args);

@@ -1333,6 +1333,39 @@
             "filterable": 1,
             "ext": "./xbpq/聚合.json"
         },
+         {
+"key":"py_AI人短剧",
+"name":"📱AI人短剧ᵖʸ｜夜晚",
+"type":3,
+"api":"./py/AI人短剧.py",
+"searchable":1,
+"changeable":1,
+"quickSearch":1,
+"filterable":1,
+"playerType":2
+},
+{
+"key":"py_欣赏AV",
+"name":"📱欣赏AVᵖʸ｜夜晚",
+"type":3,
+"api":"./py/欣赏AV.py",
+"searchable":1,
+"changeable":1,
+"quickSearch":1,
+"filterable":1,
+"playerType":2
+},
+{
+"key":"py_2048核基地",
+"name":"📱2048核基地ᵖʸ｜夜晚",
+"type":3,
+"api":"./py/2048核基地.py",
+"searchable":1,
+"changeable":1,
+"quickSearch":1,
+"filterable":1,
+"playerType":2
+},
         {
             "key": "py_黄豆擦边",
             "name": "📱黄豆ᵖʸ｜夜晚",

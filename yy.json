@@ -18,6 +18,19 @@
             "changeable": 1
         },
         {
+"key": "🕍|接口导航|推荐",
+"name": "🕍|接口导航|推荐",
+"type": 3,
+"style": {
+"type": "list",
+"ratio": 1.43
+},
+"api": "./在线转本地@v6[内测].py",
+"ext": {
+"config_file": "./down_config_v6.json"
+}
+},
+        {
             "key": "youtub.py",
             "name": "📱Youtub｜世界",
             "type": 3,

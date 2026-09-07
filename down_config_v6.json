@@ -1,0 +1,189 @@
+{
+  "接口列表": [
+    {
+      "name": "饭太硬💜线路",
+      "url": "http://www.饭太硬.cc/tv/",
+      "启用": true
+    },
+    {
+      "name": "欧歌A💜线路",
+      "url": "https://xn--oaao-mb1gy821b.v.nxog.top/apia?id=1",
+      "启用": true
+    },
+    {
+      "name": "肥猫💜捡漏",
+      "url": "https://jk.catvod.site/",
+      "启用": true
+    },
+    {
+      "name": "放牛娃💜线路",
+      "url": "http://tv.999888987.xyz",
+      "启用": true
+    },
+    {
+      "name": "菜妮丝💜线路",
+      "url": "https://tv.xn--yhqu5zs87a.top",
+      "启用": true
+    },
+    {
+      "name": "讴歌💜线路",
+      "url": "http://liucn.cc/box/dc/ou/ou.json",
+      "启用": true
+    },
+    {
+      "name": "饭太💜线路",
+      "url": "http://liucn.cc/box/dc/fan/fan.json",
+      "启用": true
+    },
+    {
+      "name": "菜妮💜线路",
+      "url": "http://liucn.cc/box/dc/lns/lns.json",
+      "启用": true
+    },
+    {
+      "name": "动漫城💜线路",
+      "url": "https://www.yingm.cc/dm/dm.json",
+      "启用": true
+    },
+    {
+      "name": "小脑斧💜线路",
+      "url": "https://d.kstore.dev/download/6492/xnf/xnf.json",
+      "启用": true
+    },
+    {
+      "name": "欧歌B💜线路",
+      "url": "https://xn--tkh-mf3g9f.v.nxog.top/m/111.php?ou=公众号欧歌app&mz=index&jar=index&123&b=欧歌tkh",
+      "启用": true
+    },
+    {
+      "name": "俊佬💜线路",
+      "url": "http://home.jundie.top:81/top98.json",
+      "启用": true
+    },
+    {
+      "name": "心魔💜线路",
+      "url": "https://ghproxy.net/https://raw.githubusercontent.com/yw88075/tvbox/main/yw.json",
+      "启用": true
+    },
+    {
+      "name": "黄金💜线路",
+      "url": "https://gitlab.com/lzc1021lzc/hjfggzs.hjys/-/raw/main/hjys.free.json",
+      "启用": true
+    },
+    {
+      "name": "道长💜线路",
+      "url": "https://gitlab.com/duomv/dzhipy/-/raw/main/index.json",
+      "启用": true
+    },
+    {
+      "name": "网盘💜线路",
+      "url": "https://gitlab.com/dokiss1/tvbox/-/raw/master/doki-Dx.json",
+      "启用": true
+    },
+    {
+      "name": "海豚💜线路",
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FGBLH/HKL/refs/heads/main/Web鱼壳海豚常规23",
+      "启用": true
+    },
+    {
+      "name": "天神💜线路",
+      "url": "https://gh-proxy.com/raw.githubusercontent.com/IY-CPU/IY/main/天神IY.png",
+      "启用": true
+    },
+    {
+      "name": "嗷呜💜线路",
+      "url": "http://www.英格里希嗷呜.top/tv",
+      "启用": true
+    },
+    {
+      "name": "摸鱼儿💜线路",
+      "url": "https://6800.kstore.vip/fish.json",
+      "启用": true
+    }
+  ],
+  "日志": {
+    "启用": true,
+    "级别": "info",
+    "目录": "/storage/emulated/0/本地包管理/本地包/log/"
+  },
+  "配置备份目录": "/storage/emulated/0/本地包管理/配置/",
+  "下载目录": "/storage/emulated/0/本地包管理/本地包/",
+  "下载设置": {
+    "覆盖已有文件": false,
+    "跳过扩展名": [
+      ".php",
+      ".asp",
+      ".aspx",
+      ".jsp",
+      ".cgi",
+      ".exe",
+      ".dll",
+      ".sh",
+      ".bat",
+      ".html",
+      ".htm"
+    ],
+    "跳过模式": [
+      "/temp/",
+      "/test/",
+      "/tmp/",
+      "_test.",
+      "-test.",
+      "广告"
+    ],
+    "核心跳过规则": [
+      "/api\\.php/provide/vod",
+      "/api\\.php/app/",
+      "provide/vod",
+      "\\?url=",
+      "proxy://",
+      "\\{[A-Za-z_][A-Za-z0-9_]*\\}"
+    ],
+    "分类映射": {
+      "js": ".js",
+      "lib": ".json",
+      "py": ".py",
+      "jar": ".jar"
+    },
+    "连接超时": 10,
+    "读取超时": 45,
+    "重试次数": 2,
+    "重试退避": 0.3,
+    "单文件耗时上限": 150,
+    "最大文件大小MB": 60,
+    "分块下载阈值KB": 2048,
+    "块大小": 65536,
+    "下载并发数": 8,
+    "连接池数": 10,
+    "连接池上限": 20,
+    "递归深度": 2,
+    "解密": {
+      "启用": true,
+      "外部API地址": "https://xn--v4q818bf34b.cc/helper/api.php"
+    },
+    "concurrent": 3,
+    "github_proxy": "https://gh-proxy.com/"
+  },
+  "解密文件命名": "{name}_m.json",
+  "本地化文件命名": "{name}.json",
+  "用户代理": "okhttp/4.12.0",
+  "GitHub加速代理": "https://gh-proxy.com/",
+  "全局代理": "",
+  "备用解密接口": "https://xn--v4q818bf34b.cc/helper/api.php",
+  "并发数": 3,
+  "自动注入管理接口": true,
+  "增量更新": true,
+  "本地化用解密数据": true,
+  "接口切换超时": 3,
+  "TV模式": null,
+  "深色模式": "auto",
+  "体检项目": {
+    "包入口": true,
+    "文件缺失": true,
+    "文件大小": true,
+    "内容截断": true,
+    "回源引用": true
+  },
+  "本地文件服务": "http://127.0.0.1:9978/file",
+  "内置服务端口": 7890
+}

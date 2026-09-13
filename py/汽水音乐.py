@@ -10,14 +10,10 @@ import time
 import urllib.parse
 import urllib.request
 
-try:
-    from base.spider import Spider as BaseSpider
-except Exception:
-    class BaseSpider(object):
-        pass
+from base.spider import Spider as Spider
 
 
-class Spider(BaseSpider):
+class Spider(Spider):
     API = "https://api.qishui.com"
     UA = "Mozilla/5.0 (Linux; Android 10; TVBox) AppleWebKit/537.36 Chrome/124 Safari/537.36"
     VIDEO_CATEGORIES = [
@@ -256,33 +252,61 @@ class Spider(BaseSpider):
 
     def _listen_videos(self, cid, page):
         name = self._category_name(cid)
-        keyword = "热门视频" if name == "推荐" else name
-        payload = {"search_type": "listen_video", "q": keyword,
-                   "cursor": None if page == 1 else str((page - 1) * 20),
-                   "search_id": hashlib.md5((keyword + ":video").encode()).hexdigest(),
-                   "search_method": "input", "search_scene": "search_result", "scene_name": "listen_video"}
-        data = self._api("/luna/search/listen_video", payload, {"device_platform": "web"})
-        group = next((g for g in data.get("result_groups") or [] if g.get("id") == "listen_video"), {})
+        # 推荐分类固定词"热门视频"在当前接口已命中空结果集(2026-09 实测 0 条),
+        # 改用候选词逐个尝试, 命中数据即返回, 保证听抖音默认页可取数。
+        keywords = ["热门歌曲", "音乐", "热门视频"] if name == "推荐" else [name]
+        group = {}
         cards = []
-        for item in group.get("data") or []:
-            video = ((item.get("entity") or {}).get("video") or {})
-            vid = str(video.get("vid") or ((video.get("clip") or {}).get("vid") or ""))
-            if not vid:
-                continue
-            artists = video.get("artists") or []
-            author = str((((artists[0].get("user_info") or {}) if artists else {}).get("nickname")) or "汽水视频")
-            title = str(video.get("title") or video.get("description") or "听抖音")
-            info = {"vid": vid, "video_id": str(video.get("video_id") or ""), "name": title,
-                    "pic": self._image_url(video.get("cover_url") or video.get("image_url") or {}),
-                    "author": author, "duration": int(video.get("duration") or 0)}
-            cards.append({"vod_id": self._pack("video", info), "vod_name": title,
-                          "vod_pic": info["pic"], "vod_remarks": author})
+        for keyword in keywords:
+            payload = {"search_type": "listen_video", "q": keyword,
+                       "cursor": None if page == 1 else str((page - 1) * 20),
+                       "search_id": hashlib.md5((keyword + ":video").encode()).hexdigest(),
+                       "search_method": "input", "search_scene": "search_result",
+                       "scene_name": "listen_video"}
+            data = self._api("/luna/search/listen_video", payload, {"device_platform": "web"})
+            group = next((g for g in data.get("result_groups") or [] if g.get("id") == "listen_video"), {})
+            cards = []
+            for item in group.get("data") or []:
+                video = ((item.get("entity") or {}).get("video") or {})
+                vid = str(video.get("vid") or ((video.get("clip") or {}).get("vid") or ""))
+                if not vid:
+                    continue
+                artists = video.get("artists") or []
+                author = str((((artists[0].get("user_info") or {}) if artists else {}).get("nickname")) or "汽水视频")
+                title = str(video.get("title") or video.get("description") or "听抖音")
+                info = {"vid": vid, "video_id": str(video.get("video_id") or ""), "name": title,
+                        "pic": self._image_url(video.get("cover_url") or video.get("image_url") or {}),
+                        "author": author, "duration": int(video.get("duration") or 0)}
+                cards.append({"vod_id": self._pack("video", info), "vod_name": title,
+                              "vod_pic": info["pic"], "vod_remarks": author})
+            if cards:
+                break
         return self._result(cards, page, bool(group.get("has_more")), 20)
 
     def _radio_tracks(self, rid):
-        data = self._api("/luna/feed/radio/tracks", {"radio_id": str(rid), "played_media": [],
-            "feed_radio_media_extra": {"real_groups": []}, "flow_type": 2, "full_media": True})
-        return [t for t in (self._track(x) for x in data.get("items") or []) if t]
+        # 电台接口每次仅返回 6 条随机曲目(has_more 恒 True、无 cursor),
+        # 必须把已见曲目 id 通过 played_media 回传持续拉取并去重累积,
+        # 否则详情页只能得到前 6 首。
+        seen, tracks_map, rounds = set(), {}, 0
+        while rounds < 8:
+            rounds += 1
+            data = self._api("/luna/feed/radio/tracks", {
+                "radio_id": str(rid), "played_media": sorted(seen),
+                "feed_radio_media_extra": {"real_groups": []}, "flow_type": 2, "full_media": True})
+            items = data.get("items") or []
+            fresh = 0
+            for track in (self._track(x) for x in items):
+                tid = str(track.get("id")) if track else None
+                if tid and tid not in seen:
+                    seen.add(tid)
+                    tracks_map[tid] = track
+                    fresh += 1
+            # 任一条件即停: 无新曲目 / 累积超上限 / 接口明确结束
+            if fresh == 0 or len(tracks_map) >= 40 or not items:
+                break
+            if not data.get("has_more", True):
+                break
+        return list(tracks_map.values())
 
     def _chart_tracks(self, chart_id):
         data = self._api("/luna/charts/" + urllib.parse.quote(str(chart_id)))
@@ -292,12 +316,26 @@ class Spider(BaseSpider):
         return [t for t in (self._track(x) for x in items) if t]
 
     def _playlist_tracks(self, playlist_id):
-        data = self._api("/luna/playlist/detail", {
-            "playlist_id": str(playlist_id), "cursor": None, "count": 100, "type": None,
-            "feed_playlist_extra": {"har": None, "commerce_block_pattern": None},
-            "sort_type": None, "session_id": None, "reverse": False, "ab_param": "",
-            "limited_free_scene": 0}, {"max_length": 4194304})
-        return [t for t in (self._track(x) for x in data.get("media_resources") or []) if t]
+        # 歌单详情接口有 count 上限且部分歌单需按 cursor 翻页,
+        # 循环续拉直至取满, 上限 200 首防失控。
+        seen, tracks_map, cursor, rounds = set(), {}, None, 0
+        while rounds < 5:
+            rounds += 1
+            data = self._api("/luna/playlist/detail", {
+                "playlist_id": str(playlist_id), "cursor": cursor, "count": 100, "type": None,
+                "feed_playlist_extra": {"har": None, "commerce_block_pattern": None},
+                "sort_type": None, "session_id": None, "reverse": False, "ab_param": "",
+                "limited_free_scene": 0}, {"max_length": 4194304})
+            resources = data.get("media_resources") or []
+            for track in (self._track(x) for x in resources):
+                tid = str(track.get("id")) if track else None
+                if tid and tid not in seen:
+                    seen.add(tid)
+                    tracks_map[tid] = track
+            cursor = data.get("cursor")
+            if not resources or not cursor or len(tracks_map) >= 200:
+                break
+        return list(tracks_map.values())
 
     def _search_tracks(self, keyword, page=1):
         payload = {"search_type": "track", "q": keyword,
@@ -355,8 +393,8 @@ class Spider(BaseSpider):
                 "vod_content": info.get("desc") or "汽水音乐 App 分类",
                 "vod_play_from": "$$$".join(sources), "vod_play_url": "$$$".join(groups)}
 
-    def detailContent(self, array):
-        value = str(array[0] if isinstance(array, (list, tuple)) else array)
+    def detailContent(self, ids):
+        value = str(ids[0] if isinstance(ids, (list, tuple)) else ids)
         try:
             video = self._unpack(value, "video")
             if video:
@@ -452,25 +490,140 @@ class Spider(BaseSpider):
                     "vod_play_from": "$$$".join(sources), "vod_play_url": "$$$".join(urls)})
         return vod
 
-    def playerContent(self, flag, pid, vipFlags):
-        value = str(pid or "")
+    # ================= VIP/试听歌曲备选（酷我主 → 抖音备用） =================
+    def _kwyy_fallback(self, track_id):
+        """① 酷我：yx520 kwyy 接口，MP3 完整直链（audio/mpeg）"""
+        try:
+            data = self._seo(track_id)
+            track = self._track(data.get("seo_track") or {}) or {}
+            keyword = str(track.get("name") or "")
+            if not keyword:
+                return ""
+            url = ("http://www.yx520.ltd/API/kwyy/api.php?msg=" + urllib.parse.quote(keyword)
+                   + "&a=10&n=1")
+            req = urllib.request.Request(url, headers={"User-Agent": self.UA})
+            with urllib.request.urlopen(req, timeout=12) as res:
+                j = json.loads(res.read().decode("utf-8", "replace"))
+            if j.get("code") == "200":
+                u = j.get("url") or ""
+                if u:
+                    return str(u)
+        except Exception:
+            pass
+        return ""
+
+    def _dyyy_fallback(self, track_id):
+        """② 抖音：yx520 dyyy 接口，返回列表选 title 含关键词的第一首"""
+        try:
+            data = self._seo(track_id)
+            track = self._track(data.get("seo_track") or {}) or {}
+            keyword = str(track.get("name") or "").strip()
+            if not keyword:
+                return ""
+            url = "http://www.yx520.ltd/API/dyyy/api.php?msg=" + urllib.parse.quote(keyword)
+            req = urllib.request.Request(url, headers={"User-Agent": self.UA})
+            with urllib.request.urlopen(req, timeout=12) as res:
+                j = json.loads(res.read().decode("utf-8", "replace"))
+            items = j.get("data") or []
+            if not items:
+                return ""
+            # 优先 title 含关键词的，否则第一首
+            hit = next((it for it in items if keyword in str(it.get("title") or "")), items[0])
+            u = hit.get("url") or ""
+            return str(u)
+        except Exception:
+            pass
+        return ""
+
+    def _vip_fallback(self, track_id):
+        """VIP/试听歌曲替代：酷我主 → 抖音备用"""
+        for fn in (self._kwyy_fallback, self._dyyy_fallback):
+            try:
+                u = fn(track_id)
+                if u:
+                    print("[汽水] VIP替代: " + fn.__name__ + " -> " + u[:60])
+                    return u
+            except Exception:
+                continue
+        return ""
+
+    def _is_vip_track(self, data):
+        """检测 VIP/试听歌曲：label_info.only_vip_playable / audition_info 存在 = 只能试听"""
+        try:
+            track = (data.get("seo_track") or {}).get("track") or {}
+            label = track.get("label_info") or {}
+            if label.get("only_vip_playable") or label.get("only_vip_download"):
+                return True
+            if track.get("audition_info") or track.get("preview"):
+                # 有试听信息 = 非会员只能听片段
+                return True
+        except Exception:
+            pass
+        return False
+
+    def _probe_media(self, url):
+        # 直播/视频直链门禁: 请求真实地址, 播放流必须可出数据(#EXTM3U 或 >0 字节),
+        # 否则判定为失效链接, 避免壳端拿到打不开的 parse:0 黑屏。
+        if not url or not str(url).startswith("http"):
+            return False
+        try:
+            req = urllib.request.Request(str(url), headers=self.headers, method="GET")
+            with urllib.request.urlopen(req, timeout=8) as res:
+                head = res.read(1024)
+                if not head:
+                    return False
+                if str(res.headers.get("Content-Type", "")).lower().startswith(
+                        ("video/", "audio/", "application/vnd.apple.mpegurl")):
+                    return True
+                if b"#EXTM3U" in head:
+                    return True
+                if head[:3] == b"\xff\xd8" or head[:4] == b"\x00\x00\x00":
+                    return True
+                low = head[:64].lower()
+                if b"html" in low and b"error" in low:
+                    return False
+                return len(head) > 0
+        except Exception:
+            return False
+
+    def playerContent(self, flag, id, vipFlags):
+        value = str(id or "")
         try:
             if value.startswith("v:"):
                 url = "https://aweme.snssdk.com/aweme/v1/play/?" + urllib.parse.urlencode(
                     {"video_id": value[2:], "ratio": "1080p", "line": "0"})
-                return {"parse": 0, "jx": 0, "url": url,
-                        "header": {"User-Agent": self.headers["User-Agent"]}}
+                if self._probe_media(url):
+                    return {"parse": 0, "jx": 0, "url": url,
+                            "header": {"User-Agent": self.headers["User-Agent"]}}
+                return {"parse": 1, "jx": 0, "url": url, "header": {}}
             if value.startswith("a:"):
                 _, track_id, quality = value.split(":", 2)
             else:
                 track_id, quality = value, "auto"
-            streams = self._audio_streams(self._seo(track_id))
-            selected = next((x for x in streams if x["key"] == quality), streams[0])
-            # 手机端专用的显式分流标记。旧版/TV 端会安全忽略未知字段，
-            # 只有已适配的手机端会据此进入音乐播放器。
-            return {"parse": 0, "jx": 0, "url": selected["url"], "music_player": 1,
-                    "header": {"User-Agent": self.headers["User-Agent"],
-                               "Referer": "https://music.douyin.com/"}}
+            seo = self._seo(track_id)
+            # 🌟 VIP/试听歌曲检测（only_vip_playable/audition_info）→ 直接走酷我/抖音替代
+            if self._is_vip_track(seo):
+                fallback = self._vip_fallback(track_id)
+                if fallback and self._probe_media(fallback):
+                    return {"parse": 0, "jx": 0, "url": fallback, "music_player": 1,
+                            "header": {"User-Agent": self.headers["User-Agent"],
+                                       "Referer": "https://music.douyin.com/"}}
+            streams = self._audio_streams(seo)
+            if streams:
+                selected = next((x for x in streams if x["key"] == quality), streams[0])
+                # 手机端专用的显式分流标记。旧版/TV 端会安全忽略未知字段，
+                # 只有已适配的手机端会据此进入音乐播放器。
+                if self._probe_media(selected["url"]):
+                    return {"parse": 0, "jx": 0, "url": selected["url"], "music_player": 1,
+                            "header": {"User-Agent": self.headers["User-Agent"],
+                                       "Referer": "https://music.douyin.com/"}}
+            # streams 为空或直链失效兜底：酷我 → 抖音
+            fallback = self._vip_fallback(track_id)
+            if fallback and self._probe_media(fallback):
+                return {"parse": 0, "jx": 0, "url": fallback, "music_player": 1,
+                        "header": {"User-Agent": self.headers["User-Agent"],
+                                   "Referer": "https://music.douyin.com/"}}
+            return {"parse": 1, "jx": 0, "url": value, "header": {}}
         except Exception:
             return {"parse": 1, "jx": 0, "url": value, "header": {}}
 
@@ -482,7 +635,3 @@ class Spider(BaseSpider):
 
     def localProxy(self, params):
         return [404, "text/plain", b""]
-
-
-if __name__ == "__main__":
-    print(json.dumps(Spider().homeContent(True), ensure_ascii=False, indent=2))

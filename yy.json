@@ -1173,6 +1173,17 @@
             "filterable": 1,
             "playerType": 2
         },
+                {
+            "key": "py_汽水音乐",
+            "name": "📱汽水ᵖʸ｜音乐",
+            "type": 3,
+            "api": "./py/汽水音乐.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
         {
             "key": "py_枫叶音乐",
             "name": "📱枫叶ᵖʸ｜音乐",

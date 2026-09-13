@@ -1173,17 +1173,7 @@
             "filterable": 1,
             "playerType": 2
         },
-                {
-            "key": "py_汽水音乐",
-            "name": "📱汽水ᵖʸ｜音乐",
-            "type": 3,
-            "api": "./py/汽水音乐.py",
-            "searchable": 1,
-            "changeable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "playerType": 2
-        },
+        
         {
             "key": "py_枫叶音乐",
             "name": "📱枫叶ᵖʸ｜音乐",
@@ -1406,6 +1396,39 @@
             "name": "📱直播ᵖʸ｜夜晚",
             "type": 3,
             "api": "./xbpq/直播.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
+                {
+            "key": "py_一线黑料",
+            "name": "📱一线黑料ᵖʸ｜夜晚",
+            "type": 3,
+            "api": "./py/一线黑料.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
+        {
+            "key": "py_啪啪",
+            "name": "📱啪啪ᵖʸ｜夜晚",
+            "type": 3,
+            "api": "./py/啪啪.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
+        {
+            "key": "py_汤头条",
+            "name": "📱汤头条ᵖʸ｜夜晚",
+            "type": 3,
+            "api": "./py/汤头条.py",
             "searchable": 1,
             "changeable": 1,
             "quickSearch": 1,

@@ -34,27 +34,6 @@
         "ratio": 1.597
       }
     },
-                {
-
-            "key": "cat_麻豆网",
-
-            "name": "麻豆网ᶜᵃᵗ｜APP",
-
-            "type": 3,
-
-            "api": "./js/麻豆.js",
-
-            "style": {
-
-                "type": "rect",
-
-                "ratio": 1
-
-            },
-
-            "changeable": 1
-
-        },
 
         {
 
@@ -78,27 +57,6 @@
 
         },
 
-        {
-
-            "key": "cat_优夏网",
-
-            "name": "优夏网ᶜᵃᵗ｜APP",
-
-            "type": 3,
-
-            "api": "./js/优夏.js",
-
-            "style": {
-
-                "type": "rect",
-
-                "ratio": 1
-
-            },
-
-            "changeable": 1
-
-        },
             {
             "key": "js_可可",
             "name": "📱可可ʲˢ｜APP",

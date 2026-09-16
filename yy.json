@@ -403,6 +403,17 @@
             "playerType": 2
         },
         {
+            "key": "py_秀秀影视",
+            "name": "📱秀秀影视ᵖʸ｜APP",
+            "type": 3,
+            "api": "./py/秀秀影视.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
+        {
             "key": "py_Alists",
             "name": "📱Alistsᵖʸ｜APP",
             "type": 3,

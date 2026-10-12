@@ -991,6 +991,38 @@
             "quickSearch": 0,
             "filterable": 1
         },
+        
+        {
+            "key": "真果鉴短剧",
+            "name": "📱 真果鉴丨短剧",
+            "type": 3,
+            "api": "./py/真果鉴.py",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 1
+        },
+        {
+            "key": "py_全聚合短剧",
+            "name": "📱全聚合ᵖʸ｜短剧",
+            "type": 3,
+            "api": "./py/全聚合短剧.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
+        {
+            "key": "py_多聚短剧",
+            "name": "📱多聚短剧ᵖʸ｜短剧",
+            "type": 3,
+            "api": "./py/多聚短剧.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
         {
             "key": "py_红果",
             "name": "📱红果ᵖʸ｜短剧",

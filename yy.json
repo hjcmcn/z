@@ -1079,6 +1079,17 @@
             "playerType": 2
         },
         {
+"key":"py_星猫短剧",
+"name":"📱星猫短剧ᵖʸ｜短剧",
+"type":3,
+"api":"./py/欣赏AV.py",
+"searchable":1,
+"changeable":1,
+"quickSearch":1,
+"filterable":1,
+"playerType":2
+},
+        {
             "key": "py_黄豆",
             "name": "📱黄豆网ᵖʸ｜短剧",
             "type": 3,
@@ -1297,6 +1308,17 @@
             "name": "📱糖豆ᵖʸ｜舞蹈",
             "type": 3,
             "api": "./py/糖豆.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
+        {
+            "key": "随身听书",
+            "name": "随身听书ᵖʸ丨听书",
+            "type": 3,
+            "api": "./py/随身听书.py",
             "searchable": 1,
             "changeable": 1,
             "quickSearch": 1,

@@ -250,6 +250,29 @@
             "filterable": 1,
             "playerType": 2
         },
+              {
+            "key": "py_影探",
+            "name": "📱影探ᵖʸ｜APP",
+            "type": 3,
+            "api": "./py/影探.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
+        
+       {
+            "key": "py_咕噜4K",
+            "name": "📱咕噜4Kᵖʸ｜APP",
+            "type": 3,
+            "api": "./py/咕噜4K.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
         {
             "key": "js_可可",
             "name": "📱可可ʲˢ｜APP",

@@ -1,6 +1,22 @@
 # -*- coding: utf-8 -*-
 # 影探4K：由 影探4k.js 移植到鱼壳 webhtv 站点注入使用的 Python Spider。
 # 用法：把本文件放到手机 /sdcard/py/影探4K.py，站点配置 api 填 file:///sdcard/py/影探4K.py
+#
+# 2026-10-31 播放修复（全部结论来自真实请求实测，非推测）：
+#   1) 解析接口 http://fys.lyyytv.cn/api/index 仍然活着，但 parsesId=3 这条记录已经查不到了，
+#      带 videoUrl 请求直接抛 PHP 异常：HTTP 500 / "Trying to get property 'url' of non-object"
+#      （Parses.php line 63）。枚举 1~12 后只有 parsesId=5 正常返回
+#      {"code":200,"url":"https://baidu.con/..."}，6、7 返回 {"code":0,"msg":"解析失败"}，
+#      其余全是同一个 500 错误页。所以解析主线路改为 5，并保留 6/7 作为兜底重试。
+#   2) baidu.con 前缀的 AES 解密逻辑没有变（前 16 位当 key 和 iv，余下 base64 密文，AES/CBC/PKCS7），
+#      实测仍能解出真实 m3u8/mpd 地址，这段保持原样。
+#   3) 原 play() 把所有地址无条件丢给解析接口。但 4K(YD)/4K(BD) 两条线路的 vod_play_url
+#      本身就是直链 mp4（http://ym4kjx.lyyytv.cn/d/file/xxx/片名4K.mp4），
+#      就算解析接口活着，对 mp4 直链请求也只会得到「解析失败」。现在直链直接交给播放器，不再绕解析。
+#   4) 4K 直链的源站 ym4kjx.lyyytv.cn 已经搬空：实测 40 部影片共 111 条该域名直链，
+#      随便取多条都是 HTTP 404（https 是 502 Bad Gateway，nginx 回源失败）。
+#      这不是脚本能修的，脚本改成：详情页把已确认失效的源站线路隐藏，播放时若仍命中给出明确提示，
+#      避免用户点进去只看到黑屏。
 import base64
 import json
 import re
@@ -22,8 +38,11 @@ KEY = 'yingtan4k'
 HOST = 'http://cms.lyyytv.cn'
 CMS_KEY = 'wP5bvxoc3yv7FoBQENFZuAF0EUYr4LTy'
 
-# 解析接口（对齐 yt4k.js：fys.lyyytv.cn / parsesId=3）
-PARSE_API = 'http://fys.lyyytv.cn/api/index?parsesId=3&appid=10001&videoUrl='
+# 解析接口（2026-10-31 实测：parsesId=3 已失效返回 HTTP 500，parsesId=5 可用）
+PARSE_API = 'http://fys.lyyytv.cn/api/index'
+PARSE_APPID = '10001'
+# 解析线路优先级：5 是当前唯一稳定出地址的；6、7 会快速返回「解析失败」，留作兜底
+PARSE_IDS = (5, 6, 7)
 HEADERS = {'User-Agent': 'okhttp/4.12.0'}
 # 解析请求/回源头：对齐 JS 的 PH，避免 gzip 花屏
 PARSE_HEADERS = {'User-Agent': 'okhttp/4.12.0', 'Accept-Encoding': 'identity'}
@@ -31,24 +50,33 @@ PARSE_HEADERS = {'User-Agent': 'okhttp/4.12.0', 'Accept-Encoding': 'identity'}
 # baidu.con 前缀加密常量（对齐 yt4k.js）
 DEC_PREFIX = 'https://baidu.con/'
 # 解析重试轮数与退避基数（秒）
-PARSE_ROUNDS = 3
-PARSE_BACKOFF = 0.35
+PARSE_ROUNDS = 2
+PARSE_BACKOFF = 0.3
 # 同一原始地址解析结果缓存窗口（秒）
 PLAY_CACHE_TTL = 120
 
 PAGE_LIMIT = 20
+# 2026-10-31：nav 的 type_extend 实际还带 star/director/state/version，补上映射
 FILTER_NAMES = {
     'class': '类型', 'area': '地区', 'lang': '语言', 'year': '年份',
     'letter': '字母', 'by': '排序', 'sort': '顺序',
+    'star': '主演', 'director': '导演', 'state': '状态', 'version': '版本',
 }
 HOME_CACHE_TTL = 6 * 3600
+
+# 直链源站健康检查缓存（秒）：避免每个详情页都重复探测
+HOST_CHECK_TTL = 600
+# 探测时只认这两个状态码为「源站已失效」，其余一律放行，避免误杀
+HOST_DEAD_STATUS = (404, 502)
 
 _BASE64_RE = re.compile(r'(?:[A-Za-z0-9+/]{4})*(?:[A-Za-z0-9+/]{2}==|[A-Za-z0-9+/]{3}=)?')
 _LDMAX_RE = re.compile(r'^https?://ldmax\.cooom/', re.I)
 _MEDIA_RE = re.compile(r'\.(?:mp4|m3u8?|flv|avi|mkv|ts|mov|wmv|webm|m4v|mpd)$', re.I)
+_HOST_RE = re.compile(r'^https?://([^/]+)', re.I)
 
 _home_cache = {}
 _play_cache = {}
+_host_cache = {}
 
 
 def text(value):
@@ -223,9 +251,9 @@ def resolve_parse(body):
             return ''
         key = rest[:16].encode('utf-8')
         cipher_b64 = rest[16:]
-        # 优先按 base64 密文解密
+        # 优先按 base64 密文解密（实测这条路径有效）
         try:
-            encrypted = base64.b64decode(cipher_b64, validate=False)
+            encrypted = base64.b64decode(cipher_b64 + '=' * (-len(cipher_b64) % 4), validate=False)
             cipher = AES.new(key, AES.MODE_CBC, key)
             plain = unpad(cipher.decrypt(encrypted), AES.block_size)
             result = plain.decode('utf-8', errors='replace').strip()
@@ -249,22 +277,38 @@ def resolve_parse(body):
     return candidate
 
 
+def parse_round(raw, parse_id):
+    """按指定 parsesId 解析一次，返回解出的真实地址（失败返回空串）。"""
+    target = '%s?parsesId=%s&appid=%s&videoUrl=%s' % (
+        PARSE_API, parse_id, PARSE_APPID, urllib.parse.quote(raw, safe="!'()*"))
+    try:
+        rsp = requests.get(target, headers=PARSE_HEADERS, timeout=20)
+        # 2026-10-31：parsesId 失效时这里回的是 HTTP 500 的 ThinkPHP 错误页，
+        # 直接跳过，不做任何解析，避免把 HTML 当成地址。
+        if rsp.status_code != 200 or not rsp.text:
+            return ''
+        if 'System Error' in rsp.text[:2000]:
+            return ''
+        resolved = resolve_parse(rsp.text)
+        if resolved and resolved.startswith('http'):
+            return resolved
+    except Exception:
+        pass
+    return ''
+
+
 def parse_url(raw):
-    """对齐 JS play 内部：把原始地址拼到解析基址后请求，解出真实 URL。"""
+    """对齐 JS play 内部：把原始地址拼到解析基址后请求，解出真实 URL。
+    多 parsesId + 多轮退避，任一成功即返回。"""
     if not raw:
         return ''
-    target = PARSE_API + urllib.parse.quote(raw, safe="!'()*")
     for rnd in range(PARSE_ROUNDS):
         if rnd > 0:
             time.sleep(rnd * PARSE_BACKOFF)
-        try:
-            rsp = requests.get(target, headers=PARSE_HEADERS, timeout=30)
-            if rsp.status_code == 200 and rsp.text:
-                resolved = resolve_parse(rsp.text)
-                if resolved and resolved.startswith('http'):
-                    return resolved
-        except Exception:
-            pass
+        for parse_id in PARSE_IDS:
+            resolved = parse_round(raw, parse_id)
+            if resolved:
+                return resolved
     return ''
 
 
@@ -272,6 +316,37 @@ def is_media_url(url):
     if not is_http_url(url):
         return False
     return bool(_MEDIA_RE.search(urllib.parse.urlparse(text(url)).path))
+
+
+def host_of(url):
+    m = _HOST_RE.match(text(url))
+    return m.group(1).lower() if m else ''
+
+
+def host_dead(url):
+    """探测直链源站是否还活着。
+    2026-10-31 实测 ym4kjx.lyyytv.cn 下 111 条 4K 直链全部 404（https 502），
+    这类线路点进去必然黑屏，提前隐藏比让用户等超时好。
+    只按 404/502 判定，其余状态码一律认为可用，避免误杀正常但拒绝目录列表的源站。"""
+    host = host_of(url)
+    if not host:
+        return False
+    cached = _host_cache.get(host)
+    now = time.time()
+    if cached and cached[0] > now:
+        # 缓存里存的就是「是否失效」，直接返回
+        return cached[1]
+    dead = False
+    try:
+        rsp = requests.head('http://%s/d/file/' % host, headers=HEADERS, timeout=8,
+                            allow_redirects=False)
+        if rsp.status_code in HOST_DEAD_STATUS:
+            dead = True
+    except Exception:
+        # 探测本身失败（超时/DNS）不当作失效，交给播放器实际请求去判定
+        dead = False
+    _host_cache[host] = (now + HOST_CHECK_TTL, dead)
+    return dead
 
 
 def home(extend=''):
@@ -404,6 +479,11 @@ def detail(ids):
             url = playlist(source.get('url'))
             if not url:
                 continue
+            # 2026-10-31：源站整域失效（实测 4K 直链域名全 404）的线路不上架，
+            # 否则用户点进去只会黑屏。健康检查结果按域名缓存，不影响其它线路。
+            first_ep = text(url.split('#')[0].split('$')[-1])
+            if is_media_url(first_ep) and host_dead(first_ep):
+                continue
             name = text(source.get('name')) or text(source.get('code')) or '线路%d' % (index + 1)
             froms.append(re.sub(r'[$#]', ' ', name))
             urls.append(url)
@@ -428,16 +508,29 @@ def search(key, pg):
 
 
 def play(play_id):
-    """对齐 JS play：无条件走解析接口，解出真实地址再交播放器。"""
+    """对齐 JS play：解析出真实地址再交播放器。
+    2026-10-31 修复要点：
+      - 直链（mp4/m3u8/mpd…）不再绕解析接口：解析接口对 mp4 直链只会回「解析失败」；
+      - 解析线路从 parsesId=3 换成 5（3 已 500），并保留 6/7 兜底；
+      - 任何失败都返回结构合法的 dict 并带 msg，让壳能显示原因而不是白屏。
+    """
     original = decrypt_lvdou(play_id)
     if not original:
-        return {'parse': 0, 'url': '', 'header': dict(PARSE_HEADERS)}
+        return {'parse': 0, 'url': '', 'header': dict(PARSE_HEADERS),
+                'msg': '影探4K：播放地址为空'}
 
     # 兼容老加密：ldmax 前缀先本地解密
     if is_ldmax_url(original):
         decrypted = decrypt_ldmax(original)
         if decrypted:
             original = decrypted
+
+    # 直链优先：已经是可播媒体文件就不必解析
+    if is_media_url(original):
+        if host_dead(original):
+            return {'parse': 0, 'url': '', 'header': dict(PARSE_HEADERS),
+                    'msg': '影探4K：该线路源站已失效（HTTP 404），请换其它线路'}
+        return {'parse': 0, 'url': original, 'header': dict(PARSE_HEADERS)}
 
     # 解析结果缓存
     now = time.time()
@@ -448,8 +541,11 @@ def play(play_id):
     resolved = parse_url(original)
     if resolved:
         _play_cache[original] = (now + PLAY_CACHE_TTL, resolved)
+        return {'parse': 0, 'url': resolved, 'header': dict(PARSE_HEADERS)}
 
-    return {'parse': 0, 'url': resolved or '', 'header': dict(PARSE_HEADERS)}
+    # 解析整条链路失败：给出可读原因，等用户反馈具体线路
+    return {'parse': 0, 'url': '', 'header': dict(PARSE_HEADERS),
+            'msg': '影探4K：解析失败（解析接口返回异常或该线路暂不可用），请换线路重试'}
 
 
 class Spider(Spider):

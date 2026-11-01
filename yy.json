@@ -732,6 +732,20 @@
             },
             "changeable": 1
         },
+                {
+            "key": "无限视界.js",
+            "name": "📱无限视界ʲˢ｜APP",
+            "type": 3,
+            "api": "./js/无限视界.js",
+            "changeable": 0
+        },
+        {
+            "key": "weiguan.js",
+            "name": "📱围观djʲˢ｜APP",
+            "type": 3,
+            "api": "./js/weiguan_dj.js",
+            "changeable": 0
+        },
         {
             "key": "cat_高工电影网",
             "name": "📱电影网ᶜᵃᵗ｜APP",

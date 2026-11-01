@@ -17,15 +17,7 @@
             },
             "changeable": 1
         },
-        {
-            "key": "youtub.py",
-            "name": "📱Youtub｜世界",
-            "type": 3,
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "api": "./py/gogogo.py"
-        },
+        
         {
             "key": "EmbyJS",
             "name": "📱EMBY｜离线",
@@ -54,13 +46,6 @@
             "quickSearch": 1,
             "filterable": 1,
             "playerType": 2
-        },
-        {
-            "key": "keke新影视",
-            "name": "📱新影视ʲˢ｜专用",
-            "type": 3,
-            "changeable": 0,
-            "api": "./js/可可影视.js"
         },
         {
             "key": "py_央视",
@@ -97,17 +82,6 @@
             "name": "📱采集ᵖʸ｜聚合",
             "type": 3,
             "api": "./py/采集聚合.py",
-            "searchable": 1,
-            "changeable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "playerType": 2
-        },
-        {
-            "key": "py_资源管理",
-            "name": "📱资源ᵖʸ｜管理",
-            "type": 3,
-            "api": "./py/资源管理.py",
             "searchable": 1,
             "changeable": 1,
             "quickSearch": 1,
@@ -261,7 +235,63 @@
             "filterable": 1,
             "playerType": 2
         },
-        
+        {
+            "key": "py_师兄",
+            "name": "📱师兄ᵖʸ｜APP",
+            "type": 3,
+            "api": "./py/师兄407.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
+        {
+            "key": "py_ctv库",
+            "name": "📱影cctvᵖʸ｜APP",
+            "type": 3,
+            "api": "./py/cctv.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
+        {
+            "key": "py_听瓜",
+            "name": "📱51瓜吃ᵖʸ｜APP",
+            "type": 3,
+            "api": "./py/51吃瓜.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
+        {
+            "key": "py_听书",
+            "name": "📱听书神界ᵖʸ｜APP",
+            "type": 3,
+            "api": "./py/听书世界.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
+        {
+            "key": "py_鲍鱼盒子",
+            "name": "📱鲍鱼盒子ᵖʸ｜APP",
+            "type": 3,
+            "api": "./py/鲍鱼盒子.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
+
+
        {
             "key": "py_咕噜4K",
             "name": "📱咕噜4Kᵖʸ｜APP",

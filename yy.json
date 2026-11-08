@@ -1232,6 +1232,60 @@
             "filterable": 1,
             "ext": "./xbpq/擦边.json"
         },
+                {
+            "key": "py_菠菜园",
+            "name": "📱菠菜园ᵖʸ｜聚合",
+            "type": 3,
+            "api": "./py/菠菜园.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
+
+        {
+            "key": "py_聚合短剧",
+            "name": "📱聚合短剧ᵖʸ｜聚合",
+            "type": 3,
+            "api": "./py/聚合短剧_九合一.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
+
+        {
+            "key": "py_快手",
+            "name": "📱快手ᵖʸ｜直播",
+            "type": 3,
+            "api": "./py/快手.py"
+        },
+        {
+            "key": "py_虎牙",
+            "name": "📱虎牙ᵖʸ｜直播",
+            "type": 3,
+            "api": "./py/虎牙.py"
+        },
+        {
+            "key": "py_斗鱼",
+            "name": "📱斗鱼ᵖʸ｜直播",
+            "type": 3,
+            "api": "./py/抖音.py"
+        },
+        {
+            "key": "py_YY",
+            "name": "📱YYᵖʸ｜直播",
+            "type": 3,
+            "api": "./py/YY.py"
+        },
+        {
+            "key": "py_埋堆堆",
+            "name": "📱埋堆堆ᵖʸ｜直播",
+            "type": 3,
+            "api": "./py/埋堆堆加分类.py"
+        },
         {
             "key": "cat_哔哩",
             "name": "📱哔哩ᶜᵃᵗ｜合集",

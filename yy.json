@@ -258,17 +258,6 @@
             "playerType": 2
         },
         {
-            "key": "py_听瓜",
-            "name": "📱51瓜吃ᵖʸ｜APP",
-            "type": 3,
-            "api": "./py/51吃瓜.py",
-            "searchable": 1,
-            "changeable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "playerType": 2
-        },
-        {
             "key": "py_听书",
             "name": "📱听书神界ᵖʸ｜APP",
             "type": 3,
@@ -279,19 +268,6 @@
             "filterable": 1,
             "playerType": 2
         },
-        {
-            "key": "py_鲍鱼盒子",
-            "name": "📱鲍鱼盒子ᵖʸ｜APP",
-            "type": 3,
-            "api": "./py/鲍鱼盒子.py",
-            "searchable": 1,
-            "changeable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "playerType": 2
-        },
-
-
        {
             "key": "py_咕噜4K",
             "name": "📱咕噜4Kᵖʸ｜APP",
@@ -1568,6 +1544,64 @@
 "filterable":1,
 "playerType":2
 },
+        {
+"key":"py_X红颜",
+"name":"📱X红颜ᵖʸ｜夜晚",
+"type":3,
+"api":"./py/X红颜.py",
+"searchable":1,
+"changeable":1,
+"quickSearch":1,
+"filterable":1,
+"playerType":2
+},
+{
+"key":"py_夜勾心事",
+"name":"📱夜勾心事ᵖʸ｜夜晚",
+"type":3,
+"api":"./py/夜勾心事.py",
+"searchable":1,
+"changeable":1,
+"quickSearch":1,
+"filterable":1,
+"playerType":2
+},
+{
+"key":"py_TOPTV",
+"name":"📱TOPTVᵖʸ｜夜晚",
+"type":3,
+"api":"./py/TOPTV.py",
+"searchable":1,
+"changeable":1,
+"quickSearch":1,
+"filterable":1,
+"playerType":2
+},
+        
+        {
+            "key": "py_鲍鱼盒子",
+            "name": "📱鲍鱼盒子ᵖʸ｜APP",
+            "type": 3,
+            "api": "./py/鲍鱼盒子.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
+
+
+        {
+            "key": "py_听瓜",
+            "name": "📱51瓜吃ᵖʸ｜APP",
+            "type": 3,
+            "api": "./py/51吃瓜.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
         {
             "key": "py_黄豆擦边",
             "name": "📱黄豆ᵖʸ｜夜晚",

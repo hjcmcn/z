@@ -1256,6 +1256,72 @@
             "playerType": 2
         },
 
+       {
+            "key": "one_影坛",
+            "name": "📱onr影ᵖʸ｜APP",
+            "type": 3,
+            "api": "./py/one.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
+        {
+            "key": "py_油条视频",
+            "name": "📱油条视频ᵖʸ｜APP",
+            "type": 3,
+            "api": "./py/油条视频.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
+        {
+            "key": "py_黄果库",
+            "name": "📱影黄果ᵖʸ｜APP",
+            "type": 3,
+            "api": "./py/黄果.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
+        {
+            "key": "py_红果修复",
+            "name": "📱51红果修复ᵖʸ｜APP",
+            "type": 3,
+            "api": "./py/红果修复.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
+        {
+            "key": "py_蛋蛋赞影院",
+            "name": "📱蛋赞影院ᵖʸ｜APP",
+            "type": 3,
+            "api": "./py/蛋蛋赞影院.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
+        {
+            "key": "py_吃瓜718",
+            "name": "📱吃瓜718ᵖʸ｜APP",
+            "type": 3,
+            "api": "./py/吃瓜718.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
         {
             "key": "py_快手",
             "name": "📱快手ᵖʸ｜直播",

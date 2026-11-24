@@ -1632,6 +1632,29 @@
             "ext": "./xbpq/聚合.json"
         },
          {
+            "key": "py_51X",
+            "name": "📱51Xᵖʸ｜APP",
+            "type": 3,
+            "api": "./py/51X.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
+        {
+            "key": "py_51视频",
+            "name": "📱51视频ᵖʸ｜APP",
+            "type": 3,
+            "api": "./py/51视频.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
+
+         {
 "key":"py_AI人短剧",
 "name":"📱AI人短剧ᵖʸ｜夜晚",
 "type":3,
